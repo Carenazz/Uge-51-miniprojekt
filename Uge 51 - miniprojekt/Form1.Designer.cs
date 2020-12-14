@@ -62,6 +62,7 @@ namespace Uge_51___miniprojekt
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.textBox8 = new System.Windows.Forms.TextBox();
             this.textBox9 = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -348,12 +349,23 @@ namespace Uge_51___miniprojekt
             this.textBox9.TabIndex = 39;
             this.textBox9.Text = "Fam. 120.-";
             // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Arial", 20.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(172, 559);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(140, 55);
+            this.button1.TabIndex = 40;
+            this.button1.Text = "Bestil";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // DashboardForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(761, 721);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox9);
             this.Controls.Add(this.textBox8);
             this.Controls.Add(this.textBox7);
@@ -431,6 +443,7 @@ namespace Uge_51___miniprojekt
         private System.Windows.Forms.TextBox textBox7;
         private System.Windows.Forms.TextBox textBox8;
         private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.Button button1;
     }
 }
 
