@@ -176,7 +176,7 @@ namespace Uge_51___miniprojekt
             this.label7.AutoSize = true;
             this.label7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label7.Font = new System.Drawing.Font("Arial", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(252, 388);
+            this.label7.Location = new System.Drawing.Point(251, 388);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(61, 20);
             this.label7.TabIndex = 8;
@@ -186,7 +186,7 @@ namespace Uge_51___miniprojekt
             // checkBox1
             // 
             this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(251, 201);
+            this.checkBox1.Location = new System.Drawing.Point(251, 186);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(67, 17);
             this.checkBox1.TabIndex = 11;
@@ -196,7 +196,7 @@ namespace Uge_51___miniprojekt
             // checkBox2
             // 
             this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(251, 224);
+            this.checkBox2.Location = new System.Drawing.Point(251, 209);
             this.checkBox2.Name = "checkBox2";
             this.checkBox2.Size = new System.Drawing.Size(76, 17);
             this.checkBox2.TabIndex = 12;
@@ -206,7 +206,7 @@ namespace Uge_51___miniprojekt
             // checkBox3
             // 
             this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(252, 339);
+            this.checkBox3.Location = new System.Drawing.Point(251, 318);
             this.checkBox3.Name = "checkBox3";
             this.checkBox3.Size = new System.Drawing.Size(67, 17);
             this.checkBox3.TabIndex = 13;
@@ -216,7 +216,7 @@ namespace Uge_51___miniprojekt
             // checkBox4
             // 
             this.checkBox4.AutoSize = true;
-            this.checkBox4.Location = new System.Drawing.Point(252, 362);
+            this.checkBox4.Location = new System.Drawing.Point(251, 341);
             this.checkBox4.Name = "checkBox4";
             this.checkBox4.Size = new System.Drawing.Size(76, 17);
             this.checkBox4.TabIndex = 14;
@@ -226,7 +226,7 @@ namespace Uge_51___miniprojekt
             // checkBox5
             // 
             this.checkBox5.AutoSize = true;
-            this.checkBox5.Location = new System.Drawing.Point(252, 478);
+            this.checkBox5.Location = new System.Drawing.Point(251, 465);
             this.checkBox5.Name = "checkBox5";
             this.checkBox5.Size = new System.Drawing.Size(67, 17);
             this.checkBox5.TabIndex = 15;
@@ -236,7 +236,7 @@ namespace Uge_51___miniprojekt
             // checkBox6
             // 
             this.checkBox6.AutoSize = true;
-            this.checkBox6.Location = new System.Drawing.Point(252, 501);
+            this.checkBox6.Location = new System.Drawing.Point(251, 488);
             this.checkBox6.Name = "checkBox6";
             this.checkBox6.Size = new System.Drawing.Size(76, 17);
             this.checkBox6.TabIndex = 16;
@@ -276,28 +276,31 @@ namespace Uge_51___miniprojekt
             // 
             // textBox1
             // 
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox1.Location = new System.Drawing.Point(251, 135);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(87, 60);
+            this.textBox1.Size = new System.Drawing.Size(87, 45);
             this.textBox1.TabIndex = 25;
             this.textBox1.Text = "Med tomatsauce, ost, oregano og pepperoni.";
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(252, 268);
+            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox2.Location = new System.Drawing.Point(251, 268);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(86, 65);
+            this.textBox2.Size = new System.Drawing.Size(86, 44);
             this.textBox2.TabIndex = 26;
             this.textBox2.Text = "Med tomatsauce, ost, oregano og skinke.";
             // 
             // textBox3
             // 
+            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox3.Location = new System.Drawing.Point(251, 412);
             this.textBox3.Multiline = true;
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(87, 60);
+            this.textBox3.Size = new System.Drawing.Size(87, 47);
             this.textBox3.TabIndex = 27;
             this.textBox3.Text = "Med tomatsauce, ost, oregano, skinke og ananas.";
             // 
