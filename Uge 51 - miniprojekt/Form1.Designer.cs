@@ -73,6 +73,12 @@ namespace Uge_51___miniprojekt
             this.numericUpDown7 = new System.Windows.Forms.NumericUpDown();
             this.numericUpDown8 = new System.Windows.Forms.NumericUpDown();
             this.textBox8 = new System.Windows.Forms.TextBox();
+            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -461,12 +467,72 @@ namespace Uge_51___miniprojekt
             this.textBox8.TabIndex = 56;
             this.textBox8.Text = "-Vælg dej-";
             // 
+            // textBox9
+            // 
+            this.textBox9.Location = new System.Drawing.Point(254, 86);
+            this.textBox9.Multiline = true;
+            this.textBox9.Name = "textBox9";
+            this.textBox9.Size = new System.Drawing.Size(100, 46);
+            this.textBox9.TabIndex = 57;
+            this.textBox9.Text = "-Ekstra-";
+            // 
+            // textBox10
+            // 
+            this.textBox10.Location = new System.Drawing.Point(254, 214);
+            this.textBox10.Multiline = true;
+            this.textBox10.Name = "textBox10";
+            this.textBox10.Size = new System.Drawing.Size(100, 46);
+            this.textBox10.TabIndex = 58;
+            this.textBox10.Text = "-Ekstra-";
+            // 
+            // textBox11
+            // 
+            this.textBox11.Location = new System.Drawing.Point(254, 350);
+            this.textBox11.Multiline = true;
+            this.textBox11.Name = "textBox11";
+            this.textBox11.Size = new System.Drawing.Size(100, 46);
+            this.textBox11.TabIndex = 59;
+            this.textBox11.Text = "-Ekstra-";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(234, 143);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(138, 13);
+            this.label13.TabIndex = 60;
+            this.label13.Text = "Ekstra tilbehør er 5.- stykket";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(234, 273);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(138, 13);
+            this.label14.TabIndex = 61;
+            this.label14.Text = "Ekstra tilbehør er 5.- stykket";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(234, 409);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(138, 13);
+            this.label15.TabIndex = 62;
+            this.label15.Text = "Ekstra tilbehør er 5.- stykket";
+            // 
             // DashboardForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(761, 721);
+            this.Controls.Add(this.label15);
+            this.Controls.Add(this.label14);
+            this.Controls.Add(this.label13);
+            this.Controls.Add(this.textBox11);
+            this.Controls.Add(this.textBox10);
+            this.Controls.Add(this.textBox9);
             this.Controls.Add(this.textBox8);
             this.Controls.Add(this.numericUpDown8);
             this.Controls.Add(this.numericUpDown7);
@@ -568,6 +634,12 @@ namespace Uge_51___miniprojekt
         private System.Windows.Forms.NumericUpDown numericUpDown7;
         private System.Windows.Forms.NumericUpDown numericUpDown8;
         private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.TextBox textBox11;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label label15;
     }
 }
 
