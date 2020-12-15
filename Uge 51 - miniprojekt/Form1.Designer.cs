@@ -535,10 +535,12 @@ namespace Uge_51___miniprojekt
             "Jalapenos.",
             "Ananas.",
             "Oregano.",
-            "Paprika."});
+            "Paprika.",
+            "Bacon.",
+            "Kebab."});
             this.listBox1.Location = new System.Drawing.Point(394, 61);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(120, 121);
+            this.listBox1.Size = new System.Drawing.Size(120, 147);
             this.listBox1.TabIndex = 63;
             // 
             // label16
