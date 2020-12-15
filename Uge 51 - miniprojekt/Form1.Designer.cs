@@ -65,6 +65,9 @@ namespace Uge_51___miniprojekt
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.textBox7 = new System.Windows.Forms.TextBox();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -180,7 +183,7 @@ namespace Uge_51___miniprojekt
             this.label4.AutoSize = true;
             this.label4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label4.Font = new System.Drawing.Font("Arial", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(213, 173);
+            this.label4.Location = new System.Drawing.Point(213, 166);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(62, 20);
             this.label4.TabIndex = 5;
@@ -192,7 +195,7 @@ namespace Uge_51___miniprojekt
             this.label7.AutoSize = true;
             this.label7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label7.Font = new System.Drawing.Font("Arial", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(213, 325);
+            this.label7.Location = new System.Drawing.Point(214, 300);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(61, 20);
             this.label7.TabIndex = 8;
@@ -236,34 +239,34 @@ namespace Uge_51___miniprojekt
             this.textBox1.Location = new System.Drawing.Point(164, 61);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(164, 45);
+            this.textBox1.Size = new System.Drawing.Size(164, 28);
             this.textBox1.TabIndex = 25;
             this.textBox1.Text = "Med tomatsauce, ost, oregano og pepperoni.";
             // 
             // textBox2
             // 
             this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox2.Location = new System.Drawing.Point(164, 196);
+            this.textBox2.Location = new System.Drawing.Point(164, 189);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(174, 44);
+            this.textBox2.Size = new System.Drawing.Size(174, 30);
             this.textBox2.TabIndex = 26;
             this.textBox2.Text = "Med tomatsauce, ost, oregano og skinke.";
             // 
             // textBox3
             // 
             this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox3.Location = new System.Drawing.Point(164, 348);
+            this.textBox3.Location = new System.Drawing.Point(164, 323);
             this.textBox3.Multiline = true;
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(164, 47);
+            this.textBox3.Size = new System.Drawing.Size(164, 36);
             this.textBox3.TabIndex = 27;
             this.textBox3.Text = "Med tomatsauce, ost, oregano, skinke og ananas.";
             // 
             // numericUpDown1
             // 
             this.numericUpDown1.ForeColor = System.Drawing.Color.Black;
-            this.numericUpDown1.Location = new System.Drawing.Point(202, 396);
+            this.numericUpDown1.Location = new System.Drawing.Point(202, 391);
             this.numericUpDown1.Name = "numericUpDown1";
             this.numericUpDown1.Size = new System.Drawing.Size(47, 20);
             this.numericUpDown1.TabIndex = 28;
@@ -291,14 +294,14 @@ namespace Uge_51___miniprojekt
             // 
             // numericUpDown5
             // 
-            this.numericUpDown5.Location = new System.Drawing.Point(202, 131);
+            this.numericUpDown5.Location = new System.Drawing.Point(202, 143);
             this.numericUpDown5.Name = "numericUpDown5";
             this.numericUpDown5.Size = new System.Drawing.Size(43, 20);
             this.numericUpDown5.TabIndex = 32;
             // 
             // numericUpDown6
             // 
-            this.numericUpDown6.Location = new System.Drawing.Point(202, 107);
+            this.numericUpDown6.Location = new System.Drawing.Point(202, 114);
             this.numericUpDown6.Name = "numericUpDown6";
             this.numericUpDown6.Size = new System.Drawing.Size(43, 20);
             this.numericUpDown6.TabIndex = 33;
@@ -316,7 +319,7 @@ namespace Uge_51___miniprojekt
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(251, 109);
+            this.label2.Location = new System.Drawing.Point(251, 114);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(48, 13);
             this.label2.TabIndex = 41;
@@ -325,7 +328,7 @@ namespace Uge_51___miniprojekt
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(251, 131);
+            this.label3.Location = new System.Drawing.Point(251, 143);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(57, 13);
             this.label3.TabIndex = 42;
@@ -387,12 +390,39 @@ namespace Uge_51___miniprojekt
             this.textBox4.TabIndex = 48;
             this.textBox4.Text = "-Skriv her-";
             // 
+            // textBox5
+            // 
+            this.textBox5.Location = new System.Drawing.Point(202, 91);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(100, 20);
+            this.textBox5.TabIndex = 49;
+            this.textBox5.Text = "-Vælg dej-";
+            // 
+            // textBox6
+            // 
+            this.textBox6.Location = new System.Drawing.Point(191, 225);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(100, 20);
+            this.textBox6.TabIndex = 50;
+            this.textBox6.Text = "-Vælg dej-";
+            // 
+            // textBox7
+            // 
+            this.textBox7.Location = new System.Drawing.Point(199, 365);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(100, 20);
+            this.textBox7.TabIndex = 51;
+            this.textBox7.Text = "-Vælg dej-";
+            // 
             // DashboardForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(761, 721);
+            this.Controls.Add(this.textBox7);
+            this.Controls.Add(this.textBox6);
+            this.Controls.Add(this.textBox5);
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
@@ -476,6 +506,9 @@ namespace Uge_51___miniprojekt
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox textBox7;
     }
 }
 
