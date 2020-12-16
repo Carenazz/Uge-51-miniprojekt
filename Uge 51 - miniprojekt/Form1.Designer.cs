@@ -50,12 +50,6 @@ namespace Uge_51___miniprojekt
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown2 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown3 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown4 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown5 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown6 = new System.Windows.Forms.NumericUpDown();
             this.button1 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -67,8 +61,6 @@ namespace Uge_51___miniprojekt
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
-            this.numericUpDown7 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown8 = new System.Windows.Forms.NumericUpDown();
             this.textBox9 = new System.Windows.Forms.TextBox();
             this.textBox10 = new System.Windows.Forms.TextBox();
             this.textBox11 = new System.Windows.Forms.TextBox();
@@ -81,18 +73,22 @@ namespace Uge_51___miniprojekt
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.comboBox3 = new System.Windows.Forms.ComboBox();
             this.comboBox4 = new System.Windows.Forms.ComboBox();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.label17 = new System.Windows.Forms.Label();
+            this.Alm_Pepperoni = new System.Windows.Forms.Button();
+            this.Fam_Pepperoni = new System.Windows.Forms.Button();
+            this.Alm_Skinke = new System.Windows.Forms.Button();
+            this.Fam_Skinke = new System.Windows.Forms.Button();
+            this.Alm_Hawaii = new System.Windows.Forms.Button();
+            this.Fam_Hawaii = new System.Windows.Forms.Button();
+            this.Alm_DinEgen = new System.Windows.Forms.Button();
+            this.Fam_DinEgen = new System.Windows.Forms.Button();
+            this.listView2 = new System.Windows.Forms.ListView();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown8)).BeginInit();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -278,53 +274,10 @@ namespace Uge_51___miniprojekt
             this.textBox3.TabIndex = 27;
             this.textBox3.Text = "Med tomatsauce, ost, oregano, skinke og ananas.";
             // 
-            // numericUpDown1
-            // 
-            this.numericUpDown1.ForeColor = System.Drawing.Color.Black;
-            this.numericUpDown1.Location = new System.Drawing.Point(390, 376);
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(47, 20);
-            this.numericUpDown1.TabIndex = 28;
-            // 
-            // numericUpDown2
-            // 
-            this.numericUpDown2.Location = new System.Drawing.Point(390, 402);
-            this.numericUpDown2.Name = "numericUpDown2";
-            this.numericUpDown2.Size = new System.Drawing.Size(47, 20);
-            this.numericUpDown2.TabIndex = 29;
-            // 
-            // numericUpDown3
-            // 
-            this.numericUpDown3.Location = new System.Drawing.Point(390, 266);
-            this.numericUpDown3.Name = "numericUpDown3";
-            this.numericUpDown3.Size = new System.Drawing.Size(43, 20);
-            this.numericUpDown3.TabIndex = 30;
-            // 
-            // numericUpDown4
-            // 
-            this.numericUpDown4.Location = new System.Drawing.Point(390, 240);
-            this.numericUpDown4.Name = "numericUpDown4";
-            this.numericUpDown4.Size = new System.Drawing.Size(43, 20);
-            this.numericUpDown4.TabIndex = 31;
-            // 
-            // numericUpDown5
-            // 
-            this.numericUpDown5.Location = new System.Drawing.Point(390, 136);
-            this.numericUpDown5.Name = "numericUpDown5";
-            this.numericUpDown5.Size = new System.Drawing.Size(43, 20);
-            this.numericUpDown5.TabIndex = 32;
-            // 
-            // numericUpDown6
-            // 
-            this.numericUpDown6.Location = new System.Drawing.Point(390, 112);
-            this.numericUpDown6.Name = "numericUpDown6";
-            this.numericUpDown6.Size = new System.Drawing.Size(43, 20);
-            this.numericUpDown6.TabIndex = 33;
-            // 
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Arial", 20.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(471, 559);
+            this.button1.Location = new System.Drawing.Point(39, 537);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(140, 55);
             this.button1.TabIndex = 40;
@@ -335,54 +288,60 @@ namespace Uge_51___miniprojekt
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(438, 112);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(412, 116);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(48, 13);
+            this.label2.Size = new System.Drawing.Size(58, 16);
             this.label2.TabIndex = 41;
             this.label2.Text = "Alm. 60.-";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(438, 136);
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(412, 143);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(57, 13);
+            this.label3.Size = new System.Drawing.Size(69, 16);
             this.label3.TabIndex = 42;
             this.label3.Text = "Fam. 110.-";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(438, 240);
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(412, 245);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(48, 13);
+            this.label5.Size = new System.Drawing.Size(58, 16);
             this.label5.TabIndex = 43;
             this.label5.Text = "Alm. 55.-";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(438, 266);
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(412, 271);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(57, 13);
+            this.label6.Size = new System.Drawing.Size(69, 16);
             this.label6.TabIndex = 44;
             this.label6.Text = "Fam. 105.-";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(438, 376);
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(412, 380);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(48, 13);
+            this.label8.Size = new System.Drawing.Size(58, 16);
             this.label8.TabIndex = 45;
             this.label8.Text = "Alm. 70.-";
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(438, 402);
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(412, 406);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(57, 13);
+            this.label9.Size = new System.Drawing.Size(69, 16);
             this.label9.TabIndex = 46;
             this.label9.Text = "Fam. 120.-";
             // 
@@ -409,34 +368,22 @@ namespace Uge_51___miniprojekt
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(443, 455);
+            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Location = new System.Drawing.Point(412, 459);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(48, 13);
+            this.label11.Size = new System.Drawing.Size(58, 16);
             this.label11.TabIndex = 52;
             this.label11.Text = "Alm. 70.-";
             // 
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(443, 481);
+            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Location = new System.Drawing.Point(412, 485);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(57, 13);
+            this.label12.Size = new System.Drawing.Size(69, 16);
             this.label12.TabIndex = 53;
             this.label12.Text = "Fam. 120.-";
-            // 
-            // numericUpDown7
-            // 
-            this.numericUpDown7.Location = new System.Drawing.Point(390, 455);
-            this.numericUpDown7.Name = "numericUpDown7";
-            this.numericUpDown7.Size = new System.Drawing.Size(47, 20);
-            this.numericUpDown7.TabIndex = 54;
-            // 
-            // numericUpDown8
-            // 
-            this.numericUpDown8.Location = new System.Drawing.Point(390, 481);
-            this.numericUpDown8.Name = "numericUpDown8";
-            this.numericUpDown8.Size = new System.Drawing.Size(47, 20);
-            this.numericUpDown8.TabIndex = 55;
             // 
             // textBox9
             // 
@@ -573,12 +520,133 @@ namespace Uge_51___miniprojekt
             this.comboBox4.TabIndex = 68;
             this.comboBox4.Text = "-Vælg dej-";
             // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.listView2);
+            this.panel1.Controls.Add(this.label17);
+            this.panel1.Controls.Add(this.button1);
+            this.panel1.Location = new System.Drawing.Point(13, 38);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(212, 608);
+            this.panel1.TabIndex = 69;
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Arial", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.Location = new System.Drawing.Point(65, 16);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(92, 23);
+            this.label17.TabIndex = 0;
+            this.label17.Text = "Din Kurv";
+            // 
+            // Alm_Pepperoni
+            // 
+            this.Alm_Pepperoni.Location = new System.Drawing.Point(390, 112);
+            this.Alm_Pepperoni.Name = "Alm_Pepperoni";
+            this.Alm_Pepperoni.Size = new System.Drawing.Size(17, 20);
+            this.Alm_Pepperoni.TabIndex = 70;
+            this.Alm_Pepperoni.Text = "+";
+            this.Alm_Pepperoni.UseVisualStyleBackColor = true;
+            this.Alm_Pepperoni.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // Fam_Pepperoni
+            // 
+            this.Fam_Pepperoni.Location = new System.Drawing.Point(390, 139);
+            this.Fam_Pepperoni.Name = "Fam_Pepperoni";
+            this.Fam_Pepperoni.Size = new System.Drawing.Size(17, 20);
+            this.Fam_Pepperoni.TabIndex = 71;
+            this.Fam_Pepperoni.Text = "+";
+            this.Fam_Pepperoni.UseVisualStyleBackColor = true;
+            this.Fam_Pepperoni.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // Alm_Skinke
+            // 
+            this.Alm_Skinke.Location = new System.Drawing.Point(390, 241);
+            this.Alm_Skinke.Name = "Alm_Skinke";
+            this.Alm_Skinke.Size = new System.Drawing.Size(17, 20);
+            this.Alm_Skinke.TabIndex = 72;
+            this.Alm_Skinke.Text = "+";
+            this.Alm_Skinke.UseVisualStyleBackColor = true;
+            this.Alm_Skinke.Click += new System.EventHandler(this.Alm_Skinke_Click);
+            // 
+            // Fam_Skinke
+            // 
+            this.Fam_Skinke.Location = new System.Drawing.Point(390, 267);
+            this.Fam_Skinke.Name = "Fam_Skinke";
+            this.Fam_Skinke.Size = new System.Drawing.Size(17, 20);
+            this.Fam_Skinke.TabIndex = 73;
+            this.Fam_Skinke.Text = "+";
+            this.Fam_Skinke.UseVisualStyleBackColor = true;
+            this.Fam_Skinke.Click += new System.EventHandler(this.Fam_Skinke_Click);
+            // 
+            // Alm_Hawaii
+            // 
+            this.Alm_Hawaii.Location = new System.Drawing.Point(390, 376);
+            this.Alm_Hawaii.Name = "Alm_Hawaii";
+            this.Alm_Hawaii.Size = new System.Drawing.Size(17, 20);
+            this.Alm_Hawaii.TabIndex = 74;
+            this.Alm_Hawaii.Text = "+";
+            this.Alm_Hawaii.UseVisualStyleBackColor = true;
+            this.Alm_Hawaii.Click += new System.EventHandler(this.Alm_Hawaii_Click);
+            // 
+            // Fam_Hawaii
+            // 
+            this.Fam_Hawaii.Location = new System.Drawing.Point(390, 402);
+            this.Fam_Hawaii.Name = "Fam_Hawaii";
+            this.Fam_Hawaii.Size = new System.Drawing.Size(17, 20);
+            this.Fam_Hawaii.TabIndex = 75;
+            this.Fam_Hawaii.Text = "+";
+            this.Fam_Hawaii.UseVisualStyleBackColor = true;
+            this.Fam_Hawaii.Click += new System.EventHandler(this.Fam_Hawaii_Click);
+            // 
+            // Alm_DinEgen
+            // 
+            this.Alm_DinEgen.Location = new System.Drawing.Point(390, 455);
+            this.Alm_DinEgen.Name = "Alm_DinEgen";
+            this.Alm_DinEgen.Size = new System.Drawing.Size(17, 20);
+            this.Alm_DinEgen.TabIndex = 76;
+            this.Alm_DinEgen.Text = "+";
+            this.Alm_DinEgen.UseVisualStyleBackColor = true;
+            this.Alm_DinEgen.Click += new System.EventHandler(this.Alm_DinEgen_Click);
+            // 
+            // Fam_DinEgen
+            // 
+            this.Fam_DinEgen.Location = new System.Drawing.Point(390, 481);
+            this.Fam_DinEgen.Name = "Fam_DinEgen";
+            this.Fam_DinEgen.Size = new System.Drawing.Size(17, 20);
+            this.Fam_DinEgen.TabIndex = 77;
+            this.Fam_DinEgen.Text = "+";
+            this.Fam_DinEgen.UseVisualStyleBackColor = true;
+            this.Fam_DinEgen.Click += new System.EventHandler(this.Fam_DinEgen_Click);
+            // 
+            // listView2
+            // 
+            this.listView2.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.listView2.HideSelection = false;
+            this.listView2.Location = new System.Drawing.Point(18, 48);
+            this.listView2.Name = "listView2";
+            this.listView2.Size = new System.Drawing.Size(172, 483);
+            this.listView2.TabIndex = 41;
+            this.listView2.UseCompatibleStateImageBehavior = false;
+            this.listView2.View = System.Windows.Forms.View.List;
+            this.listView2.SelectedIndexChanged += new System.EventHandler(this.listView2_SelectedIndexChanged);
+            // 
             // DashboardForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(1062, 745);
+            this.Controls.Add(this.Fam_DinEgen);
+            this.Controls.Add(this.Alm_DinEgen);
+            this.Controls.Add(this.Fam_Hawaii);
+            this.Controls.Add(this.Alm_Hawaii);
+            this.Controls.Add(this.Fam_Skinke);
+            this.Controls.Add(this.Alm_Skinke);
+            this.Controls.Add(this.Fam_Pepperoni);
+            this.Controls.Add(this.Alm_Pepperoni);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.comboBox4);
             this.Controls.Add(this.comboBox3);
             this.Controls.Add(this.comboBox2);
@@ -591,8 +659,6 @@ namespace Uge_51___miniprojekt
             this.Controls.Add(this.textBox11);
             this.Controls.Add(this.textBox10);
             this.Controls.Add(this.textBox9);
-            this.Controls.Add(this.numericUpDown8);
-            this.Controls.Add(this.numericUpDown7);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.textBox4);
@@ -603,13 +669,6 @@ namespace Uge_51___miniprojekt
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.numericUpDown6);
-            this.Controls.Add(this.numericUpDown5);
-            this.Controls.Add(this.numericUpDown4);
-            this.Controls.Add(this.numericUpDown3);
-            this.Controls.Add(this.numericUpDown2);
-            this.Controls.Add(this.numericUpDown1);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
@@ -632,14 +691,8 @@ namespace Uge_51___miniprojekt
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown8)).EndInit();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -667,12 +720,6 @@ namespace Uge_51___miniprojekt
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.NumericUpDown numericUpDown1;
-        private System.Windows.Forms.NumericUpDown numericUpDown2;
-        private System.Windows.Forms.NumericUpDown numericUpDown3;
-        private System.Windows.Forms.NumericUpDown numericUpDown4;
-        private System.Windows.Forms.NumericUpDown numericUpDown5;
-        private System.Windows.Forms.NumericUpDown numericUpDown6;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
@@ -684,8 +731,6 @@ namespace Uge_51___miniprojekt
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.NumericUpDown numericUpDown7;
-        private System.Windows.Forms.NumericUpDown numericUpDown8;
         private System.Windows.Forms.TextBox textBox9;
         private System.Windows.Forms.TextBox textBox10;
         private System.Windows.Forms.TextBox textBox11;
@@ -698,6 +743,17 @@ namespace Uge_51___miniprojekt
         private System.Windows.Forms.ComboBox comboBox2;
         private System.Windows.Forms.ComboBox comboBox3;
         private System.Windows.Forms.ComboBox comboBox4;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Button Alm_Pepperoni;
+        private System.Windows.Forms.Button Fam_Pepperoni;
+        private System.Windows.Forms.Button Alm_Skinke;
+        private System.Windows.Forms.Button Fam_Skinke;
+        private System.Windows.Forms.Button Alm_Hawaii;
+        private System.Windows.Forms.Button Fam_Hawaii;
+        private System.Windows.Forms.Button Alm_DinEgen;
+        private System.Windows.Forms.Button Fam_DinEgen;
+        private System.Windows.Forms.ListView listView2;
     }
 }
 

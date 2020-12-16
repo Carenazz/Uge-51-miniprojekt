@@ -77,9 +77,60 @@ namespace Uge_51___miniprojekt
 
         }
 
+        // BestillingsKnap
         private void button1_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Bestillingen er modtaget");
         }
+
+        private void listView2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        #region Knapper som tilføjer til kurv
+        // Pepperoni alm.
+        private void button2_Click(object sender, EventArgs e)
+        {
+            string[] row = { label1.Text};
+            var listViewItem = new ListViewItem(row);
+            listView2.Items.Add(listViewItem);
+        }
+
+        // Pepperoni fam.
+        private void button3_Click(object sender, EventArgs e)
+        {
+        }
+        
+        private void Alm_Skinke_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Fam_Skinke_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Alm_Hawaii_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Fam_Hawaii_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Alm_DinEgen_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Fam_DinEgen_Click(object sender, EventArgs e)
+        {
+
+        }
+        #endregion
     }
 }
