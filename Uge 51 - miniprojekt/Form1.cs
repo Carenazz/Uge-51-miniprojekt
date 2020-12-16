@@ -93,7 +93,7 @@ namespace Uge_51___miniprojekt
         private void button2_Click(object sender, EventArgs e)
         {
             // Tester
-            string[] row = { label1.Text + " - " + label2.Text };
+            string[] row = { label1.Text + " - " + comboBox1.SelectedItem + " - " + label2.Text };
             var listViewItem = new ListViewItem(row);
             listView2.Items.Add(listViewItem);
         }
@@ -101,49 +101,49 @@ namespace Uge_51___miniprojekt
         // Pepperoni fam.
         private void button3_Click(object sender, EventArgs e)
         {
-            string[] row = { label1.Text + " - " + label3.Text };
+            string[] row = { label1.Text + " - " + comboBox1.SelectedItem + " - " + label3.Text };
             var listViewItem = new ListViewItem(row);
             listView2.Items.Add(listViewItem);
         }
         
         private void Alm_Skinke_Click(object sender, EventArgs e)
         {
-            string[] row = { label4.Text + " - " + label5.Text };
+            string[] row = { label4.Text + " - " + comboBox2.SelectedItem + " - " + label5.Text };
             var listViewItem = new ListViewItem(row);
             listView2.Items.Add(listViewItem);
         }
 
         private void Fam_Skinke_Click(object sender, EventArgs e)
         {
-            string[] row = { label4.Text + " - " + label6.Text };
+            string[] row = { label4.Text + " - " + comboBox2.SelectedItem + " - " + label6.Text };
             var listViewItem = new ListViewItem(row);
             listView2.Items.Add(listViewItem);
         }
 
         private void Alm_Hawaii_Click(object sender, EventArgs e)
         {
-            string[] row = { label7.Text + " - " + label8.Text };
+            string[] row = { label7.Text + " - " + comboBox3.SelectedItem + " - " + label8.Text };
             var listViewItem = new ListViewItem(row);
             listView2.Items.Add(listViewItem);
         }
 
         private void Fam_Hawaii_Click(object sender, EventArgs e)
         {
-            string[] row = { label7.Text + " - " + label9.Text };
+            string[] row = { label7.Text + " - " + comboBox3.SelectedItem + " - " + label9.Text };
             var listViewItem = new ListViewItem(row);
             listView2.Items.Add(listViewItem);
         }
 
         private void Alm_DinEgen_Click(object sender, EventArgs e)
         {
-            string[] row = { label10.Text + " - " + label11.Text };
+            string[] row = { label10.Text + " - " + comboBox4.SelectedItem + " - " + label11.Text };
             var listViewItem = new ListViewItem(row);
             listView2.Items.Add(listViewItem);
         }
 
         private void Fam_DinEgen_Click(object sender, EventArgs e)
         {
-            string[] row = { label10.Text + " - " + label12.Text };
+            string[] row = { label10.Text + " - " + comboBox4.SelectedItem + " - " + label12.Text };
             var listViewItem = new ListViewItem(row);
             listView2.Items.Add(listViewItem);
         }

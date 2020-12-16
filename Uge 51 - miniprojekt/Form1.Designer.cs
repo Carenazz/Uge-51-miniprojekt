@@ -74,6 +74,7 @@ namespace Uge_51___miniprojekt
             this.comboBox3 = new System.Windows.Forms.ComboBox();
             this.comboBox4 = new System.Windows.Forms.ComboBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.listView2 = new System.Windows.Forms.ListView();
             this.label17 = new System.Windows.Forms.Label();
             this.Alm_Pepperoni = new System.Windows.Forms.Button();
             this.Fam_Pepperoni = new System.Windows.Forms.Button();
@@ -83,7 +84,6 @@ namespace Uge_51___miniprojekt
             this.Fam_Hawaii = new System.Windows.Forms.Button();
             this.Alm_DinEgen = new System.Windows.Forms.Button();
             this.Fam_DinEgen = new System.Windows.Forms.Button();
-            this.listView2 = new System.Windows.Forms.ListView();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -531,6 +531,18 @@ namespace Uge_51___miniprojekt
             this.panel1.Size = new System.Drawing.Size(212, 608);
             this.panel1.TabIndex = 69;
             // 
+            // listView2
+            // 
+            this.listView2.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.listView2.HideSelection = false;
+            this.listView2.Location = new System.Drawing.Point(3, 48);
+            this.listView2.Name = "listView2";
+            this.listView2.Size = new System.Drawing.Size(206, 483);
+            this.listView2.TabIndex = 41;
+            this.listView2.UseCompatibleStateImageBehavior = false;
+            this.listView2.View = System.Windows.Forms.View.List;
+            this.listView2.SelectedIndexChanged += new System.EventHandler(this.listView2_SelectedIndexChanged);
+            // 
             // label17
             // 
             this.label17.AutoSize = true;
@@ -620,18 +632,6 @@ namespace Uge_51___miniprojekt
             this.Fam_DinEgen.Text = "+";
             this.Fam_DinEgen.UseVisualStyleBackColor = true;
             this.Fam_DinEgen.Click += new System.EventHandler(this.Fam_DinEgen_Click);
-            // 
-            // listView2
-            // 
-            this.listView2.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.listView2.HideSelection = false;
-            this.listView2.Location = new System.Drawing.Point(18, 48);
-            this.listView2.Name = "listView2";
-            this.listView2.Size = new System.Drawing.Size(172, 483);
-            this.listView2.TabIndex = 41;
-            this.listView2.UseCompatibleStateImageBehavior = false;
-            this.listView2.View = System.Windows.Forms.View.List;
-            this.listView2.SelectedIndexChanged += new System.EventHandler(this.listView2_SelectedIndexChanged);
             // 
             // DashboardForm
             // 
