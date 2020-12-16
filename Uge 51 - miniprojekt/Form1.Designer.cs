@@ -79,6 +79,14 @@ namespace Uge_51___miniprojekt
             this.Fam_DinEgen = new System.Windows.Forms.Button();
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
+            this.label23 = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -286,9 +294,9 @@ namespace Uge_51___miniprojekt
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(412, 116);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(58, 16);
+            this.label2.Size = new System.Drawing.Size(34, 16);
             this.label2.TabIndex = 41;
-            this.label2.Text = "Alm. 60.-";
+            this.label2.Text = "Alm.";
             // 
             // label3
             // 
@@ -296,9 +304,9 @@ namespace Uge_51___miniprojekt
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(412, 143);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(69, 16);
+            this.label3.Size = new System.Drawing.Size(38, 16);
             this.label3.TabIndex = 42;
-            this.label3.Text = "Fam. 110.-";
+            this.label3.Text = "Fam.";
             // 
             // label5
             // 
@@ -306,9 +314,9 @@ namespace Uge_51___miniprojekt
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(412, 245);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(58, 16);
+            this.label5.Size = new System.Drawing.Size(34, 16);
             this.label5.TabIndex = 43;
-            this.label5.Text = "Alm. 55.-";
+            this.label5.Text = "Alm.";
             // 
             // label6
             // 
@@ -316,9 +324,9 @@ namespace Uge_51___miniprojekt
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(412, 271);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(69, 16);
+            this.label6.Size = new System.Drawing.Size(38, 16);
             this.label6.TabIndex = 44;
-            this.label6.Text = "Fam. 105.-";
+            this.label6.Text = "Fam.";
             // 
             // label8
             // 
@@ -326,9 +334,9 @@ namespace Uge_51___miniprojekt
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.Location = new System.Drawing.Point(412, 376);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(58, 16);
+            this.label8.Size = new System.Drawing.Size(34, 16);
             this.label8.TabIndex = 45;
-            this.label8.Text = "Alm. 70.-";
+            this.label8.Text = "Alm.";
             // 
             // label9
             // 
@@ -336,9 +344,9 @@ namespace Uge_51___miniprojekt
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.Location = new System.Drawing.Point(412, 406);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(69, 16);
+            this.label9.Size = new System.Drawing.Size(38, 16);
             this.label9.TabIndex = 46;
-            this.label9.Text = "Fam. 120.-";
+            this.label9.Text = "Fam.";
             // 
             // label10
             // 
@@ -357,9 +365,9 @@ namespace Uge_51___miniprojekt
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.Location = new System.Drawing.Point(412, 508);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(58, 16);
+            this.label11.Size = new System.Drawing.Size(34, 16);
             this.label11.TabIndex = 52;
-            this.label11.Text = "Alm. 40.-";
+            this.label11.Text = "Alm.";
             // 
             // label12
             // 
@@ -367,9 +375,9 @@ namespace Uge_51___miniprojekt
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.Location = new System.Drawing.Point(412, 534);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(62, 16);
+            this.label12.Size = new System.Drawing.Size(38, 16);
             this.label12.TabIndex = 53;
-            this.label12.Text = "Fam. 90.-";
+            this.label12.Text = "Fam.";
             // 
             // listBox1
             // 
@@ -573,9 +581,9 @@ namespace Uge_51___miniprojekt
             this.label13.ForeColor = System.Drawing.SystemColors.ControlText;
             this.label13.Location = new System.Drawing.Point(390, 454);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(82, 13);
+            this.label13.Size = new System.Drawing.Size(200, 13);
             this.label13.TabIndex = 78;
-            this.label13.Text = "Med tomatsovs.";
+            this.label13.Text = "Med tomatsovs, ost og 4 valgfrie tilbehør.";
             // 
             // label14
             // 
@@ -587,12 +595,100 @@ namespace Uge_51___miniprojekt
             this.label14.TabIndex = 42;
             this.label14.Text = "Sum: ";
             // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.Location = new System.Drawing.Point(457, 116);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(29, 16);
+            this.label15.TabIndex = 79;
+            this.label15.Text = "55.-";
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.Location = new System.Drawing.Point(456, 143);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(36, 16);
+            this.label18.TabIndex = 80;
+            this.label18.Text = "105.-";
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.Location = new System.Drawing.Point(456, 245);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(29, 16);
+            this.label19.TabIndex = 81;
+            this.label19.Text = "55.-";
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.Location = new System.Drawing.Point(456, 271);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(36, 16);
+            this.label20.TabIndex = 82;
+            this.label20.Text = "105.-";
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label21.Location = new System.Drawing.Point(456, 376);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(29, 16);
+            this.label21.TabIndex = 83;
+            this.label21.Text = "65.-";
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label22.Location = new System.Drawing.Point(456, 406);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(36, 16);
+            this.label22.TabIndex = 84;
+            this.label22.Text = "115.-";
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label23.Location = new System.Drawing.Point(457, 508);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(29, 16);
+            this.label23.TabIndex = 85;
+            this.label23.Text = "70.-";
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label24.Location = new System.Drawing.Point(457, 534);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(36, 16);
+            this.label24.TabIndex = 86;
+            this.label24.Text = "120.-";
+            // 
             // DashboardForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(1062, 745);
+            this.Controls.Add(this.label24);
+            this.Controls.Add(this.label23);
+            this.Controls.Add(this.label22);
+            this.Controls.Add(this.label21);
+            this.Controls.Add(this.label20);
+            this.Controls.Add(this.label19);
+            this.Controls.Add(this.label18);
+            this.Controls.Add(this.label15);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.Fam_DinEgen);
             this.Controls.Add(this.Alm_DinEgen);
@@ -698,6 +794,14 @@ namespace Uge_51___miniprojekt
         private System.Windows.Forms.ListView listView2;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.Label label24;
     }
 }
 
