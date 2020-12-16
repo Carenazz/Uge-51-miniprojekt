@@ -147,5 +147,10 @@ namespace Uge_51___miniprojekt
             listView2.Items.Add(listViewItem);
         }
         #endregion
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
