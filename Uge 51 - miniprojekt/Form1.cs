@@ -92,7 +92,8 @@ namespace Uge_51___miniprojekt
         // Pepperoni alm.
         private void button2_Click(object sender, EventArgs e)
         {
-            string[] row = { label1.Text, label2.Text };
+            // Tester
+            string[] row = { label1.Text + " - " + label2.Text };
             var listViewItem = new ListViewItem(row);
             listView2.Items.Add(listViewItem);
         }
@@ -100,49 +101,49 @@ namespace Uge_51___miniprojekt
         // Pepperoni fam.
         private void button3_Click(object sender, EventArgs e)
         {
-            string[] row = { label1.Text };
+            string[] row = { label1.Text + " - " + label3.Text };
             var listViewItem = new ListViewItem(row);
             listView2.Items.Add(listViewItem);
         }
         
         private void Alm_Skinke_Click(object sender, EventArgs e)
         {
-            string[] row = { label4.Text };
+            string[] row = { label4.Text + " - " + label5.Text };
             var listViewItem = new ListViewItem(row);
             listView2.Items.Add(listViewItem);
         }
 
         private void Fam_Skinke_Click(object sender, EventArgs e)
         {
-            string[] row = { label4.Text };
+            string[] row = { label4.Text + " - " + label6.Text };
             var listViewItem = new ListViewItem(row);
             listView2.Items.Add(listViewItem);
         }
 
         private void Alm_Hawaii_Click(object sender, EventArgs e)
         {
-            string[] row = { label7.Text };
+            string[] row = { label7.Text + " - " + label8.Text };
             var listViewItem = new ListViewItem(row);
             listView2.Items.Add(listViewItem);
         }
 
         private void Fam_Hawaii_Click(object sender, EventArgs e)
         {
-            string[] row = { label7.Text };
+            string[] row = { label7.Text + " - " + label9.Text };
             var listViewItem = new ListViewItem(row);
             listView2.Items.Add(listViewItem);
         }
 
         private void Alm_DinEgen_Click(object sender, EventArgs e)
         {
-            string[] row = { label10.Text };
+            string[] row = { label10.Text + " - " + label11.Text };
             var listViewItem = new ListViewItem(row);
             listView2.Items.Add(listViewItem);
         }
 
         private void Fam_DinEgen_Click(object sender, EventArgs e)
         {
-            string[] row = { label10.Text };
+            string[] row = { label10.Text + " - " + label12.Text };
             var listViewItem = new ListViewItem(row);
             listView2.Items.Add(listViewItem);
         }
