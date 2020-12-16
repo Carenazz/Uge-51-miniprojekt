@@ -92,7 +92,7 @@ namespace Uge_51___miniprojekt
         // Pepperoni alm.
         private void button2_Click(object sender, EventArgs e)
         {
-            string[] row = { label1.Text};
+            string[] row = { label1.Text, label2.Text };
             var listViewItem = new ListViewItem(row);
             listView2.Items.Add(listViewItem);
         }
@@ -100,36 +100,51 @@ namespace Uge_51___miniprojekt
         // Pepperoni fam.
         private void button3_Click(object sender, EventArgs e)
         {
+            string[] row = { label1.Text };
+            var listViewItem = new ListViewItem(row);
+            listView2.Items.Add(listViewItem);
         }
         
         private void Alm_Skinke_Click(object sender, EventArgs e)
         {
-
+            string[] row = { label4.Text };
+            var listViewItem = new ListViewItem(row);
+            listView2.Items.Add(listViewItem);
         }
 
         private void Fam_Skinke_Click(object sender, EventArgs e)
         {
-
+            string[] row = { label4.Text };
+            var listViewItem = new ListViewItem(row);
+            listView2.Items.Add(listViewItem);
         }
 
         private void Alm_Hawaii_Click(object sender, EventArgs e)
         {
-
+            string[] row = { label7.Text };
+            var listViewItem = new ListViewItem(row);
+            listView2.Items.Add(listViewItem);
         }
 
         private void Fam_Hawaii_Click(object sender, EventArgs e)
         {
-
+            string[] row = { label7.Text };
+            var listViewItem = new ListViewItem(row);
+            listView2.Items.Add(listViewItem);
         }
 
         private void Alm_DinEgen_Click(object sender, EventArgs e)
         {
-
+            string[] row = { label10.Text };
+            var listViewItem = new ListViewItem(row);
+            listView2.Items.Add(listViewItem);
         }
 
         private void Fam_DinEgen_Click(object sender, EventArgs e)
         {
-
+            string[] row = { label10.Text };
+            var listViewItem = new ListViewItem(row);
+            listView2.Items.Add(listViewItem);
         }
         #endregion
     }
