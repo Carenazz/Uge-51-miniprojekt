@@ -246,7 +246,7 @@ namespace Uge_51___miniprojekt
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(237, 24);
             this.textBox1.TabIndex = 25;
-            this.textBox1.Text = "Med tomatsauce, ost, oregano og pepperoni.";
+            this.textBox1.Text = "Med tomatsovs, ost, oregano og pepperoni.";
             // 
             // textBox2
             // 
@@ -256,7 +256,7 @@ namespace Uge_51___miniprojekt
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(237, 19);
             this.textBox2.TabIndex = 26;
-            this.textBox2.Text = "Med tomatsauce, ost, oregano og skinke.";
+            this.textBox2.Text = "Med tomatsovs, ost, oregano og skinke.";
             // 
             // textBox3
             // 
@@ -266,7 +266,7 @@ namespace Uge_51___miniprojekt
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(237, 21);
             this.textBox3.TabIndex = 27;
-            this.textBox3.Text = "Med tomatsauce, ost, oregano, skinke og ananas.";
+            this.textBox3.Text = "Med tomatsovs, ost, oregano, skinke og ananas.";
             // 
             // button1
             // 
