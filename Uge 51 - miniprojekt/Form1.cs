@@ -93,6 +93,7 @@ namespace Uge_51___miniprojekt
         private void button2_Click(object sender, EventArgs e)
         {
             // Tester
+            // Første label = pizza. Combobox = dej valg. Sidste label = størrelsen (Og pris). Gælder for alle nedenstående voids.
             string[] row = { label1.Text + " - " + comboBox1.SelectedItem + " - " + label2.Text };
             var listViewItem = new ListViewItem(row);
             listView2.Items.Add(listViewItem);

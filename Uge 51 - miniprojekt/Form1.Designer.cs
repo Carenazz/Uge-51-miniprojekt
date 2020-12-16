@@ -78,6 +78,7 @@ namespace Uge_51___miniprojekt
             this.Alm_DinEgen = new System.Windows.Forms.Button();
             this.Fam_DinEgen = new System.Windows.Forms.Button();
             this.label13 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -454,6 +455,7 @@ namespace Uge_51___miniprojekt
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.label14);
             this.panel1.Controls.Add(this.listView2);
             this.panel1.Controls.Add(this.label17);
             this.panel1.Controls.Add(this.button1);
@@ -575,6 +577,16 @@ namespace Uge_51___miniprojekt
             this.label13.TabIndex = 78;
             this.label13.Text = "Med tomatsovs.";
             // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Arial", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.Location = new System.Drawing.Point(16, 492);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(52, 18);
+            this.label14.TabIndex = 42;
+            this.label14.Text = "Sum: ";
+            // 
             // DashboardForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -685,6 +697,7 @@ namespace Uge_51___miniprojekt
         private System.Windows.Forms.Button Fam_DinEgen;
         private System.Windows.Forms.ListView listView2;
         private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label label14;
     }
 }
 
