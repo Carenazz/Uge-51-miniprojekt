@@ -58,15 +58,8 @@ namespace Uge_51___miniprojekt
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.label16 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
@@ -84,6 +77,7 @@ namespace Uge_51___miniprojekt
             this.Fam_Hawaii = new System.Windows.Forms.Button();
             this.Alm_DinEgen = new System.Windows.Forms.Button();
             this.Fam_DinEgen = new System.Windows.Forms.Button();
+            this.label13 = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -329,7 +323,7 @@ namespace Uge_51___miniprojekt
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(412, 380);
+            this.label8.Location = new System.Drawing.Point(412, 376);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(58, 16);
             this.label8.TabIndex = 45;
@@ -356,104 +350,41 @@ namespace Uge_51___miniprojekt
             this.label10.TabIndex = 47;
             this.label10.Text = "Lav-Din-Egen";
             // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(506, 455);
-            this.textBox4.Multiline = true;
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(147, 73);
-            this.textBox4.TabIndex = 48;
-            this.textBox4.Text = "-Skriv her-";
-            // 
             // label11
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(412, 459);
+            this.label11.Location = new System.Drawing.Point(412, 508);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(58, 16);
             this.label11.TabIndex = 52;
-            this.label11.Text = "Alm. 70.-";
+            this.label11.Text = "Alm. 40.-";
             // 
             // label12
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(412, 485);
+            this.label12.Location = new System.Drawing.Point(412, 534);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(69, 16);
+            this.label12.Size = new System.Drawing.Size(62, 16);
             this.label12.TabIndex = 53;
-            this.label12.Text = "Fam. 120.-";
-            // 
-            // textBox9
-            // 
-            this.textBox9.Location = new System.Drawing.Point(553, 86);
-            this.textBox9.Multiline = true;
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(100, 46);
-            this.textBox9.TabIndex = 57;
-            this.textBox9.Text = "-Ekstra-";
-            // 
-            // textBox10
-            // 
-            this.textBox10.Location = new System.Drawing.Point(553, 214);
-            this.textBox10.Multiline = true;
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(100, 46);
-            this.textBox10.TabIndex = 58;
-            this.textBox10.Text = "-Ekstra-";
-            // 
-            // textBox11
-            // 
-            this.textBox11.Location = new System.Drawing.Point(553, 350);
-            this.textBox11.Multiline = true;
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(100, 46);
-            this.textBox11.TabIndex = 59;
-            this.textBox11.Text = "-Ekstra-";
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(533, 143);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(138, 13);
-            this.label13.TabIndex = 60;
-            this.label13.Text = "Ekstra tilbehør er 5.- stykket";
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(533, 273);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(138, 13);
-            this.label14.TabIndex = 61;
-            this.label14.Text = "Ekstra tilbehør er 5.- stykket";
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(533, 409);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(138, 13);
-            this.label15.TabIndex = 62;
-            this.label15.Text = "Ekstra tilbehør er 5.- stykket";
+            this.label12.Text = "Fam. 90.-";
             // 
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
             this.listBox1.Items.AddRange(new object[] {
-            "Pepperoni.",
-            "Skinke.",
-            "Tomat.",
-            "Ost.",
-            "Chili.",
-            "Jalapenos.",
-            "Ananas.",
-            "Oregano.",
-            "Paprika.",
-            "Bacon.",
-            "Kebab."});
+            "Pepperoni - 5.-",
+            "Skinke - 5.-",
+            "Tomat - 5.-",
+            "Ost - 5.-",
+            "Chili - 5.-",
+            "Jalapenos - 5.-",
+            "Ananas - 5.-",
+            "Bacon - 5.-",
+            "Kebab - 5.-",
+            "Paprika - 2,5.-",
+            "Oregano - 2,5.-"});
             this.listBox1.Location = new System.Drawing.Point(241, 61);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(120, 147);
@@ -515,7 +446,7 @@ namespace Uge_51___miniprojekt
             "Almindelig.",
             "Grov.",
             "Surdej."});
-            this.comboBox4.Location = new System.Drawing.Point(390, 507);
+            this.comboBox4.Location = new System.Drawing.Point(390, 477);
             this.comboBox4.Name = "comboBox4";
             this.comboBox4.Size = new System.Drawing.Size(96, 21);
             this.comboBox4.TabIndex = 68;
@@ -595,7 +526,7 @@ namespace Uge_51___miniprojekt
             // 
             // Alm_Hawaii
             // 
-            this.Alm_Hawaii.Location = new System.Drawing.Point(390, 376);
+            this.Alm_Hawaii.Location = new System.Drawing.Point(390, 372);
             this.Alm_Hawaii.Name = "Alm_Hawaii";
             this.Alm_Hawaii.Size = new System.Drawing.Size(17, 20);
             this.Alm_Hawaii.TabIndex = 74;
@@ -615,7 +546,7 @@ namespace Uge_51___miniprojekt
             // 
             // Alm_DinEgen
             // 
-            this.Alm_DinEgen.Location = new System.Drawing.Point(390, 455);
+            this.Alm_DinEgen.Location = new System.Drawing.Point(390, 504);
             this.Alm_DinEgen.Name = "Alm_DinEgen";
             this.Alm_DinEgen.Size = new System.Drawing.Size(17, 20);
             this.Alm_DinEgen.TabIndex = 76;
@@ -625,7 +556,7 @@ namespace Uge_51___miniprojekt
             // 
             // Fam_DinEgen
             // 
-            this.Fam_DinEgen.Location = new System.Drawing.Point(390, 481);
+            this.Fam_DinEgen.Location = new System.Drawing.Point(390, 530);
             this.Fam_DinEgen.Name = "Fam_DinEgen";
             this.Fam_DinEgen.Size = new System.Drawing.Size(17, 20);
             this.Fam_DinEgen.TabIndex = 77;
@@ -633,12 +564,24 @@ namespace Uge_51___miniprojekt
             this.Fam_DinEgen.UseVisualStyleBackColor = true;
             this.Fam_DinEgen.Click += new System.EventHandler(this.Fam_DinEgen_Click);
             // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label13.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.label13.Location = new System.Drawing.Point(390, 454);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(82, 13);
+            this.label13.TabIndex = 78;
+            this.label13.Text = "Med tomatsovs.";
+            // 
             // DashboardForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(1062, 745);
+            this.Controls.Add(this.label13);
             this.Controls.Add(this.Fam_DinEgen);
             this.Controls.Add(this.Alm_DinEgen);
             this.Controls.Add(this.Fam_Hawaii);
@@ -654,15 +597,8 @@ namespace Uge_51___miniprojekt
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label16);
             this.Controls.Add(this.listBox1);
-            this.Controls.Add(this.label15);
-            this.Controls.Add(this.label14);
-            this.Controls.Add(this.label13);
-            this.Controls.Add(this.textBox11);
-            this.Controls.Add(this.textBox10);
-            this.Controls.Add(this.textBox9);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label11);
-            this.Controls.Add(this.textBox4);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
@@ -729,15 +665,8 @@ namespace Uge_51___miniprojekt
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.TextBox textBox11;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Label label15;
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.ComboBox comboBox1;
@@ -755,6 +684,7 @@ namespace Uge_51___miniprojekt
         private System.Windows.Forms.Button Alm_DinEgen;
         private System.Windows.Forms.Button Fam_DinEgen;
         private System.Windows.Forms.ListView listView2;
+        private System.Windows.Forms.Label label13;
     }
 }
 

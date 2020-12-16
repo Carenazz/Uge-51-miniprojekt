@@ -151,7 +151,9 @@ namespace Uge_51___miniprojekt
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-
+            string[] rowExtra = { listBox1.SelectedItem.ToString() };
+            var listViewItem = new ListViewItem(rowExtra);
+            listView2.Items.Add(listViewItem);
         }
     }
 }
