@@ -88,7 +88,7 @@ namespace Uge_51___miniprojekt
 
         }
 
-        #region Knapper som tilføjer til kurv
+        #region Knapper som tilføjer til kurv og tilføjer sum.
         // Pepperoni alm.
 
         int sum = 0;
@@ -100,7 +100,9 @@ namespace Uge_51___miniprojekt
             string[] row = { label1.Text + " - " + comboBox1.SelectedItem + " - " + label2.Text + " " + label15.Text };
             var listViewItem = new ListViewItem(row);
             listView2.Items.Add(listViewItem);
+            // Udregning af pris + visning af pris
             sum += 55;
+            totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
         }
 
         // Pepperoni fam.
@@ -110,6 +112,7 @@ namespace Uge_51___miniprojekt
             var listViewItem = new ListViewItem(row);
             listView2.Items.Add(listViewItem);
             sum += 105;
+            totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
         }
         
         private void Alm_Skinke_Click(object sender, EventArgs e)
@@ -118,6 +121,7 @@ namespace Uge_51___miniprojekt
             var listViewItem = new ListViewItem(row);
             listView2.Items.Add(listViewItem);
             sum += 55;
+            totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
         }
 
         private void Fam_Skinke_Click(object sender, EventArgs e)
@@ -126,6 +130,7 @@ namespace Uge_51___miniprojekt
             var listViewItem = new ListViewItem(row);
             listView2.Items.Add(listViewItem);
             sum += 105;
+            totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
         }
 
         private void Alm_Hawaii_Click(object sender, EventArgs e)
@@ -134,6 +139,7 @@ namespace Uge_51___miniprojekt
             var listViewItem = new ListViewItem(row);
             listView2.Items.Add(listViewItem);
             sum += 65;
+            totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
         }
 
         private void Fam_Hawaii_Click(object sender, EventArgs e)
@@ -142,6 +148,7 @@ namespace Uge_51___miniprojekt
             var listViewItem = new ListViewItem(row);
             listView2.Items.Add(listViewItem);
             sum += 115;
+            totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
         }
 
         private void Alm_DinEgen_Click(object sender, EventArgs e)
@@ -150,6 +157,7 @@ namespace Uge_51___miniprojekt
             var listViewItem = new ListViewItem(row);
             listView2.Items.Add(listViewItem);
             sum += 50;
+            totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
         }
 
         private void Fam_DinEgen_Click(object sender, EventArgs e)
@@ -158,6 +166,7 @@ namespace Uge_51___miniprojekt
             var listViewItem = new ListViewItem(row);
             listView2.Items.Add(listViewItem);
             sum += 100;
+            totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
         }
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
@@ -166,6 +175,7 @@ namespace Uge_51___miniprojekt
             var listViewItem = new ListViewItem(rowExtra);
             listView2.Items.Add(listViewItem);
             sum += 5;
+            totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
         }
         #endregion
 
@@ -176,6 +186,7 @@ namespace Uge_51___miniprojekt
             string[] row = { listBox2.SelectedItem.ToString() };
             var listViewItem = new ListViewItem(row);
             listView2.Items.Add(listViewItem);
+            totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
         }
 
 
@@ -185,6 +196,7 @@ namespace Uge_51___miniprojekt
             var listViewItem = new ListViewItem(row);
             listView2.Items.Add(listViewItem);
             sum += 15;
+            totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
         }
 
         private void button3_Click_1(object sender, EventArgs e)
@@ -193,6 +205,7 @@ namespace Uge_51___miniprojekt
             var listViewItem = new ListViewItem(row);
             listView2.Items.Add(listViewItem);
             sum += 20;
+            totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
         }
 
         private void button5_Click(object sender, EventArgs e)
@@ -201,13 +214,9 @@ namespace Uge_51___miniprojekt
             var listViewItem = new ListViewItem(row);
             listView2.Items.Add(listViewItem);
             sum += 25;
+            totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
         }
 
         #endregion
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show(sum.ToString() + " Kroner");
-        }
     }
 }

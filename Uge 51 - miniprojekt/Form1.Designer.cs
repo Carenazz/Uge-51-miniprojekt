@@ -94,9 +94,9 @@ namespace Uge_51___miniprojekt
             this.button5 = new System.Windows.Forms.Button();
             this.label28 = new System.Windows.Forms.Label();
             this.listBox2 = new System.Windows.Forms.ListBox();
-            this.button4 = new System.Windows.Forms.Button();
             this.label14 = new System.Windows.Forms.Label();
             this.label29 = new System.Windows.Forms.Label();
+            this.totalSum = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -471,7 +471,7 @@ namespace Uge_51___miniprojekt
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.button4);
+            this.panel1.Controls.Add(this.totalSum);
             this.panel1.Controls.Add(this.listView2);
             this.panel1.Controls.Add(this.label17);
             this.panel1.Controls.Add(this.button1);
@@ -759,18 +759,6 @@ namespace Uge_51___miniprojekt
             this.listBox2.TabIndex = 95;
             this.listBox2.SelectedIndexChanged += new System.EventHandler(this.listBox2_SelectedIndexChanged);
             // 
-            // button4
-            // 
-            this.button4.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.button4.Font = new System.Drawing.Font("Arial", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(29, 556);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(140, 55);
-            this.button4.TabIndex = 42;
-            this.button4.Text = "Se sum";
-            this.button4.UseVisualStyleBackColor = false;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
-            // 
             // label14
             // 
             this.label14.AutoSize = true;
@@ -790,6 +778,16 @@ namespace Uge_51___miniprojekt
             this.label29.Size = new System.Drawing.Size(105, 22);
             this.label29.TabIndex = 97;
             this.label29.Text = "99 99 99 99";
+            // 
+            // totalSum
+            // 
+            this.totalSum.AutoSize = true;
+            this.totalSum.Font = new System.Drawing.Font("Arial", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.totalSum.Location = new System.Drawing.Point(26, 593);
+            this.totalSum.Name = "totalSum";
+            this.totalSum.Size = new System.Drawing.Size(52, 18);
+            this.totalSum.TabIndex = 42;
+            this.totalSum.Text = "Sum: ";
             // 
             // DashboardForm
             // 
@@ -935,9 +933,9 @@ namespace Uge_51___miniprojekt
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Label label28;
         private System.Windows.Forms.ListBox listBox2;
-        private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label29;
+        private System.Windows.Forms.Label totalSum;
     }
 }
 
