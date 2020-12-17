@@ -90,6 +90,9 @@ namespace Uge_51___miniprojekt
 
         #region Knapper som tilføjer til kurv
         // Pepperoni alm.
+
+        int sum = 0;
+
         private void button2_Click(object sender, EventArgs e)
         {
             // Tester
@@ -97,6 +100,7 @@ namespace Uge_51___miniprojekt
             string[] row = { label1.Text + " - " + comboBox1.SelectedItem + " - " + label2.Text + " " + label15.Text };
             var listViewItem = new ListViewItem(row);
             listView2.Items.Add(listViewItem);
+            sum += 55;
         }
 
         // Pepperoni fam.
@@ -105,6 +109,7 @@ namespace Uge_51___miniprojekt
             string[] row = { label1.Text + " - " + comboBox1.SelectedItem + " - " + label3.Text + " " + label18.Text };
             var listViewItem = new ListViewItem(row);
             listView2.Items.Add(listViewItem);
+            sum += 105;
         }
         
         private void Alm_Skinke_Click(object sender, EventArgs e)
@@ -112,6 +117,7 @@ namespace Uge_51___miniprojekt
             string[] row = { label4.Text + " - " + comboBox2.SelectedItem + " - " + label5.Text + " " + label19.Text };
             var listViewItem = new ListViewItem(row);
             listView2.Items.Add(listViewItem);
+            sum += 55;
         }
 
         private void Fam_Skinke_Click(object sender, EventArgs e)
@@ -119,6 +125,7 @@ namespace Uge_51___miniprojekt
             string[] row = { label4.Text + " - " + comboBox2.SelectedItem + " - " + label6.Text + " " + label20.Text };
             var listViewItem = new ListViewItem(row);
             listView2.Items.Add(listViewItem);
+            sum += 105;
         }
 
         private void Alm_Hawaii_Click(object sender, EventArgs e)
@@ -126,6 +133,7 @@ namespace Uge_51___miniprojekt
             string[] row = { label7.Text + " - " + comboBox3.SelectedItem + " - " + label8.Text + " " + label21.Text };
             var listViewItem = new ListViewItem(row);
             listView2.Items.Add(listViewItem);
+            sum += 65;
         }
 
         private void Fam_Hawaii_Click(object sender, EventArgs e)
@@ -133,6 +141,7 @@ namespace Uge_51___miniprojekt
             string[] row = { label7.Text + " - " + comboBox3.SelectedItem + " - " + label9.Text + " " + label22.Text };
             var listViewItem = new ListViewItem(row);
             listView2.Items.Add(listViewItem);
+            sum += 115;
         }
 
         private void Alm_DinEgen_Click(object sender, EventArgs e)
@@ -140,6 +149,7 @@ namespace Uge_51___miniprojekt
             string[] row = { label10.Text + " - " + comboBox4.SelectedItem + " - " + label11.Text + " " + label23.Text };
             var listViewItem = new ListViewItem(row);
             listView2.Items.Add(listViewItem);
+            sum += 70;
         }
 
         private void Fam_DinEgen_Click(object sender, EventArgs e)
@@ -147,14 +157,21 @@ namespace Uge_51___miniprojekt
             string[] row = { label10.Text + " - " + comboBox4.SelectedItem + " - " + label12.Text + " " + label24.Text };
             var listViewItem = new ListViewItem(row);
             listView2.Items.Add(listViewItem);
+            sum += 110;
         }
-        #endregion
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
             string[] rowExtra = { listBox1.SelectedItem.ToString() };
             var listViewItem = new ListViewItem(rowExtra);
             listView2.Items.Add(listViewItem);
+            sum += 5;
+        }
+        #endregion
+
+        private void label14_Click(object sender, EventArgs e)
+        {
+            Console.WriteLine("Sum: " + sum);
         }
     }
 }

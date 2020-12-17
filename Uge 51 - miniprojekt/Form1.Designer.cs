@@ -67,6 +67,7 @@ namespace Uge_51___miniprojekt
             this.comboBox3 = new System.Windows.Forms.ComboBox();
             this.comboBox4 = new System.Windows.Forms.ComboBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label14 = new System.Windows.Forms.Label();
             this.listView2 = new System.Windows.Forms.ListView();
             this.label17 = new System.Windows.Forms.Label();
             this.Alm_Pepperoni = new System.Windows.Forms.Button();
@@ -78,7 +79,6 @@ namespace Uge_51___miniprojekt
             this.Alm_DinEgen = new System.Windows.Forms.Button();
             this.Fam_DinEgen = new System.Windows.Forms.Button();
             this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
@@ -87,6 +87,13 @@ namespace Uge_51___miniprojekt
             this.label22 = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
+            this.label25 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.label26 = new System.Windows.Forms.Label();
+            this.label27 = new System.Windows.Forms.Label();
+            this.button5 = new System.Windows.Forms.Button();
+            this.label28 = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -176,7 +183,7 @@ namespace Uge_51___miniprojekt
             this.listView1.HideSelection = false;
             this.listView1.Location = new System.Drawing.Point(376, 38);
             this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(301, 608);
+            this.listView1.Size = new System.Drawing.Size(301, 682);
             this.listView1.TabIndex = 1;
             this.listView1.UseCompatibleStateImageBehavior = false;
             // 
@@ -280,7 +287,7 @@ namespace Uge_51___miniprojekt
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Arial", 20.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(39, 537);
+            this.button1.Location = new System.Drawing.Point(29, 624);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(140, 55);
             this.button1.TabIndex = 40;
@@ -469,8 +476,19 @@ namespace Uge_51___miniprojekt
             this.panel1.Controls.Add(this.button1);
             this.panel1.Location = new System.Drawing.Point(13, 38);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(212, 608);
+            this.panel1.Size = new System.Drawing.Size(212, 682);
             this.panel1.TabIndex = 69;
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Arial", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.Location = new System.Drawing.Point(26, 589);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(52, 18);
+            this.label14.TabIndex = 42;
+            this.label14.Text = "Sum: ";
+            this.label14.Click += new System.EventHandler(this.label14_Click);
             // 
             // listView2
             // 
@@ -478,7 +496,7 @@ namespace Uge_51___miniprojekt
             this.listView2.HideSelection = false;
             this.listView2.Location = new System.Drawing.Point(3, 48);
             this.listView2.Name = "listView2";
-            this.listView2.Size = new System.Drawing.Size(206, 483);
+            this.listView2.Size = new System.Drawing.Size(206, 570);
             this.listView2.TabIndex = 41;
             this.listView2.UseCompatibleStateImageBehavior = false;
             this.listView2.View = System.Windows.Forms.View.List;
@@ -585,16 +603,6 @@ namespace Uge_51___miniprojekt
             this.label13.TabIndex = 78;
             this.label13.Text = "Med tomatsovs, ost og 4 valgfrie tilbehør.";
             // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Arial", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(16, 492);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(52, 18);
-            this.label14.TabIndex = 42;
-            this.label14.Text = "Sum: ";
-            // 
             // label15
             // 
             this.label15.AutoSize = true;
@@ -675,12 +683,87 @@ namespace Uge_51___miniprojekt
             this.label24.TabIndex = 86;
             this.label24.Text = "120.-";
             // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label25.Font = new System.Drawing.Font("Arial", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label25.Location = new System.Drawing.Point(483, 570);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(98, 20);
+            this.label25.TabIndex = 87;
+            this.label25.Text = "Drikkevarer";
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(390, 607);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(17, 20);
+            this.button2.TabIndex = 88;
+            this.button2.Text = "+";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(390, 633);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(17, 20);
+            this.button3.TabIndex = 89;
+            this.button3.Text = "+";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label26.Location = new System.Drawing.Point(412, 607);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(87, 16);
+            this.label26.TabIndex = 91;
+            this.label26.Text = "Lille Cola 15.-";
+            // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label27.Location = new System.Drawing.Point(412, 633);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(107, 16);
+            this.label27.TabIndex = 92;
+            this.label27.Text = "Mellem Cola 20.-";
+            // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(390, 659);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(17, 20);
+            this.button5.TabIndex = 93;
+            this.button5.Text = "+";
+            this.button5.UseVisualStyleBackColor = true;
+            // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label28.Location = new System.Drawing.Point(412, 659);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(87, 16);
+            this.label28.TabIndex = 94;
+            this.label28.Text = "Stor Cola 25.-";
+            // 
             // DashboardForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(1062, 745);
+            this.Controls.Add(this.label28);
+            this.Controls.Add(this.button5);
+            this.Controls.Add(this.label27);
+            this.Controls.Add(this.label26);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.label25);
             this.Controls.Add(this.label24);
             this.Controls.Add(this.label23);
             this.Controls.Add(this.label22);
@@ -802,6 +885,13 @@ namespace Uge_51___miniprojekt
         private System.Windows.Forms.Label label22;
         private System.Windows.Forms.Label label23;
         private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.Label label25;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Label label26;
+        private System.Windows.Forms.Label label27;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Label label28;
     }
 }
 
