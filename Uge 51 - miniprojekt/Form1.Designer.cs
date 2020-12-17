@@ -782,6 +782,7 @@ namespace Uge_51___miniprojekt
             // totalSum
             // 
             this.totalSum.AutoSize = true;
+            this.totalSum.BackColor = System.Drawing.SystemColors.ControlLight;
             this.totalSum.Font = new System.Drawing.Font("Arial", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.totalSum.Location = new System.Drawing.Point(26, 593);
             this.totalSum.Name = "totalSum";
