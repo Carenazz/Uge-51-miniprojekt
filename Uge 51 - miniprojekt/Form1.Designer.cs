@@ -67,7 +67,6 @@ namespace Uge_51___miniprojekt
             this.comboBox3 = new System.Windows.Forms.ComboBox();
             this.comboBox4 = new System.Windows.Forms.ComboBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label14 = new System.Windows.Forms.Label();
             this.listView2 = new System.Windows.Forms.ListView();
             this.label17 = new System.Windows.Forms.Label();
             this.Alm_Pepperoni = new System.Windows.Forms.Button();
@@ -94,6 +93,8 @@ namespace Uge_51___miniprojekt
             this.label27 = new System.Windows.Forms.Label();
             this.button5 = new System.Windows.Forms.Button();
             this.label28 = new System.Windows.Forms.Label();
+            this.listBox2 = new System.Windows.Forms.ListBox();
+            this.button4 = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -398,12 +399,10 @@ namespace Uge_51___miniprojekt
             "Jalapenos - 5.-",
             "Ananas - 5.-",
             "Bacon - 5.-",
-            "Kebab - 5.-",
-            "Paprika - 2,5.-",
-            "Oregano - 2,5.-"});
+            "Kebab - 5.-"});
             this.listBox1.Location = new System.Drawing.Point(241, 61);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(120, 147);
+            this.listBox1.Size = new System.Drawing.Size(120, 121);
             this.listBox1.TabIndex = 63;
             this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
@@ -470,7 +469,7 @@ namespace Uge_51___miniprojekt
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.label14);
+            this.panel1.Controls.Add(this.button4);
             this.panel1.Controls.Add(this.listView2);
             this.panel1.Controls.Add(this.label17);
             this.panel1.Controls.Add(this.button1);
@@ -478,17 +477,6 @@ namespace Uge_51___miniprojekt
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(212, 682);
             this.panel1.TabIndex = 69;
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Arial", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(26, 589);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(52, 18);
-            this.label14.TabIndex = 42;
-            this.label14.Text = "Sum: ";
-            this.label14.Click += new System.EventHandler(this.label14_Click);
             // 
             // listView2
             // 
@@ -599,9 +587,9 @@ namespace Uge_51___miniprojekt
             this.label13.ForeColor = System.Drawing.SystemColors.ControlText;
             this.label13.Location = new System.Drawing.Point(390, 454);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(200, 13);
+            this.label13.Size = new System.Drawing.Size(159, 13);
             this.label13.TabIndex = 78;
-            this.label13.Text = "Med tomatsovs, ost og 4 valgfrie tilbehør.";
+            this.label13.Text = "Med tomatsovs, ost og oregano.";
             // 
             // label15
             // 
@@ -671,7 +659,7 @@ namespace Uge_51___miniprojekt
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(29, 16);
             this.label23.TabIndex = 85;
-            this.label23.Text = "70.-";
+            this.label23.Text = "50.-";
             // 
             // label24
             // 
@@ -681,7 +669,7 @@ namespace Uge_51___miniprojekt
             this.label24.Name = "label24";
             this.label24.Size = new System.Drawing.Size(36, 16);
             this.label24.TabIndex = 86;
-            this.label24.Text = "120.-";
+            this.label24.Text = "100.-";
             // 
             // label25
             // 
@@ -702,6 +690,7 @@ namespace Uge_51___miniprojekt
             this.button2.TabIndex = 88;
             this.button2.Text = "+";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click_1);
             // 
             // button3
             // 
@@ -711,6 +700,7 @@ namespace Uge_51___miniprojekt
             this.button3.TabIndex = 89;
             this.button3.Text = "+";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click_1);
             // 
             // label26
             // 
@@ -740,6 +730,7 @@ namespace Uge_51___miniprojekt
             this.button5.TabIndex = 93;
             this.button5.Text = "+";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // label28
             // 
@@ -751,12 +742,39 @@ namespace Uge_51___miniprojekt
             this.label28.TabIndex = 94;
             this.label28.Text = "Stor Cola 25.-";
             // 
+            // listBox2
+            // 
+            this.listBox2.FormattingEnabled = true;
+            this.listBox2.Items.AddRange(new object[] {
+            "Coca Cola.",
+            "Coca Cola Zero.",
+            "Fanta.",
+            "Fanta Exotic.",
+            "Sprite."});
+            this.listBox2.Location = new System.Drawing.Point(539, 607);
+            this.listBox2.Name = "listBox2";
+            this.listBox2.Size = new System.Drawing.Size(120, 69);
+            this.listBox2.TabIndex = 95;
+            this.listBox2.SelectedIndexChanged += new System.EventHandler(this.listBox2_SelectedIndexChanged);
+            // 
+            // button4
+            // 
+            this.button4.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.Location = new System.Drawing.Point(3, 556);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(206, 55);
+            this.button4.TabIndex = 42;
+            this.button4.Text = "Tryk for sum";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
             // DashboardForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(1062, 745);
+            this.Controls.Add(this.listBox2);
             this.Controls.Add(this.label28);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.label27);
@@ -876,7 +894,6 @@ namespace Uge_51___miniprojekt
         private System.Windows.Forms.Button Fam_DinEgen;
         private System.Windows.Forms.ListView listView2;
         private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label label19;
@@ -892,6 +909,8 @@ namespace Uge_51___miniprojekt
         private System.Windows.Forms.Label label27;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Label label28;
+        private System.Windows.Forms.ListBox listBox2;
+        private System.Windows.Forms.Button button4;
     }
 }
 

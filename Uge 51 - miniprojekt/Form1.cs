@@ -149,7 +149,7 @@ namespace Uge_51___miniprojekt
             string[] row = { label10.Text + " - " + comboBox4.SelectedItem + " - " + label11.Text + " " + label23.Text };
             var listViewItem = new ListViewItem(row);
             listView2.Items.Add(listViewItem);
-            sum += 70;
+            sum += 50;
         }
 
         private void Fam_DinEgen_Click(object sender, EventArgs e)
@@ -157,7 +157,7 @@ namespace Uge_51___miniprojekt
             string[] row = { label10.Text + " - " + comboBox4.SelectedItem + " - " + label12.Text + " " + label24.Text };
             var listViewItem = new ListViewItem(row);
             listView2.Items.Add(listViewItem);
-            sum += 110;
+            sum += 100;
         }
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
@@ -169,9 +169,45 @@ namespace Uge_51___miniprojekt
         }
         #endregion
 
-        private void label14_Click(object sender, EventArgs e)
+        #region Drikkevarer
+
+        private void listBox2_SelectedIndexChanged(object sender, EventArgs e)
         {
-            Console.WriteLine("Sum: " + sum);
+            string[] row = { listBox2.SelectedItem.ToString() };
+            var listViewItem = new ListViewItem(row);
+            listView2.Items.Add(listViewItem);
+        }
+
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            string[] row = { label26.Text };
+            var listViewItem = new ListViewItem(row);
+            listView2.Items.Add(listViewItem);
+            sum += 15;
+        }
+
+        private void button3_Click_1(object sender, EventArgs e)
+        {
+            string[] row = { label27.Text };
+            var listViewItem = new ListViewItem(row);
+            listView2.Items.Add(listViewItem);
+            sum += 20;
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            string[] row = { label28.Text };
+            var listViewItem = new ListViewItem(row);
+            listView2.Items.Add(listViewItem);
+            sum += 25;
+        }
+
+        #endregion
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(sum.ToString() + " Kroner");
         }
     }
 }
