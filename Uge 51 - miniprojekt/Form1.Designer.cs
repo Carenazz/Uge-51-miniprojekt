@@ -95,6 +95,8 @@ namespace Uge_51___miniprojekt
             this.label28 = new System.Windows.Forms.Label();
             this.listBox2 = new System.Windows.Forms.ListBox();
             this.button4 = new System.Windows.Forms.Button();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label29 = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -587,9 +589,9 @@ namespace Uge_51___miniprojekt
             this.label13.ForeColor = System.Drawing.SystemColors.ControlText;
             this.label13.Location = new System.Drawing.Point(390, 454);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(159, 13);
+            this.label13.Size = new System.Drawing.Size(147, 13);
             this.label13.TabIndex = 78;
-            this.label13.Text = "Med tomatsovs, ost og oregano.";
+            this.label13.Text = "Med tomatsovs, ost, oregano.";
             // 
             // label15
             // 
@@ -769,12 +771,34 @@ namespace Uge_51___miniprojekt
             this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Arial Black", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.Location = new System.Drawing.Point(684, 477);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(235, 30);
+            this.label14.TabIndex = 96;
+            this.label14.Text = "Eller kontakt os på:";
+            // 
+            // label29
+            // 
+            this.label29.AutoSize = true;
+            this.label29.Font = new System.Drawing.Font("Arial Black", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label29.Location = new System.Drawing.Point(685, 507);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(105, 22);
+            this.label29.TabIndex = 97;
+            this.label29.Text = "99 99 99 99";
+            // 
             // DashboardForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(1062, 745);
+            this.Controls.Add(this.label29);
+            this.Controls.Add(this.label14);
             this.Controls.Add(this.listBox2);
             this.Controls.Add(this.label28);
             this.Controls.Add(this.button5);
@@ -912,6 +936,8 @@ namespace Uge_51___miniprojekt
         private System.Windows.Forms.Label label28;
         private System.Windows.Forms.ListBox listBox2;
         private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label label29;
     }
 }
 
