@@ -22,11 +22,13 @@ namespace Uge_51___miniprojekt
 
         }
 
+
         private void pizzaToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
         }
 
+        #region Kan ikke fjernes uden det ødelægger programmet (kigges mere ind på)
         private void label1_Click(object sender, EventArgs e)
         {
 
@@ -76,6 +78,8 @@ namespace Uge_51___miniprojekt
         {
 
         }
+
+        #endregion
 
         // BestillingsKnap
         private void button1_Click(object sender, EventArgs e)
