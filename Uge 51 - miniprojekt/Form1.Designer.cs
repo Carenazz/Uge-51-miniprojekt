@@ -41,34 +41,35 @@ namespace Uge_51___miniprojekt
             this.hurtigstMuligtToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.bestemtTidToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.listView1 = new System.Windows.Forms.ListView();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
+            this.Pepperoni = new System.Windows.Forms.Label();
+            this.Skinke = new System.Windows.Forms.Label();
+            this.Hawaii = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.PeppTextBox = new System.Windows.Forms.TextBox();
+            this.SkinkeTextBox = new System.Windows.Forms.TextBox();
+            this.HawaiiTextBox = new System.Windows.Forms.TextBox();
+            this.BestilKnap = new System.Windows.Forms.Button();
+            this.AlmPepp = new System.Windows.Forms.Label();
+            this.FamPepp = new System.Windows.Forms.Label();
+            this.AlmSkinke = new System.Windows.Forms.Label();
+            this.SkinkeFam = new System.Windows.Forms.Label();
+            this.AlmHawaii = new System.Windows.Forms.Label();
+            this.HawaiiFam = new System.Windows.Forms.Label();
+            this.LavDinEgen = new System.Windows.Forms.Label();
+            this.LavAlm = new System.Windows.Forms.Label();
+            this.LavFam = new System.Windows.Forms.Label();
+            this.IngredienserList = new System.Windows.Forms.ListBox();
             this.label16 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.comboBox3 = new System.Windows.Forms.ComboBox();
             this.comboBox4 = new System.Windows.Forms.ComboBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.listView2 = new System.Windows.Forms.ListView();
-            this.label17 = new System.Windows.Forms.Label();
+            this.totalSum = new System.Windows.Forms.Label();
+            this.KurvListe = new System.Windows.Forms.ListView();
+            this.KurvTekst = new System.Windows.Forms.Label();
             this.Alm_Pepperoni = new System.Windows.Forms.Button();
             this.Fam_Pepperoni = new System.Windows.Forms.Button();
             this.Alm_Skinke = new System.Windows.Forms.Button();
@@ -77,26 +78,25 @@ namespace Uge_51___miniprojekt
             this.Fam_Hawaii = new System.Windows.Forms.Button();
             this.Alm_DinEgen = new System.Windows.Forms.Button();
             this.Fam_DinEgen = new System.Windows.Forms.Button();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
-            this.label24 = new System.Windows.Forms.Label();
-            this.label25 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.label26 = new System.Windows.Forms.Label();
-            this.label27 = new System.Windows.Forms.Label();
-            this.button5 = new System.Windows.Forms.Button();
-            this.label28 = new System.Windows.Forms.Label();
+            this.LDETextbox = new System.Windows.Forms.Label();
+            this.PeppAPris = new System.Windows.Forms.Label();
+            this.PeppFPris = new System.Windows.Forms.Label();
+            this.SkinkeAPris = new System.Windows.Forms.Label();
+            this.SkinkeFPris = new System.Windows.Forms.Label();
+            this.HawaiiAPris = new System.Windows.Forms.Label();
+            this.HawaiiFPris = new System.Windows.Forms.Label();
+            this.LavAPris = new System.Windows.Forms.Label();
+            this.LavFamPris = new System.Windows.Forms.Label();
+            this.Drikkevarer = new System.Windows.Forms.Label();
+            this.LilleColaKnap = new System.Windows.Forms.Button();
+            this.MellemColaKnap = new System.Windows.Forms.Button();
+            this.LilleCola = new System.Windows.Forms.Label();
+            this.MellemCola = new System.Windows.Forms.Label();
+            this.StorColaKnap = new System.Windows.Forms.Button();
+            this.StorCola = new System.Windows.Forms.Label();
             this.listBox2 = new System.Windows.Forms.ListBox();
             this.label14 = new System.Windows.Forms.Label();
             this.label29 = new System.Windows.Forms.Label();
-            this.totalSum = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -190,41 +190,41 @@ namespace Uge_51___miniprojekt
             this.listView1.TabIndex = 1;
             this.listView1.UseCompatibleStateImageBehavior = false;
             // 
-            // label1
+            // Pepperoni
             // 
-            this.label1.AutoSize = true;
-            this.label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label1.Font = new System.Drawing.Font("Arial", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(483, 38);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(87, 20);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "Pepperoni";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            this.Pepperoni.AutoSize = true;
+            this.Pepperoni.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Pepperoni.Font = new System.Drawing.Font("Arial", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Pepperoni.Location = new System.Drawing.Point(483, 38);
+            this.Pepperoni.Name = "Pepperoni";
+            this.Pepperoni.Size = new System.Drawing.Size(87, 20);
+            this.Pepperoni.TabIndex = 2;
+            this.Pepperoni.Text = "Pepperoni";
+            this.Pepperoni.Click += new System.EventHandler(this.label1_Click);
             // 
-            // label4
+            // Skinke
             // 
-            this.label4.AutoSize = true;
-            this.label4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label4.Font = new System.Drawing.Font("Arial", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(483, 166);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(62, 20);
-            this.label4.TabIndex = 5;
-            this.label4.Text = "Skinke";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
+            this.Skinke.AutoSize = true;
+            this.Skinke.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Skinke.Font = new System.Drawing.Font("Arial", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Skinke.Location = new System.Drawing.Point(483, 166);
+            this.Skinke.Name = "Skinke";
+            this.Skinke.Size = new System.Drawing.Size(62, 20);
+            this.Skinke.TabIndex = 5;
+            this.Skinke.Text = "Skinke";
+            this.Skinke.Click += new System.EventHandler(this.label4_Click);
             // 
-            // label7
+            // Hawaii
             // 
-            this.label7.AutoSize = true;
-            this.label7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label7.Font = new System.Drawing.Font("Arial", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(483, 300);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(61, 20);
-            this.label7.TabIndex = 8;
-            this.label7.Text = "Hawaii";
-            this.label7.Click += new System.EventHandler(this.label7_Click);
+            this.Hawaii.AutoSize = true;
+            this.Hawaii.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Hawaii.Font = new System.Drawing.Font("Arial", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Hawaii.Location = new System.Drawing.Point(483, 300);
+            this.Hawaii.Name = "Hawaii";
+            this.Hawaii.Size = new System.Drawing.Size(61, 20);
+            this.Hawaii.TabIndex = 8;
+            this.Hawaii.Text = "Hawaii";
+            this.Hawaii.Click += new System.EventHandler(this.label7_Click);
             // 
             // pictureBox2
             // 
@@ -257,142 +257,142 @@ namespace Uge_51___miniprojekt
             this.pictureBox4.TabStop = false;
             this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
-            // textBox1
+            // PeppTextBox
             // 
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Location = new System.Drawing.Point(390, 61);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(237, 24);
-            this.textBox1.TabIndex = 25;
-            this.textBox1.Text = "Med tomatsovs, ost, oregano og pepperoni.";
+            this.PeppTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.PeppTextBox.Location = new System.Drawing.Point(390, 61);
+            this.PeppTextBox.Multiline = true;
+            this.PeppTextBox.Name = "PeppTextBox";
+            this.PeppTextBox.Size = new System.Drawing.Size(237, 24);
+            this.PeppTextBox.TabIndex = 25;
+            this.PeppTextBox.Text = "Med tomatsovs, ost, oregano og pepperoni.";
             // 
-            // textBox2
+            // SkinkeTextBox
             // 
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox2.Location = new System.Drawing.Point(390, 189);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(237, 19);
-            this.textBox2.TabIndex = 26;
-            this.textBox2.Text = "Med tomatsovs, ost, oregano og skinke.";
+            this.SkinkeTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.SkinkeTextBox.Location = new System.Drawing.Point(390, 189);
+            this.SkinkeTextBox.Multiline = true;
+            this.SkinkeTextBox.Name = "SkinkeTextBox";
+            this.SkinkeTextBox.Size = new System.Drawing.Size(237, 19);
+            this.SkinkeTextBox.TabIndex = 26;
+            this.SkinkeTextBox.Text = "Med tomatsovs, ost, oregano og skinke.";
             // 
-            // textBox3
+            // HawaiiTextBox
             // 
-            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox3.Location = new System.Drawing.Point(390, 323);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(237, 21);
-            this.textBox3.TabIndex = 27;
-            this.textBox3.Text = "Med tomatsovs, ost, oregano, skinke og ananas.";
+            this.HawaiiTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.HawaiiTextBox.Location = new System.Drawing.Point(390, 323);
+            this.HawaiiTextBox.Multiline = true;
+            this.HawaiiTextBox.Name = "HawaiiTextBox";
+            this.HawaiiTextBox.Size = new System.Drawing.Size(237, 21);
+            this.HawaiiTextBox.TabIndex = 27;
+            this.HawaiiTextBox.Text = "Med tomatsovs, ost, oregano, skinke og ananas.";
             // 
-            // button1
+            // BestilKnap
             // 
-            this.button1.Font = new System.Drawing.Font("Arial", 20.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(29, 624);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(140, 55);
-            this.button1.TabIndex = 40;
-            this.button1.Text = "Bestil";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.BestilKnap.Font = new System.Drawing.Font("Arial", 20.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BestilKnap.Location = new System.Drawing.Point(29, 624);
+            this.BestilKnap.Name = "BestilKnap";
+            this.BestilKnap.Size = new System.Drawing.Size(140, 55);
+            this.BestilKnap.TabIndex = 40;
+            this.BestilKnap.Text = "Bestil";
+            this.BestilKnap.UseVisualStyleBackColor = true;
+            this.BestilKnap.Click += new System.EventHandler(this.button1_Click);
             // 
-            // label2
+            // AlmPepp
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(412, 116);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(34, 16);
-            this.label2.TabIndex = 41;
-            this.label2.Text = "Alm.";
+            this.AlmPepp.AutoSize = true;
+            this.AlmPepp.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AlmPepp.Location = new System.Drawing.Point(412, 116);
+            this.AlmPepp.Name = "AlmPepp";
+            this.AlmPepp.Size = new System.Drawing.Size(34, 16);
+            this.AlmPepp.TabIndex = 41;
+            this.AlmPepp.Text = "Alm.";
             // 
-            // label3
+            // FamPepp
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(412, 143);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(38, 16);
-            this.label3.TabIndex = 42;
-            this.label3.Text = "Fam.";
+            this.FamPepp.AutoSize = true;
+            this.FamPepp.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FamPepp.Location = new System.Drawing.Point(412, 143);
+            this.FamPepp.Name = "FamPepp";
+            this.FamPepp.Size = new System.Drawing.Size(38, 16);
+            this.FamPepp.TabIndex = 42;
+            this.FamPepp.Text = "Fam.";
             // 
-            // label5
+            // AlmSkinke
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(412, 245);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(34, 16);
-            this.label5.TabIndex = 43;
-            this.label5.Text = "Alm.";
+            this.AlmSkinke.AutoSize = true;
+            this.AlmSkinke.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AlmSkinke.Location = new System.Drawing.Point(412, 245);
+            this.AlmSkinke.Name = "AlmSkinke";
+            this.AlmSkinke.Size = new System.Drawing.Size(34, 16);
+            this.AlmSkinke.TabIndex = 43;
+            this.AlmSkinke.Text = "Alm.";
             // 
-            // label6
+            // SkinkeFam
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(412, 271);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(38, 16);
-            this.label6.TabIndex = 44;
-            this.label6.Text = "Fam.";
+            this.SkinkeFam.AutoSize = true;
+            this.SkinkeFam.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SkinkeFam.Location = new System.Drawing.Point(412, 271);
+            this.SkinkeFam.Name = "SkinkeFam";
+            this.SkinkeFam.Size = new System.Drawing.Size(38, 16);
+            this.SkinkeFam.TabIndex = 44;
+            this.SkinkeFam.Text = "Fam.";
             // 
-            // label8
+            // AlmHawaii
             // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(412, 376);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(34, 16);
-            this.label8.TabIndex = 45;
-            this.label8.Text = "Alm.";
+            this.AlmHawaii.AutoSize = true;
+            this.AlmHawaii.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AlmHawaii.Location = new System.Drawing.Point(412, 376);
+            this.AlmHawaii.Name = "AlmHawaii";
+            this.AlmHawaii.Size = new System.Drawing.Size(34, 16);
+            this.AlmHawaii.TabIndex = 45;
+            this.AlmHawaii.Text = "Alm.";
             // 
-            // label9
+            // HawaiiFam
             // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(412, 406);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(38, 16);
-            this.label9.TabIndex = 46;
-            this.label9.Text = "Fam.";
+            this.HawaiiFam.AutoSize = true;
+            this.HawaiiFam.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.HawaiiFam.Location = new System.Drawing.Point(412, 406);
+            this.HawaiiFam.Name = "HawaiiFam";
+            this.HawaiiFam.Size = new System.Drawing.Size(38, 16);
+            this.HawaiiFam.TabIndex = 46;
+            this.HawaiiFam.Text = "Fam.";
             // 
-            // label10
+            // LavDinEgen
             // 
-            this.label10.AutoSize = true;
-            this.label10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label10.Font = new System.Drawing.Font("Arial", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(483, 432);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(113, 20);
-            this.label10.TabIndex = 47;
-            this.label10.Text = "Lav-Din-Egen";
+            this.LavDinEgen.AutoSize = true;
+            this.LavDinEgen.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.LavDinEgen.Font = new System.Drawing.Font("Arial", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LavDinEgen.Location = new System.Drawing.Point(483, 432);
+            this.LavDinEgen.Name = "LavDinEgen";
+            this.LavDinEgen.Size = new System.Drawing.Size(113, 20);
+            this.LavDinEgen.TabIndex = 47;
+            this.LavDinEgen.Text = "Lav-Din-Egen";
             // 
-            // label11
+            // LavAlm
             // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(412, 508);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(34, 16);
-            this.label11.TabIndex = 52;
-            this.label11.Text = "Alm.";
+            this.LavAlm.AutoSize = true;
+            this.LavAlm.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LavAlm.Location = new System.Drawing.Point(412, 508);
+            this.LavAlm.Name = "LavAlm";
+            this.LavAlm.Size = new System.Drawing.Size(34, 16);
+            this.LavAlm.TabIndex = 52;
+            this.LavAlm.Text = "Alm.";
             // 
-            // label12
+            // LavFam
             // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(412, 534);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(38, 16);
-            this.label12.TabIndex = 53;
-            this.label12.Text = "Fam.";
+            this.LavFam.AutoSize = true;
+            this.LavFam.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LavFam.Location = new System.Drawing.Point(412, 534);
+            this.LavFam.Name = "LavFam";
+            this.LavFam.Size = new System.Drawing.Size(38, 16);
+            this.LavFam.TabIndex = 53;
+            this.LavFam.Text = "Fam.";
             // 
-            // listBox1
+            // IngredienserList
             // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.Items.AddRange(new object[] {
+            this.IngredienserList.FormattingEnabled = true;
+            this.IngredienserList.Items.AddRange(new object[] {
             "Pepperoni - 5.-",
             "Skinke - 5.-",
             "Tomat - 5.-",
@@ -402,11 +402,11 @@ namespace Uge_51___miniprojekt
             "Ananas - 5.-",
             "Bacon - 5.-",
             "Kebab - 5.-"});
-            this.listBox1.Location = new System.Drawing.Point(241, 61);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(120, 121);
-            this.listBox1.TabIndex = 63;
-            this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
+            this.IngredienserList.Location = new System.Drawing.Point(241, 61);
+            this.IngredienserList.Name = "IngredienserList";
+            this.IngredienserList.Size = new System.Drawing.Size(120, 121);
+            this.IngredienserList.TabIndex = 63;
+            this.IngredienserList.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
             // label16
             // 
@@ -472,35 +472,46 @@ namespace Uge_51___miniprojekt
             // panel1
             // 
             this.panel1.Controls.Add(this.totalSum);
-            this.panel1.Controls.Add(this.listView2);
-            this.panel1.Controls.Add(this.label17);
-            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.KurvListe);
+            this.panel1.Controls.Add(this.KurvTekst);
+            this.panel1.Controls.Add(this.BestilKnap);
             this.panel1.Location = new System.Drawing.Point(13, 38);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(212, 682);
             this.panel1.TabIndex = 69;
             // 
-            // listView2
+            // totalSum
             // 
-            this.listView2.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.listView2.HideSelection = false;
-            this.listView2.Location = new System.Drawing.Point(3, 48);
-            this.listView2.Name = "listView2";
-            this.listView2.Size = new System.Drawing.Size(206, 570);
-            this.listView2.TabIndex = 41;
-            this.listView2.UseCompatibleStateImageBehavior = false;
-            this.listView2.View = System.Windows.Forms.View.List;
-            this.listView2.SelectedIndexChanged += new System.EventHandler(this.listView2_SelectedIndexChanged);
+            this.totalSum.AutoSize = true;
+            this.totalSum.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.totalSum.Font = new System.Drawing.Font("Arial", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.totalSum.Location = new System.Drawing.Point(26, 593);
+            this.totalSum.Name = "totalSum";
+            this.totalSum.Size = new System.Drawing.Size(52, 18);
+            this.totalSum.TabIndex = 42;
+            this.totalSum.Text = "Sum: ";
             // 
-            // label17
+            // KurvListe
             // 
-            this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Arial", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.Location = new System.Drawing.Point(65, 16);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(92, 23);
-            this.label17.TabIndex = 0;
-            this.label17.Text = "Din Kurv";
+            this.KurvListe.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.KurvListe.HideSelection = false;
+            this.KurvListe.Location = new System.Drawing.Point(3, 48);
+            this.KurvListe.Name = "KurvListe";
+            this.KurvListe.Size = new System.Drawing.Size(206, 570);
+            this.KurvListe.TabIndex = 41;
+            this.KurvListe.UseCompatibleStateImageBehavior = false;
+            this.KurvListe.View = System.Windows.Forms.View.List;
+            this.KurvListe.SelectedIndexChanged += new System.EventHandler(this.listView2_SelectedIndexChanged);
+            // 
+            // KurvTekst
+            // 
+            this.KurvTekst.AutoSize = true;
+            this.KurvTekst.Font = new System.Drawing.Font("Arial", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.KurvTekst.Location = new System.Drawing.Point(65, 16);
+            this.KurvTekst.Name = "KurvTekst";
+            this.KurvTekst.Size = new System.Drawing.Size(92, 23);
+            this.KurvTekst.TabIndex = 0;
+            this.KurvTekst.Text = "Din Kurv";
             // 
             // Alm_Pepperoni
             // 
@@ -582,167 +593,167 @@ namespace Uge_51___miniprojekt
             this.Fam_DinEgen.UseVisualStyleBackColor = true;
             this.Fam_DinEgen.Click += new System.EventHandler(this.Fam_DinEgen_Click);
             // 
-            // label13
+            // LDETextbox
             // 
-            this.label13.AutoSize = true;
-            this.label13.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label13.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label13.Location = new System.Drawing.Point(390, 454);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(147, 13);
-            this.label13.TabIndex = 78;
-            this.label13.Text = "Med tomatsovs, ost, oregano.";
+            this.LDETextbox.AutoSize = true;
+            this.LDETextbox.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.LDETextbox.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.LDETextbox.Location = new System.Drawing.Point(390, 454);
+            this.LDETextbox.Name = "LDETextbox";
+            this.LDETextbox.Size = new System.Drawing.Size(147, 13);
+            this.LDETextbox.TabIndex = 78;
+            this.LDETextbox.Text = "Med tomatsovs, ost, oregano.";
             // 
-            // label15
+            // PeppAPris
             // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(457, 116);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(29, 16);
-            this.label15.TabIndex = 79;
-            this.label15.Text = "55.-";
+            this.PeppAPris.AutoSize = true;
+            this.PeppAPris.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PeppAPris.Location = new System.Drawing.Point(457, 116);
+            this.PeppAPris.Name = "PeppAPris";
+            this.PeppAPris.Size = new System.Drawing.Size(29, 16);
+            this.PeppAPris.TabIndex = 79;
+            this.PeppAPris.Text = "55.-";
             // 
-            // label18
+            // PeppFPris
             // 
-            this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.Location = new System.Drawing.Point(456, 143);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(36, 16);
-            this.label18.TabIndex = 80;
-            this.label18.Text = "105.-";
+            this.PeppFPris.AutoSize = true;
+            this.PeppFPris.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PeppFPris.Location = new System.Drawing.Point(456, 143);
+            this.PeppFPris.Name = "PeppFPris";
+            this.PeppFPris.Size = new System.Drawing.Size(36, 16);
+            this.PeppFPris.TabIndex = 80;
+            this.PeppFPris.Text = "105.-";
             // 
-            // label19
+            // SkinkeAPris
             // 
-            this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.Location = new System.Drawing.Point(456, 245);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(29, 16);
-            this.label19.TabIndex = 81;
-            this.label19.Text = "55.-";
+            this.SkinkeAPris.AutoSize = true;
+            this.SkinkeAPris.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SkinkeAPris.Location = new System.Drawing.Point(456, 245);
+            this.SkinkeAPris.Name = "SkinkeAPris";
+            this.SkinkeAPris.Size = new System.Drawing.Size(29, 16);
+            this.SkinkeAPris.TabIndex = 81;
+            this.SkinkeAPris.Text = "55.-";
             // 
-            // label20
+            // SkinkeFPris
             // 
-            this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.Location = new System.Drawing.Point(456, 271);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(36, 16);
-            this.label20.TabIndex = 82;
-            this.label20.Text = "105.-";
+            this.SkinkeFPris.AutoSize = true;
+            this.SkinkeFPris.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SkinkeFPris.Location = new System.Drawing.Point(456, 271);
+            this.SkinkeFPris.Name = "SkinkeFPris";
+            this.SkinkeFPris.Size = new System.Drawing.Size(36, 16);
+            this.SkinkeFPris.TabIndex = 82;
+            this.SkinkeFPris.Text = "105.-";
             // 
-            // label21
+            // HawaiiAPris
             // 
-            this.label21.AutoSize = true;
-            this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.Location = new System.Drawing.Point(456, 376);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(29, 16);
-            this.label21.TabIndex = 83;
-            this.label21.Text = "65.-";
+            this.HawaiiAPris.AutoSize = true;
+            this.HawaiiAPris.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.HawaiiAPris.Location = new System.Drawing.Point(456, 376);
+            this.HawaiiAPris.Name = "HawaiiAPris";
+            this.HawaiiAPris.Size = new System.Drawing.Size(29, 16);
+            this.HawaiiAPris.TabIndex = 83;
+            this.HawaiiAPris.Text = "65.-";
             // 
-            // label22
+            // HawaiiFPris
             // 
-            this.label22.AutoSize = true;
-            this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.Location = new System.Drawing.Point(456, 406);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(36, 16);
-            this.label22.TabIndex = 84;
-            this.label22.Text = "115.-";
+            this.HawaiiFPris.AutoSize = true;
+            this.HawaiiFPris.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.HawaiiFPris.Location = new System.Drawing.Point(456, 406);
+            this.HawaiiFPris.Name = "HawaiiFPris";
+            this.HawaiiFPris.Size = new System.Drawing.Size(36, 16);
+            this.HawaiiFPris.TabIndex = 84;
+            this.HawaiiFPris.Text = "115.-";
             // 
-            // label23
+            // LavAPris
             // 
-            this.label23.AutoSize = true;
-            this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label23.Location = new System.Drawing.Point(457, 508);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(29, 16);
-            this.label23.TabIndex = 85;
-            this.label23.Text = "50.-";
+            this.LavAPris.AutoSize = true;
+            this.LavAPris.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LavAPris.Location = new System.Drawing.Point(457, 508);
+            this.LavAPris.Name = "LavAPris";
+            this.LavAPris.Size = new System.Drawing.Size(29, 16);
+            this.LavAPris.TabIndex = 85;
+            this.LavAPris.Text = "50.-";
             // 
-            // label24
+            // LavFamPris
             // 
-            this.label24.AutoSize = true;
-            this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label24.Location = new System.Drawing.Point(457, 534);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(36, 16);
-            this.label24.TabIndex = 86;
-            this.label24.Text = "100.-";
+            this.LavFamPris.AutoSize = true;
+            this.LavFamPris.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LavFamPris.Location = new System.Drawing.Point(457, 534);
+            this.LavFamPris.Name = "LavFamPris";
+            this.LavFamPris.Size = new System.Drawing.Size(36, 16);
+            this.LavFamPris.TabIndex = 86;
+            this.LavFamPris.Text = "100.-";
             // 
-            // label25
+            // Drikkevarer
             // 
-            this.label25.AutoSize = true;
-            this.label25.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label25.Font = new System.Drawing.Font("Arial", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label25.Location = new System.Drawing.Point(483, 570);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(98, 20);
-            this.label25.TabIndex = 87;
-            this.label25.Text = "Drikkevarer";
+            this.Drikkevarer.AutoSize = true;
+            this.Drikkevarer.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Drikkevarer.Font = new System.Drawing.Font("Arial", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Drikkevarer.Location = new System.Drawing.Point(483, 570);
+            this.Drikkevarer.Name = "Drikkevarer";
+            this.Drikkevarer.Size = new System.Drawing.Size(98, 20);
+            this.Drikkevarer.TabIndex = 87;
+            this.Drikkevarer.Text = "Drikkevarer";
             // 
-            // button2
+            // LilleColaKnap
             // 
-            this.button2.Location = new System.Drawing.Point(390, 607);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(17, 20);
-            this.button2.TabIndex = 88;
-            this.button2.Text = "+";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click_1);
+            this.LilleColaKnap.Location = new System.Drawing.Point(390, 607);
+            this.LilleColaKnap.Name = "LilleColaKnap";
+            this.LilleColaKnap.Size = new System.Drawing.Size(17, 20);
+            this.LilleColaKnap.TabIndex = 88;
+            this.LilleColaKnap.Text = "+";
+            this.LilleColaKnap.UseVisualStyleBackColor = true;
+            this.LilleColaKnap.Click += new System.EventHandler(this.button2_Click_1);
             // 
-            // button3
+            // MellemColaKnap
             // 
-            this.button3.Location = new System.Drawing.Point(390, 633);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(17, 20);
-            this.button3.TabIndex = 89;
-            this.button3.Text = "+";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click_1);
+            this.MellemColaKnap.Location = new System.Drawing.Point(390, 633);
+            this.MellemColaKnap.Name = "MellemColaKnap";
+            this.MellemColaKnap.Size = new System.Drawing.Size(17, 20);
+            this.MellemColaKnap.TabIndex = 89;
+            this.MellemColaKnap.Text = "+";
+            this.MellemColaKnap.UseVisualStyleBackColor = true;
+            this.MellemColaKnap.Click += new System.EventHandler(this.button3_Click_1);
             // 
-            // label26
+            // LilleCola
             // 
-            this.label26.AutoSize = true;
-            this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label26.Location = new System.Drawing.Point(412, 607);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(87, 16);
-            this.label26.TabIndex = 91;
-            this.label26.Text = "Lille Cola 15.-";
+            this.LilleCola.AutoSize = true;
+            this.LilleCola.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LilleCola.Location = new System.Drawing.Point(412, 607);
+            this.LilleCola.Name = "LilleCola";
+            this.LilleCola.Size = new System.Drawing.Size(87, 16);
+            this.LilleCola.TabIndex = 91;
+            this.LilleCola.Text = "Lille Cola 15.-";
             // 
-            // label27
+            // MellemCola
             // 
-            this.label27.AutoSize = true;
-            this.label27.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label27.Location = new System.Drawing.Point(412, 633);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(107, 16);
-            this.label27.TabIndex = 92;
-            this.label27.Text = "Mellem Cola 20.-";
+            this.MellemCola.AutoSize = true;
+            this.MellemCola.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.MellemCola.Location = new System.Drawing.Point(412, 633);
+            this.MellemCola.Name = "MellemCola";
+            this.MellemCola.Size = new System.Drawing.Size(107, 16);
+            this.MellemCola.TabIndex = 92;
+            this.MellemCola.Text = "Mellem Cola 20.-";
             // 
-            // button5
+            // StorColaKnap
             // 
-            this.button5.Location = new System.Drawing.Point(390, 659);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(17, 20);
-            this.button5.TabIndex = 93;
-            this.button5.Text = "+";
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
+            this.StorColaKnap.Location = new System.Drawing.Point(390, 659);
+            this.StorColaKnap.Name = "StorColaKnap";
+            this.StorColaKnap.Size = new System.Drawing.Size(17, 20);
+            this.StorColaKnap.TabIndex = 93;
+            this.StorColaKnap.Text = "+";
+            this.StorColaKnap.UseVisualStyleBackColor = true;
+            this.StorColaKnap.Click += new System.EventHandler(this.button5_Click);
             // 
-            // label28
+            // StorCola
             // 
-            this.label28.AutoSize = true;
-            this.label28.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label28.Location = new System.Drawing.Point(412, 659);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(87, 16);
-            this.label28.TabIndex = 94;
-            this.label28.Text = "Stor Cola 25.-";
+            this.StorCola.AutoSize = true;
+            this.StorCola.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.StorCola.Location = new System.Drawing.Point(412, 659);
+            this.StorCola.Name = "StorCola";
+            this.StorCola.Size = new System.Drawing.Size(87, 16);
+            this.StorCola.TabIndex = 94;
+            this.StorCola.Text = "Stor Cola 25.-";
             // 
             // listBox2
             // 
@@ -779,17 +790,6 @@ namespace Uge_51___miniprojekt
             this.label29.TabIndex = 97;
             this.label29.Text = "99 99 99 99";
             // 
-            // totalSum
-            // 
-            this.totalSum.AutoSize = true;
-            this.totalSum.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.totalSum.Font = new System.Drawing.Font("Arial", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.totalSum.Location = new System.Drawing.Point(26, 593);
-            this.totalSum.Name = "totalSum";
-            this.totalSum.Size = new System.Drawing.Size(52, 18);
-            this.totalSum.TabIndex = 42;
-            this.totalSum.Text = "Sum: ";
-            // 
             // DashboardForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -799,22 +799,22 @@ namespace Uge_51___miniprojekt
             this.Controls.Add(this.label29);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.listBox2);
-            this.Controls.Add(this.label28);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.label27);
-            this.Controls.Add(this.label26);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.label25);
-            this.Controls.Add(this.label24);
-            this.Controls.Add(this.label23);
-            this.Controls.Add(this.label22);
-            this.Controls.Add(this.label21);
-            this.Controls.Add(this.label20);
-            this.Controls.Add(this.label19);
-            this.Controls.Add(this.label18);
-            this.Controls.Add(this.label15);
-            this.Controls.Add(this.label13);
+            this.Controls.Add(this.StorCola);
+            this.Controls.Add(this.StorColaKnap);
+            this.Controls.Add(this.MellemCola);
+            this.Controls.Add(this.LilleCola);
+            this.Controls.Add(this.MellemColaKnap);
+            this.Controls.Add(this.LilleColaKnap);
+            this.Controls.Add(this.Drikkevarer);
+            this.Controls.Add(this.LavFamPris);
+            this.Controls.Add(this.LavAPris);
+            this.Controls.Add(this.HawaiiFPris);
+            this.Controls.Add(this.HawaiiAPris);
+            this.Controls.Add(this.SkinkeFPris);
+            this.Controls.Add(this.SkinkeAPris);
+            this.Controls.Add(this.PeppFPris);
+            this.Controls.Add(this.PeppAPris);
+            this.Controls.Add(this.LDETextbox);
             this.Controls.Add(this.Fam_DinEgen);
             this.Controls.Add(this.Alm_DinEgen);
             this.Controls.Add(this.Fam_Hawaii);
@@ -829,25 +829,25 @@ namespace Uge_51___miniprojekt
             this.Controls.Add(this.comboBox2);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label16);
-            this.Controls.Add(this.listBox1);
-            this.Controls.Add(this.label12);
-            this.Controls.Add(this.label11);
-            this.Controls.Add(this.label10);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.IngredienserList);
+            this.Controls.Add(this.LavFam);
+            this.Controls.Add(this.LavAlm);
+            this.Controls.Add(this.LavDinEgen);
+            this.Controls.Add(this.HawaiiFam);
+            this.Controls.Add(this.AlmHawaii);
+            this.Controls.Add(this.SkinkeFam);
+            this.Controls.Add(this.AlmSkinke);
+            this.Controls.Add(this.FamPepp);
+            this.Controls.Add(this.AlmPepp);
+            this.Controls.Add(this.HawaiiTextBox);
+            this.Controls.Add(this.SkinkeTextBox);
+            this.Controls.Add(this.PeppTextBox);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.Hawaii);
+            this.Controls.Add(this.Skinke);
+            this.Controls.Add(this.Pepperoni);
             this.Controls.Add(this.listView1);
             this.Controls.Add(this.menuStrip1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -877,37 +877,37 @@ namespace Uge_51___miniprojekt
         private System.Windows.Forms.ToolStripMenuItem hawaiiToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem meatLoverToolStripMenuItem;
         private System.Windows.Forms.ListView listView1;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label Pepperoni;
         private System.Windows.Forms.ToolStripMenuItem bestilToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem hurtigstMuligtToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem bestemtTidToolStripMenuItem;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label Skinke;
         private System.Windows.Forms.ToolStripMenuItem menukortPizzaToolStripMenuItem;
-        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label Hawaii;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.TextBox PeppTextBox;
+        private System.Windows.Forms.TextBox SkinkeTextBox;
+        private System.Windows.Forms.TextBox HawaiiTextBox;
+        private System.Windows.Forms.Button BestilKnap;
+        private System.Windows.Forms.Label AlmPepp;
+        private System.Windows.Forms.Label FamPepp;
+        private System.Windows.Forms.Label AlmSkinke;
+        private System.Windows.Forms.Label SkinkeFam;
+        private System.Windows.Forms.Label AlmHawaii;
+        private System.Windows.Forms.Label HawaiiFam;
+        private System.Windows.Forms.Label LavDinEgen;
+        private System.Windows.Forms.Label LavAlm;
+        private System.Windows.Forms.Label LavFam;
+        private System.Windows.Forms.ListBox IngredienserList;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.ComboBox comboBox2;
         private System.Windows.Forms.ComboBox comboBox3;
         private System.Windows.Forms.ComboBox comboBox4;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Label KurvTekst;
         private System.Windows.Forms.Button Alm_Pepperoni;
         private System.Windows.Forms.Button Fam_Pepperoni;
         private System.Windows.Forms.Button Alm_Skinke;
@@ -916,23 +916,23 @@ namespace Uge_51___miniprojekt
         private System.Windows.Forms.Button Fam_Hawaii;
         private System.Windows.Forms.Button Alm_DinEgen;
         private System.Windows.Forms.Button Fam_DinEgen;
-        private System.Windows.Forms.ListView listView2;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.Label label24;
-        private System.Windows.Forms.Label label25;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Label label26;
-        private System.Windows.Forms.Label label27;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Label label28;
+        private System.Windows.Forms.ListView KurvListe;
+        private System.Windows.Forms.Label LDETextbox;
+        private System.Windows.Forms.Label PeppAPris;
+        private System.Windows.Forms.Label PeppFPris;
+        private System.Windows.Forms.Label SkinkeAPris;
+        private System.Windows.Forms.Label SkinkeFPris;
+        private System.Windows.Forms.Label HawaiiAPris;
+        private System.Windows.Forms.Label HawaiiFPris;
+        private System.Windows.Forms.Label LavAPris;
+        private System.Windows.Forms.Label LavFamPris;
+        private System.Windows.Forms.Label Drikkevarer;
+        private System.Windows.Forms.Button LilleColaKnap;
+        private System.Windows.Forms.Button MellemColaKnap;
+        private System.Windows.Forms.Label LilleCola;
+        private System.Windows.Forms.Label MellemCola;
+        private System.Windows.Forms.Button StorColaKnap;
+        private System.Windows.Forms.Label StorCola;
         private System.Windows.Forms.ListBox listBox2;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label29;

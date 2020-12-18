@@ -97,9 +97,9 @@ namespace Uge_51___miniprojekt
         {
             // Tester
             // Første label = pizza. Combobox = dej valg. midt label = størrelsen. Sidste label = pris. (Gælder for alle nedenstående voids).
-            string[] row = { label1.Text + " - " + comboBox1.SelectedItem + " - " + label2.Text + " " + label15.Text };
+            string[] row = { Pepperoni.Text + " - " + comboBox1.SelectedItem + " - " + AlmPepp.Text + " " + PeppAPris.Text };
             var listViewItem = new ListViewItem(row);
-            listView2.Items.Add(listViewItem);
+            KurvListe.Items.Add(listViewItem);
             // Udregning af pris + visning af pris
             sum += 55;
             totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
@@ -108,72 +108,72 @@ namespace Uge_51___miniprojekt
         // Pepperoni fam.
         private void button3_Click(object sender, EventArgs e)
         {
-            string[] row = { label1.Text + " - " + comboBox1.SelectedItem + " - " + label3.Text + " " + label18.Text };
+            string[] row = { Pepperoni.Text + " - " + comboBox1.SelectedItem + " - " + FamPepp.Text + " " + PeppFPris.Text };
             var listViewItem = new ListViewItem(row);
-            listView2.Items.Add(listViewItem);
+            KurvListe.Items.Add(listViewItem);
             sum += 105;
             totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
         }
         
         private void Alm_Skinke_Click(object sender, EventArgs e)
         {
-            string[] row = { label4.Text + " - " + comboBox2.SelectedItem + " - " + label5.Text + " " + label19.Text };
+            string[] row = { Skinke.Text + " - " + comboBox2.SelectedItem + " - " + AlmSkinke.Text + " " + SkinkeAPris.Text };
             var listViewItem = new ListViewItem(row);
-            listView2.Items.Add(listViewItem);
+            KurvListe.Items.Add(listViewItem);
             sum += 55;
             totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
         }
 
         private void Fam_Skinke_Click(object sender, EventArgs e)
         {
-            string[] row = { label4.Text + " - " + comboBox2.SelectedItem + " - " + label6.Text + " " + label20.Text };
+            string[] row = { Skinke.Text + " - " + comboBox2.SelectedItem + " - " + SkinkeFam.Text + " " + SkinkeFPris.Text };
             var listViewItem = new ListViewItem(row);
-            listView2.Items.Add(listViewItem);
+            KurvListe.Items.Add(listViewItem);
             sum += 105;
             totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
         }
 
         private void Alm_Hawaii_Click(object sender, EventArgs e)
         {
-            string[] row = { label7.Text + " - " + comboBox3.SelectedItem + " - " + label8.Text + " " + label21.Text };
+            string[] row = { Hawaii.Text + " - " + comboBox3.SelectedItem + " - " + AlmHawaii.Text + " " + HawaiiAPris.Text };
             var listViewItem = new ListViewItem(row);
-            listView2.Items.Add(listViewItem);
+            KurvListe.Items.Add(listViewItem);
             sum += 65;
             totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
         }
 
         private void Fam_Hawaii_Click(object sender, EventArgs e)
         {
-            string[] row = { label7.Text + " - " + comboBox3.SelectedItem + " - " + label9.Text + " " + label22.Text };
+            string[] row = { Hawaii.Text + " - " + comboBox3.SelectedItem + " - " + HawaiiFam.Text + " " + HawaiiFPris.Text };
             var listViewItem = new ListViewItem(row);
-            listView2.Items.Add(listViewItem);
+            KurvListe.Items.Add(listViewItem);
             sum += 115;
             totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
         }
 
         private void Alm_DinEgen_Click(object sender, EventArgs e)
         {
-            string[] row = { label10.Text + " - " + comboBox4.SelectedItem + " - " + label11.Text + " " + label23.Text };
+            string[] row = { LavDinEgen.Text + " - " + comboBox4.SelectedItem + " - " + LavAlm.Text + " " + LavAPris.Text };
             var listViewItem = new ListViewItem(row);
-            listView2.Items.Add(listViewItem);
+            KurvListe.Items.Add(listViewItem);
             sum += 50;
             totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
         }
 
         private void Fam_DinEgen_Click(object sender, EventArgs e)
         {
-            string[] row = { label10.Text + " - " + comboBox4.SelectedItem + " - " + label12.Text + " " + label24.Text };
+            string[] row = { LavDinEgen.Text + " - " + comboBox4.SelectedItem + " - " + LavFam.Text + " " + LavFamPris.Text };
             var listViewItem = new ListViewItem(row);
-            listView2.Items.Add(listViewItem);
+            KurvListe.Items.Add(listViewItem);
             sum += 100;
             totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
         }
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            string[] rowExtra = { listBox1.SelectedItem.ToString() };
+            string[] rowExtra = { IngredienserList.SelectedItem.ToString() };
             var listViewItem = new ListViewItem(rowExtra);
-            listView2.Items.Add(listViewItem);
+            KurvListe.Items.Add(listViewItem);
             sum += 5;
             totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
         }
@@ -185,34 +185,34 @@ namespace Uge_51___miniprojekt
         {
             string[] row = { listBox2.SelectedItem.ToString() };
             var listViewItem = new ListViewItem(row);
-            listView2.Items.Add(listViewItem);
+            KurvListe.Items.Add(listViewItem);
             totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
         }
 
 
         private void button2_Click_1(object sender, EventArgs e)
         {
-            string[] row = { label26.Text };
+            string[] row = { LilleCola.Text };
             var listViewItem = new ListViewItem(row);
-            listView2.Items.Add(listViewItem);
+            KurvListe.Items.Add(listViewItem);
             sum += 15;
             totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
         }
 
         private void button3_Click_1(object sender, EventArgs e)
         {
-            string[] row = { label27.Text };
+            string[] row = { MellemCola.Text };
             var listViewItem = new ListViewItem(row);
-            listView2.Items.Add(listViewItem);
+            KurvListe.Items.Add(listViewItem);
             sum += 20;
             totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
-            string[] row = { label28.Text };
+            string[] row = { StorCola.Text };
             var listViewItem = new ListViewItem(row);
-            listView2.Items.Add(listViewItem);
+            KurvListe.Items.Add(listViewItem);
             sum += 25;
             totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
         }
