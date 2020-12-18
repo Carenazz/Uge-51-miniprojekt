@@ -93,10 +93,11 @@ namespace Uge_51___miniprojekt
         }
 
         #region Knapper som tilføjer til kurv og tilføjer sum.
-        // Pepperoni alm.
 
+        // Samlet sum int
         int sum = 0;
 
+        // Pepperoni alm.
         private void button2_Click(object sender, EventArgs e)
         {
             // Tester
@@ -187,6 +188,8 @@ namespace Uge_51___miniprojekt
 
         #region Drikkevarer
 
+
+        // Mærke på sodavand.
         private void listBox2_SelectedIndexChanged(object sender, EventArgs e)
         {
             string[] row = { listBox2.SelectedItem.ToString() };
@@ -195,7 +198,7 @@ namespace Uge_51___miniprojekt
             totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
         }
 
-
+        // Størrelsen på sodavand.
         private void button2_Click_1(object sender, EventArgs e)
         {
             string[] row = { LilleCola.Text };
