@@ -44,9 +44,9 @@ namespace Uge_51___miniprojekt
             this.Pepperoni = new System.Windows.Forms.Label();
             this.Skinke = new System.Windows.Forms.Label();
             this.Hawaii = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.PizzaPepp = new System.Windows.Forms.PictureBox();
+            this.PizzaSkinke = new System.Windows.Forms.PictureBox();
+            this.PizzaHawaii = new System.Windows.Forms.PictureBox();
             this.PeppTextBox = new System.Windows.Forms.TextBox();
             this.SkinkeTextBox = new System.Windows.Forms.TextBox();
             this.HawaiiTextBox = new System.Windows.Forms.TextBox();
@@ -66,7 +66,7 @@ namespace Uge_51___miniprojekt
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.comboBox3 = new System.Windows.Forms.ComboBox();
             this.comboBox4 = new System.Windows.Forms.ComboBox();
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.KurvPanel = new System.Windows.Forms.Panel();
             this.totalSum = new System.Windows.Forms.Label();
             this.KurvListe = new System.Windows.Forms.ListView();
             this.KurvTekst = new System.Windows.Forms.Label();
@@ -95,13 +95,13 @@ namespace Uge_51___miniprojekt
             this.StorColaKnap = new System.Windows.Forms.Button();
             this.StorCola = new System.Windows.Forms.Label();
             this.listBox2 = new System.Windows.Forms.ListBox();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label29 = new System.Windows.Forms.Label();
+            this.Kontakt = new System.Windows.Forms.Label();
+            this.Nummer = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PizzaPepp)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PizzaSkinke)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PizzaHawaii)).BeginInit();
+            this.KurvPanel.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -226,36 +226,36 @@ namespace Uge_51___miniprojekt
             this.Hawaii.Text = "Hawaii";
             this.Hawaii.Click += new System.EventHandler(this.label7_Click);
             // 
-            // pictureBox2
+            // PizzaPepp
             // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(683, 38);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(219, 127);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 22;
-            this.pictureBox2.TabStop = false;
+            this.PizzaPepp.Image = ((System.Drawing.Image)(resources.GetObject("PizzaPepp.Image")));
+            this.PizzaPepp.Location = new System.Drawing.Point(683, 38);
+            this.PizzaPepp.Name = "PizzaPepp";
+            this.PizzaPepp.Size = new System.Drawing.Size(219, 127);
+            this.PizzaPepp.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.PizzaPepp.TabIndex = 22;
+            this.PizzaPepp.TabStop = false;
             // 
-            // pictureBox3
+            // PizzaSkinke
             // 
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(683, 166);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(219, 138);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 23;
-            this.pictureBox3.TabStop = false;
+            this.PizzaSkinke.Image = ((System.Drawing.Image)(resources.GetObject("PizzaSkinke.Image")));
+            this.PizzaSkinke.Location = new System.Drawing.Point(683, 166);
+            this.PizzaSkinke.Name = "PizzaSkinke";
+            this.PizzaSkinke.Size = new System.Drawing.Size(219, 138);
+            this.PizzaSkinke.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.PizzaSkinke.TabIndex = 23;
+            this.PizzaSkinke.TabStop = false;
             // 
-            // pictureBox4
+            // PizzaHawaii
             // 
-            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(683, 308);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(219, 160);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4.TabIndex = 24;
-            this.pictureBox4.TabStop = false;
-            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
+            this.PizzaHawaii.Image = ((System.Drawing.Image)(resources.GetObject("PizzaHawaii.Image")));
+            this.PizzaHawaii.Location = new System.Drawing.Point(683, 308);
+            this.PizzaHawaii.Name = "PizzaHawaii";
+            this.PizzaHawaii.Size = new System.Drawing.Size(219, 160);
+            this.PizzaHawaii.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.PizzaHawaii.TabIndex = 24;
+            this.PizzaHawaii.TabStop = false;
+            this.PizzaHawaii.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
             // PeppTextBox
             // 
@@ -469,16 +469,16 @@ namespace Uge_51___miniprojekt
             this.comboBox4.TabIndex = 68;
             this.comboBox4.Text = "-Vælg dej-";
             // 
-            // panel1
+            // KurvPanel
             // 
-            this.panel1.Controls.Add(this.totalSum);
-            this.panel1.Controls.Add(this.KurvListe);
-            this.panel1.Controls.Add(this.KurvTekst);
-            this.panel1.Controls.Add(this.BestilKnap);
-            this.panel1.Location = new System.Drawing.Point(13, 38);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(212, 682);
-            this.panel1.TabIndex = 69;
+            this.KurvPanel.Controls.Add(this.totalSum);
+            this.KurvPanel.Controls.Add(this.KurvListe);
+            this.KurvPanel.Controls.Add(this.KurvTekst);
+            this.KurvPanel.Controls.Add(this.BestilKnap);
+            this.KurvPanel.Location = new System.Drawing.Point(13, 38);
+            this.KurvPanel.Name = "KurvPanel";
+            this.KurvPanel.Size = new System.Drawing.Size(212, 682);
+            this.KurvPanel.TabIndex = 69;
             // 
             // totalSum
             // 
@@ -770,25 +770,25 @@ namespace Uge_51___miniprojekt
             this.listBox2.TabIndex = 95;
             this.listBox2.SelectedIndexChanged += new System.EventHandler(this.listBox2_SelectedIndexChanged);
             // 
-            // label14
+            // Kontakt
             // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Arial Black", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(684, 477);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(235, 30);
-            this.label14.TabIndex = 96;
-            this.label14.Text = "Eller kontakt os på:";
+            this.Kontakt.AutoSize = true;
+            this.Kontakt.Font = new System.Drawing.Font("Arial Black", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Kontakt.Location = new System.Drawing.Point(684, 477);
+            this.Kontakt.Name = "Kontakt";
+            this.Kontakt.Size = new System.Drawing.Size(235, 30);
+            this.Kontakt.TabIndex = 96;
+            this.Kontakt.Text = "Eller kontakt os på:";
             // 
-            // label29
+            // Nummer
             // 
-            this.label29.AutoSize = true;
-            this.label29.Font = new System.Drawing.Font("Arial Black", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label29.Location = new System.Drawing.Point(685, 507);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(105, 22);
-            this.label29.TabIndex = 97;
-            this.label29.Text = "99 99 99 99";
+            this.Nummer.AutoSize = true;
+            this.Nummer.Font = new System.Drawing.Font("Arial Black", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Nummer.Location = new System.Drawing.Point(685, 507);
+            this.Nummer.Name = "Nummer";
+            this.Nummer.Size = new System.Drawing.Size(105, 22);
+            this.Nummer.TabIndex = 97;
+            this.Nummer.Text = "99 99 99 99";
             // 
             // DashboardForm
             // 
@@ -796,8 +796,8 @@ namespace Uge_51___miniprojekt
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(1062, 745);
-            this.Controls.Add(this.label29);
-            this.Controls.Add(this.label14);
+            this.Controls.Add(this.Nummer);
+            this.Controls.Add(this.Kontakt);
             this.Controls.Add(this.listBox2);
             this.Controls.Add(this.StorCola);
             this.Controls.Add(this.StorColaKnap);
@@ -823,7 +823,7 @@ namespace Uge_51___miniprojekt
             this.Controls.Add(this.Alm_Skinke);
             this.Controls.Add(this.Fam_Pepperoni);
             this.Controls.Add(this.Alm_Pepperoni);
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.KurvPanel);
             this.Controls.Add(this.comboBox4);
             this.Controls.Add(this.comboBox3);
             this.Controls.Add(this.comboBox2);
@@ -842,9 +842,9 @@ namespace Uge_51___miniprojekt
             this.Controls.Add(this.HawaiiTextBox);
             this.Controls.Add(this.SkinkeTextBox);
             this.Controls.Add(this.PeppTextBox);
-            this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.PizzaHawaii);
+            this.Controls.Add(this.PizzaSkinke);
+            this.Controls.Add(this.PizzaPepp);
             this.Controls.Add(this.Hawaii);
             this.Controls.Add(this.Skinke);
             this.Controls.Add(this.Pepperoni);
@@ -858,11 +858,11 @@ namespace Uge_51___miniprojekt
             this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PizzaPepp)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PizzaSkinke)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PizzaHawaii)).EndInit();
+            this.KurvPanel.ResumeLayout(false);
+            this.KurvPanel.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -884,9 +884,9 @@ namespace Uge_51___miniprojekt
         private System.Windows.Forms.Label Skinke;
         private System.Windows.Forms.ToolStripMenuItem menukortPizzaToolStripMenuItem;
         private System.Windows.Forms.Label Hawaii;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.PictureBox PizzaPepp;
+        private System.Windows.Forms.PictureBox PizzaSkinke;
+        private System.Windows.Forms.PictureBox PizzaHawaii;
         private System.Windows.Forms.TextBox PeppTextBox;
         private System.Windows.Forms.TextBox SkinkeTextBox;
         private System.Windows.Forms.TextBox HawaiiTextBox;
@@ -906,7 +906,7 @@ namespace Uge_51___miniprojekt
         private System.Windows.Forms.ComboBox comboBox2;
         private System.Windows.Forms.ComboBox comboBox3;
         private System.Windows.Forms.ComboBox comboBox4;
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel KurvPanel;
         private System.Windows.Forms.Label KurvTekst;
         private System.Windows.Forms.Button Alm_Pepperoni;
         private System.Windows.Forms.Button Fam_Pepperoni;
@@ -934,8 +934,8 @@ namespace Uge_51___miniprojekt
         private System.Windows.Forms.Button StorColaKnap;
         private System.Windows.Forms.Label StorCola;
         private System.Windows.Forms.ListBox listBox2;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Label label29;
+        private System.Windows.Forms.Label Kontakt;
+        private System.Windows.Forms.Label Nummer;
         private System.Windows.Forms.Label totalSum;
     }
 }

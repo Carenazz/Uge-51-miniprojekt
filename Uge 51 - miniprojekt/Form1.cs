@@ -169,6 +169,8 @@ namespace Uge_51___miniprojekt
             totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
         }
 
+
+        // Ingredienser
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
             string[] rowExtra = { IngredienserList.SelectedItem.ToString() };
