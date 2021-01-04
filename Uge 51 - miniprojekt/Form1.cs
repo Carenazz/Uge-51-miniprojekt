@@ -95,10 +95,12 @@ namespace Uge_51___miniprojekt
 
         #endregion
 
+        #region Kurven
         private void listView2_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }
+        #endregion
 
         #region Knapper som tilføjer til kurv og tilføjer sum.
 
@@ -113,6 +115,7 @@ namespace Uge_51___miniprojekt
             string[] row = { Pepperoni.Text + " - " + comboBox1.SelectedItem + " - " + AlmPepp.Text + " " + PeppAPris.Text };
             var listViewItem = new ListViewItem(row);
             KurvListe.Items.Add(listViewItem);
+            KurvListe.Button.Add(Remove_Button);
             // Udregning af pris + visning af pris
             sum += 55;
             totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
@@ -238,7 +241,7 @@ namespace Uge_51___miniprojekt
 
 
         // Planlagt fortryd knap til ting i kurven.
-        private void Undo_Button(object sender, EventArgs e)
+        private void Remove_Button(object sender, EventArgs e)
         {
             
         }
