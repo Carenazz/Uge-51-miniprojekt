@@ -16,6 +16,7 @@ namespace Uge_51___miniprojekt
         public DashboardForm()
         {
             InitializeComponent();
+            this.Shown += RemoveButtonDelegate;
         }
         #endregion
 
@@ -240,12 +241,14 @@ namespace Uge_51___miniprojekt
 
 
         // Planlagt fortryd knap til ting i kurven.
-        private void Remove_Button(object sender, EventArgs e)
+        private void RemoveButtonDelegate(object sender, EventArgs e)
         {
             Button removeButton = new Button();
             this.Controls.Add(removeButton);
             removeButton.Text = "-";
+            removeButton.Location = new Point(70, 70);
             removeButton.Size = new Size(17, 20);
+            removeButton.Location = new Point(20, 50);
         }
     }
 }
