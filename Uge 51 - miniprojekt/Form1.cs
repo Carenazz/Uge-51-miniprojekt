@@ -235,5 +235,12 @@ namespace Uge_51___miniprojekt
         }
 
         #endregion
+
+
+        // Planlagt fortryd knap til ting i kurven.
+        private void Undo_Button(object sender, EventArgs e)
+        {
+            
+        }
     }
 }
