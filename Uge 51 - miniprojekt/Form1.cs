@@ -16,14 +16,13 @@ namespace Uge_51___miniprojekt
         public DashboardForm()
         {
             InitializeComponent();
-            this.Shown += RemoveButtonDelegate;
         }
         #endregion
 
         #region Usikker på hvad er indtil videre.
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            
         }
 
 
@@ -119,6 +118,9 @@ namespace Uge_51___miniprojekt
             // Udregning af pris + visning af pris
             sum += 55;
             totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
+
+            // test til at adde en "-" knap
+            RemoveButton();
         }
 
         // Pepperoni fam.
@@ -239,16 +241,27 @@ namespace Uge_51___miniprojekt
 
         #endregion
 
+        // Knap position.
+
+        int y = 0;
 
         // Planlagt fortryd knap til ting i kurven.
-        private void RemoveButtonDelegate(object sender, EventArgs e)
+        private void RemoveButton()
         {
             Button removeButton = new Button();
-            this.Controls.Add(removeButton);
+            removeButton.Name = "Undo";
             removeButton.Text = "-";
-            removeButton.Location = new Point(70, 70);
+            removeButton.Location = new Point(70, 20 + y);
             removeButton.Size = new Size(17, 20);
-            removeButton.Location = new Point(20, 50);
+            removeButton.Click += new EventHandler(removeButton_Click);
+            panel1.Controls.Add(removeButton);
+            y += 10;
+        }
+
+        // Kode test for dynamisk knap.
+        void removeButton_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Test");
         }
     }
 }
