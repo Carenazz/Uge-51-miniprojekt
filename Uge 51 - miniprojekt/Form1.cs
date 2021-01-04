@@ -12,11 +12,14 @@ namespace Uge_51___miniprojekt
 {
     public partial class DashboardForm : Form
     {
+        #region Dashboard
         public DashboardForm()
         {
             InitializeComponent();
         }
+        #endregion
 
+        #region Usikker på hvad er indtil videre.
         private void Form1_Load(object sender, EventArgs e)
         {
 
@@ -27,6 +30,8 @@ namespace Uge_51___miniprojekt
         {
 
         }
+
+        #endregion
 
         #region Kan ikke fjernes uden det ødelægger programmet (kigges mere ind på)
         private void label1_Click(object sender, EventArgs e)
@@ -81,11 +86,14 @@ namespace Uge_51___miniprojekt
 
         #endregion
 
-        // BestillingsKnap
+        #region Bestillings knap
+
         private void button1_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Bestillingen er modtaget");
         }
+
+        #endregion
 
         private void listView2_SelectedIndexChanged(object sender, EventArgs e)
         {
