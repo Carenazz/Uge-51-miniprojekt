@@ -115,7 +115,6 @@ namespace Uge_51___miniprojekt
             string[] row = { Pepperoni.Text + " - " + comboBox1.SelectedItem + " - " + AlmPepp.Text + " " + PeppAPris.Text };
             var listViewItem = new ListViewItem(row);
             KurvListe.Items.Add(listViewItem);
-            KurvListe.Button.Add(Remove_Button);
             // Udregning af pris + visning af pris
             sum += 55;
             totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
@@ -243,7 +242,10 @@ namespace Uge_51___miniprojekt
         // Planlagt fortryd knap til ting i kurven.
         private void Remove_Button(object sender, EventArgs e)
         {
-            
+            Button removeButton = new Button();
+            this.Controls.Add(removeButton);
+            removeButton.Text = "-";
+            removeButton.Size = new Size(17, 20);
         }
     }
 }
