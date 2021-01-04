@@ -119,7 +119,7 @@ namespace Uge_51___miniprojekt
             sum += 55;
             totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
 
-            // test til at adde en "-" knap
+            // test til at adde en "-" knap (Virker ikke indtil videre)
             RemoveButton();
         }
 
