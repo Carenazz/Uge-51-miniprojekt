@@ -254,7 +254,7 @@ namespace Uge_51___miniprojekt
             removeButton.Location = new Point(70, 20 + y);
             removeButton.Size = new Size(17, 20);
             removeButton.Click += new EventHandler(removeButton_Click);
-            panel1.Controls.Add(removeButton);
+            listView1.Controls.Add(removeButton);
             y += 10;
         }
 
