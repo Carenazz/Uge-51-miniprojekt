@@ -288,10 +288,10 @@ namespace Uge_51___miniprojekt
             newButton.Name = "Undo";
             newButton.Text = "-";
             newButton.Location = new Point(180, 0 + yUndo);
-            newButton.Size = new Size(17, 20);
+            newButton.Size = new Size(17, 17);
             newButton.Click += new EventHandler(removeButton_Click);
             KurvListe.Controls.Add(newButton);
-            yUndo += 20;
+            yUndo += 17;
         }
     }
 }
