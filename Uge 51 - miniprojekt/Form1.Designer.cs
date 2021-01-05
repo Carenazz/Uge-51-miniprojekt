@@ -97,6 +97,7 @@ namespace Uge_51___miniprojekt
             this.listBox2 = new System.Windows.Forms.ListBox();
             this.Kontakt = new System.Windows.Forms.Label();
             this.Nummer = new System.Windows.Forms.Label();
+            this.Tester = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PizzaPepp)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PizzaSkinke)).BeginInit();
@@ -790,12 +791,23 @@ namespace Uge_51___miniprojekt
             this.Nummer.TabIndex = 97;
             this.Nummer.Text = "99 99 99 99";
             // 
+            // Tester
+            // 
+            this.Tester.Location = new System.Drawing.Point(241, 203);
+            this.Tester.Name = "Tester";
+            this.Tester.Size = new System.Drawing.Size(75, 23);
+            this.Tester.TabIndex = 98;
+            this.Tester.Text = "TestKnap";
+            this.Tester.UseVisualStyleBackColor = true;
+            this.Tester.Click += new System.EventHandler(this.Tester_Click);
+            // 
             // DashboardForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(1062, 745);
+            this.Controls.Add(this.Tester);
             this.Controls.Add(this.Nummer);
             this.Controls.Add(this.Kontakt);
             this.Controls.Add(this.listBox2);
@@ -937,6 +949,7 @@ namespace Uge_51___miniprojekt
         private System.Windows.Forms.Label Kontakt;
         private System.Windows.Forms.Label Nummer;
         private System.Windows.Forms.Label totalSum;
+        private System.Windows.Forms.Button Tester;
     }
 }
 

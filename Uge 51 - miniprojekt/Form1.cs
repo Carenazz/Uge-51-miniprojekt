@@ -120,7 +120,7 @@ namespace Uge_51___miniprojekt
             totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
 
             // test til at adde en "-" knap (Virker ikke indtil videre)
-            RemoveButton();
+            Tester_Click(sender, e);
         }
 
         // Pepperoni fam.
@@ -245,18 +245,6 @@ namespace Uge_51___miniprojekt
 
         int y = 0;
 
-        // Planlagt fortryd knap til ting i kurven.
-        private void RemoveButton()
-        {
-            Button removeButton = new Button();
-            removeButton.Name = "Undo";
-            removeButton.Text = "-";
-            removeButton.Location = new Point(70, 20 + y);
-            removeButton.Size = new Size(17, 20);
-            removeButton.Click += new EventHandler(removeButton_Click);
-            listView1.Controls.Add(removeButton);
-            y += 10;
-        }
 
         // Kode test for dynamisk knap.
         void removeButton_Click(object sender, EventArgs e)
@@ -266,15 +254,18 @@ namespace Uge_51___miniprojekt
 
         // Testing things.
 
-        private void TestButton_Click(object sender, EventArgs e)
+        private void Tester_Click(object sender, EventArgs e)
         {
             List<Button> buttons = new List<Button>();
-            for (int i = 0; i < 20; i++)
-            {
-                Button newButton = new Button();
-                buttons.Add(newButton);
-                this.Controls.Add(newButton);
-            }
+            Button newButton = new Button();
+            buttons.Add(newButton);
+            newButton.Name = "Undo";
+            newButton.Text = "-";
+            newButton.Location = new Point(180, 0 + y);
+            newButton.Size = new Size(17, 20);
+            newButton.Click += new EventHandler(removeButton_Click);
+            KurvListe.Controls.Add(newButton);
+            y += 20;
         }
     }
 }
