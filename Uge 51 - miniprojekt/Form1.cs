@@ -269,9 +269,11 @@ namespace Uge_51___miniprojekt
         #region Fortryd knap.
 
         // Kode test for dynamisk knap (Void Tester).
+        int removeIndex = -1;
         void removeButton_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Test");
+            KurvListe.Items.RemoveAt(0 + removeIndex);
+            removeIndex -= 1;
         }
 
         // Knap position
@@ -294,6 +296,7 @@ namespace Uge_51___miniprojekt
             KurvListe.Controls.Add(newButton);
             // Sætter den næste knap på næste del af "y-aksen" som set på "location"
             yUndo += 17;
+            removeIndex += 1;
         }
 
         #endregion
