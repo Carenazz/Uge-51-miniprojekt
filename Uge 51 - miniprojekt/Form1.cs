@@ -106,11 +106,11 @@ namespace Uge_51___miniprojekt
 
         // Samlet sum int
         int sum = 0;
+        int yKurv = 0;
 
         // Pepperoni alm.
         private void button2_Click(object sender, EventArgs e)
         {
-            // Tester
             // Første label = pizza. Combobox = dej valg. midt label = størrelsen. Sidste label = pris. (Gælder for alle nedenstående voids).
             string[] row = { Pepperoni.Text + " - " + comboBox1.SelectedItem + " - " + AlmPepp.Text + " " + PeppAPris.Text };
             var listViewItem = new ListViewItem(row);
@@ -119,7 +119,7 @@ namespace Uge_51___miniprojekt
             sum += 55;
             totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
 
-            // test til at adde en "-" knap (Virker ikke indtil videre)
+            // test til at adde en "-" knap.
             Tester_Click(sender, e);
         }
 
@@ -241,10 +241,6 @@ namespace Uge_51___miniprojekt
 
         #endregion
 
-        // Knap position.
-
-        int y = 0;
-
 
         // Kode test for dynamisk knap.
         void removeButton_Click(object sender, EventArgs e)
@@ -254,6 +250,11 @@ namespace Uge_51___miniprojekt
 
         // Testing things.
 
+        // Knap position
+        int yUndo = 0;
+
+
+        // Knap som laver knapper test
         private void Tester_Click(object sender, EventArgs e)
         {
             List<Button> buttons = new List<Button>();
@@ -261,11 +262,11 @@ namespace Uge_51___miniprojekt
             buttons.Add(newButton);
             newButton.Name = "Undo";
             newButton.Text = "-";
-            newButton.Location = new Point(180, 0 + y);
+            newButton.Location = new Point(180, 0 + yUndo);
             newButton.Size = new Size(17, 20);
             newButton.Click += new EventHandler(removeButton_Click);
             KurvListe.Controls.Add(newButton);
-            y += 20;
+            yUndo += 20;
         }
     }
 }
