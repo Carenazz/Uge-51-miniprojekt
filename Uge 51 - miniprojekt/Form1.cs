@@ -120,7 +120,7 @@ namespace Uge_51___miniprojekt
             totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
 
             // test til at adde en "-" knap.
-            Tester(sender, e);
+            DynamiskFortrydKnap(sender, e);
         }
 
         // Pepperoni fam.
@@ -132,7 +132,7 @@ namespace Uge_51___miniprojekt
             sum += 105;
             totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
 
-            Tester(sender, e);
+            DynamiskFortrydKnap(sender, e);
         }
         
         private void Alm_Skinke_Click(object sender, EventArgs e)
@@ -143,7 +143,7 @@ namespace Uge_51___miniprojekt
             sum += 55;
             totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
 
-            Tester(sender, e);
+            DynamiskFortrydKnap(sender, e);
         }
 
         private void Fam_Skinke_Click(object sender, EventArgs e)
@@ -154,7 +154,7 @@ namespace Uge_51___miniprojekt
             sum += 105;
             totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
 
-            Tester(sender, e);
+            DynamiskFortrydKnap(sender, e);
         }
 
         private void Alm_Hawaii_Click(object sender, EventArgs e)
@@ -165,7 +165,7 @@ namespace Uge_51___miniprojekt
             sum += 65;
             totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
 
-            Tester(sender, e);
+            DynamiskFortrydKnap(sender, e);
         }
 
         private void Fam_Hawaii_Click(object sender, EventArgs e)
@@ -176,7 +176,7 @@ namespace Uge_51___miniprojekt
             sum += 115;
             totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
 
-            Tester(sender, e);
+            DynamiskFortrydKnap(sender, e);
         }
 
         private void Alm_DinEgen_Click(object sender, EventArgs e)
@@ -187,7 +187,7 @@ namespace Uge_51___miniprojekt
             sum += 50;
             totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
 
-            Tester(sender, e);
+            DynamiskFortrydKnap(sender, e);
         }
 
         private void Fam_DinEgen_Click(object sender, EventArgs e)
@@ -198,7 +198,7 @@ namespace Uge_51___miniprojekt
             sum += 100;
             totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
 
-            Tester(sender, e);
+            DynamiskFortrydKnap(sender, e);
         }
 
 
@@ -211,7 +211,7 @@ namespace Uge_51___miniprojekt
             sum += 5;
             totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
 
-            Tester(sender, e);
+            DynamiskFortrydKnap(sender, e);
         }
         #endregion
 
@@ -226,7 +226,7 @@ namespace Uge_51___miniprojekt
             KurvListe.Items.Add(listViewItem);
             totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
 
-            Tester(sender, e);
+            DynamiskFortrydKnap(sender, e);
         }
 
         // Størrelsen på sodavand.
@@ -238,7 +238,7 @@ namespace Uge_51___miniprojekt
             sum += 15;
             totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
 
-            Tester(sender, e);
+            DynamiskFortrydKnap(sender, e);
         }
 
         private void button3_Click_1(object sender, EventArgs e)
@@ -249,7 +249,7 @@ namespace Uge_51___miniprojekt
             sum += 20;
             totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
 
-            Tester(sender, e);
+            DynamiskFortrydKnap(sender, e);
 
         }
 
@@ -261,13 +261,13 @@ namespace Uge_51___miniprojekt
             sum += 25;
             totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
 
-            Tester(sender, e);
+            DynamiskFortrydKnap(sender, e);
         }
 
         #endregion
 
 
-        // Kode test for dynamisk knap.
+        // Kode test for dynamisk knap (Void Tester).
         void removeButton_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Test");
@@ -279,8 +279,8 @@ namespace Uge_51___miniprojekt
         int yUndo = 0;
 
 
-        // Knap som laver knapper test
-        private void Tester(object sender, EventArgs e)
+        // Dynamisk knap til fortrydelse.
+        private void DynamiskFortrydKnap(object sender, EventArgs e)
         {
             List<Button> buttons = new List<Button>();
             Button newButton = new Button();
