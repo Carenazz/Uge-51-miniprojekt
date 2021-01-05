@@ -120,7 +120,7 @@ namespace Uge_51___miniprojekt
             totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
 
             // test til at adde en "-" knap.
-            Tester_Click(sender, e);
+            Tester(sender, e);
         }
 
         // Pepperoni fam.
@@ -131,6 +131,8 @@ namespace Uge_51___miniprojekt
             KurvListe.Items.Add(listViewItem);
             sum += 105;
             totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
+
+            Tester(sender, e);
         }
         
         private void Alm_Skinke_Click(object sender, EventArgs e)
@@ -140,6 +142,8 @@ namespace Uge_51___miniprojekt
             KurvListe.Items.Add(listViewItem);
             sum += 55;
             totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
+
+            Tester(sender, e);
         }
 
         private void Fam_Skinke_Click(object sender, EventArgs e)
@@ -149,6 +153,8 @@ namespace Uge_51___miniprojekt
             KurvListe.Items.Add(listViewItem);
             sum += 105;
             totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
+
+            Tester(sender, e);
         }
 
         private void Alm_Hawaii_Click(object sender, EventArgs e)
@@ -158,6 +164,8 @@ namespace Uge_51___miniprojekt
             KurvListe.Items.Add(listViewItem);
             sum += 65;
             totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
+
+            Tester(sender, e);
         }
 
         private void Fam_Hawaii_Click(object sender, EventArgs e)
@@ -167,6 +175,8 @@ namespace Uge_51___miniprojekt
             KurvListe.Items.Add(listViewItem);
             sum += 115;
             totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
+
+            Tester(sender, e);
         }
 
         private void Alm_DinEgen_Click(object sender, EventArgs e)
@@ -176,6 +186,8 @@ namespace Uge_51___miniprojekt
             KurvListe.Items.Add(listViewItem);
             sum += 50;
             totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
+
+            Tester(sender, e);
         }
 
         private void Fam_DinEgen_Click(object sender, EventArgs e)
@@ -185,6 +197,8 @@ namespace Uge_51___miniprojekt
             KurvListe.Items.Add(listViewItem);
             sum += 100;
             totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
+
+            Tester(sender, e);
         }
 
 
@@ -196,6 +210,8 @@ namespace Uge_51___miniprojekt
             KurvListe.Items.Add(listViewItem);
             sum += 5;
             totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
+
+            Tester(sender, e);
         }
         #endregion
 
@@ -209,6 +225,8 @@ namespace Uge_51___miniprojekt
             var listViewItem = new ListViewItem(row);
             KurvListe.Items.Add(listViewItem);
             totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
+
+            Tester(sender, e);
         }
 
         // Størrelsen på sodavand.
@@ -219,6 +237,8 @@ namespace Uge_51___miniprojekt
             KurvListe.Items.Add(listViewItem);
             sum += 15;
             totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
+
+            Tester(sender, e);
         }
 
         private void button3_Click_1(object sender, EventArgs e)
@@ -228,6 +248,9 @@ namespace Uge_51___miniprojekt
             KurvListe.Items.Add(listViewItem);
             sum += 20;
             totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
+
+            Tester(sender, e);
+
         }
 
         private void button5_Click(object sender, EventArgs e)
@@ -237,6 +260,8 @@ namespace Uge_51___miniprojekt
             KurvListe.Items.Add(listViewItem);
             sum += 25;
             totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
+
+            Tester(sender, e);
         }
 
         #endregion
@@ -255,7 +280,7 @@ namespace Uge_51___miniprojekt
 
 
         // Knap som laver knapper test
-        private void Tester_Click(object sender, EventArgs e)
+        private void Tester(object sender, EventArgs e)
         {
             List<Button> buttons = new List<Button>();
             Button newButton = new Button();
