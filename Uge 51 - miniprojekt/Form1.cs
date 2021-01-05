@@ -266,6 +266,7 @@ namespace Uge_51___miniprojekt
 
         #endregion
 
+        #region Fortryd knap.
 
         // Kode test for dynamisk knap (Void Tester).
         void removeButton_Click(object sender, EventArgs e)
@@ -273,25 +274,28 @@ namespace Uge_51___miniprojekt
             MessageBox.Show("Test");
         }
 
-        // Testing things.
-
         // Knap position
         int yUndo = 0;
-
 
         // Dynamisk knap til fortrydelse.
         private void DynamiskFortrydKnap(object sender, EventArgs e)
         {
+            // Kode for at lave en knap.
             List<Button> buttons = new List<Button>();
             Button newButton = new Button();
             buttons.Add(newButton);
+            // Kode for text, lokation og størrelse.
             newButton.Name = "Undo";
             newButton.Text = "-";
             newButton.Location = new Point(180, 0 + yUndo);
             newButton.Size = new Size(17, 17);
+            // Hvilken kode skal den nye knap følge og tilføje knappen til kurven når koden bliver kørt.
             newButton.Click += new EventHandler(removeButton_Click);
             KurvListe.Controls.Add(newButton);
+            // Sætter den næste knap på næste del af "y-aksen" som set på "location"
             yUndo += 17;
         }
+
+        #endregion
     }
 }
