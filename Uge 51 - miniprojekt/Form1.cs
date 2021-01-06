@@ -106,7 +106,6 @@ namespace Uge_51___miniprojekt
 
         // Samlet sum int
         int sum = 0;
-        int yKurv = 0;
 
         // Pepperoni alm.
         private void button2_Click(object sender, EventArgs e)
@@ -269,11 +268,20 @@ namespace Uge_51___miniprojekt
         #region Fortryd knap.
 
         // Kode test for dynamisk knap (Void Tester).
-        int removeIndex = -1;
-        void removeButton_Click(object sender, EventArgs e)
+        int removeIndex = -1, deleteButton = -1;
+        void RemoveButton_Click(object sender, EventArgs e)
         {
             KurvListe.Items.RemoveAt(0 + removeIndex);
             removeIndex -= 1;
+            // Kode for at fjerne knappen når den er trykket på.
+            KurvListe.Controls.RemoveAt(0 + deleteButton);
+            deleteButton -= 1;
+            // Hvis knappen rammer standard (-1) resetter den yAdd (For at undgå fejl indtil videre)
+            if (deleteButton == -1)
+            {
+                yAdd = 0;
+            }
+            
         }
 
         // Knap position
@@ -292,11 +300,13 @@ namespace Uge_51___miniprojekt
             removeButton.Location = new Point(180, 0 + yAdd);
             removeButton.Size = new Size(17, 17);
             // Hvilken kode skal den nye knap følge og tilføje knappen til kurven når koden bliver kørt.
-            removeButton.Click += new EventHandler(removeButton_Click);
+            removeButton.Click += new EventHandler(RemoveButton_Click);
             KurvListe.Controls.Add(removeButton);
             // Sætter den næste knap på næste del af "y-aksen" som set på "location"
             yAdd += 17;
             removeIndex += 1;
+            // Holder øje med hvor næste knap er
+            deleteButton += 1;
         }
 
         #endregion
