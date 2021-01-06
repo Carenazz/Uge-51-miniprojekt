@@ -286,10 +286,18 @@ namespace Uge_51___miniprojekt
             if (KurvListe.Name == "Alm_Pepperoni")
             {
                 sum -= 55;
+                totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
             }
             else if (KurvListe.Name == "Fam_Pepperoni")
             {
                 sum -= 105;
+                totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
+            }
+            else
+            {
+                // (test - Denne del virker)
+                sum -= 50;
+                totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
             }
         }
 
