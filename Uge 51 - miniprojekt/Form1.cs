@@ -282,7 +282,15 @@ namespace Uge_51___miniprojekt
             {
                 yAdd = 0;
             }
-            // Her kommer kode til at holde øje med hvilket indeks som bliver fjernet
+            // Her kommer kode til at holde øje med hvilket indeks som bliver fjernet (Under test)
+            if (KurvListe.Name == "Alm_Pepperoni")
+            {
+                sum -= 55;
+            }
+            else if (KurvListe.Name == "Fam_Pepperoni")
+            {
+                sum -= 105;
+            }
         }
 
         // Knap position
