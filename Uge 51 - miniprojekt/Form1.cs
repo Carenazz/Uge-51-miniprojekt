@@ -281,7 +281,7 @@ namespace Uge_51___miniprojekt
             {
                 yAdd = 0;
             }
-            
+            // Her kommer kode til at holde øje med hvilket indeks som bliver fjernet
         }
 
         // Knap position
