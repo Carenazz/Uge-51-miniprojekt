@@ -271,6 +271,7 @@ namespace Uge_51___miniprojekt
         int removeIndex = -1, deleteButton = -1;
         void RemoveButton_Click(object sender, EventArgs e)
         {
+            // Kode til at fjerne index ved specifikt spot (Test)
             KurvListe.Items.RemoveAt(0 + removeIndex);
             removeIndex -= 1;
             // Kode for at fjerne knappen når den er trykket på.
