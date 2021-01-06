@@ -313,11 +313,12 @@ namespace Uge_51___miniprojekt
             // Rydder listen + knapper.
             KurvListe.Items.Clear();
             KurvListe.Controls.Clear();
-            // Samlet sum sat til 0, removeIndex og delete button sat til standard.
+            // Sætter alle ints til standard og teksten til summen.
             sum = 0;
             totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
             removeIndex = -1;
             deleteButton = -1;
+            yAdd = 0;
         }
 
         // Dynamisk knap til fortrydelse.
