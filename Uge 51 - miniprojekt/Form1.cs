@@ -283,6 +283,7 @@ namespace Uge_51___miniprojekt
                 yAdd = 0;
             }
             // Her kommer kode til at holde øje med hvilket indeks som bliver fjernet (Under test)
+            /*
             if (KurvListe.Name == "Alm_Pepperoni")
             {
                 sum -= 55;
@@ -299,10 +300,25 @@ namespace Uge_51___miniprojekt
                 sum -= 50;
                 totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
             }
+            */
         }
 
         // Knap position
         int yAdd = 0;
+
+
+        // Midlertidlig løsning, fjerner alt på listen.
+        private void Ryd_Click(object sender, EventArgs e)
+        {
+            // Rydder listen + knapper.
+            KurvListe.Items.Clear();
+            KurvListe.Controls.Clear();
+            // Samlet sum sat til 0, removeIndex og delete button sat til standard.
+            sum = 0;
+            totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
+            removeIndex = -1;
+            deleteButton = -1;
+        }
 
         // Dynamisk knap til fortrydelse.
         private void DynamiskFortrydKnap(object sender, EventArgs e)

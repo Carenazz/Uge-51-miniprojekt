@@ -97,6 +97,7 @@ namespace Uge_51___miniprojekt
             this.listBox2 = new System.Windows.Forms.ListBox();
             this.Kontakt = new System.Windows.Forms.Label();
             this.Nummer = new System.Windows.Forms.Label();
+            this.Ryd = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PizzaPepp)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PizzaSkinke)).BeginInit();
@@ -290,7 +291,7 @@ namespace Uge_51___miniprojekt
             // BestilKnap
             // 
             this.BestilKnap.Font = new System.Drawing.Font("Arial", 20.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BestilKnap.Location = new System.Drawing.Point(29, 624);
+            this.BestilKnap.Location = new System.Drawing.Point(69, 621);
             this.BestilKnap.Name = "BestilKnap";
             this.BestilKnap.Size = new System.Drawing.Size(140, 55);
             this.BestilKnap.TabIndex = 40;
@@ -471,6 +472,7 @@ namespace Uge_51___miniprojekt
             // 
             // KurvPanel
             // 
+            this.KurvPanel.Controls.Add(this.Ryd);
             this.KurvPanel.Controls.Add(this.totalSum);
             this.KurvPanel.Controls.Add(this.KurvListe);
             this.KurvPanel.Controls.Add(this.KurvTekst);
@@ -790,6 +792,17 @@ namespace Uge_51___miniprojekt
             this.Nummer.TabIndex = 97;
             this.Nummer.Text = "99 99 99 99";
             // 
+            // Ryd
+            // 
+            this.Ryd.Font = new System.Drawing.Font("Arial Black", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Ryd.Location = new System.Drawing.Point(3, 621);
+            this.Ryd.Name = "Ryd";
+            this.Ryd.Size = new System.Drawing.Size(60, 55);
+            this.Ryd.TabIndex = 43;
+            this.Ryd.Text = "Fjern alt";
+            this.Ryd.UseVisualStyleBackColor = true;
+            this.Ryd.Click += new System.EventHandler(this.Ryd_Click);
+            // 
             // DashboardForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -937,6 +950,7 @@ namespace Uge_51___miniprojekt
         private System.Windows.Forms.Label Kontakt;
         private System.Windows.Forms.Label Nummer;
         private System.Windows.Forms.Label totalSum;
+        private System.Windows.Forms.Button Ryd;
     }
 }
 
