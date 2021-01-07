@@ -285,8 +285,7 @@ namespace Uge_51___miniprojekt
                 yAdd = 0;
             }
             // Her kommer kode til at holde øje med hvilket indeks som bliver fjernet (Under test)
-            /*
-            if (KurvListe.Name == "Alm_Pepperoni")
+            if (KurvListe.Name == "Pepperoni")
             {
                 sum -= 55;
                 totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
@@ -302,7 +301,6 @@ namespace Uge_51___miniprojekt
                 sum -= 50;
                 totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
             }
-            */
         }
 
         // Knap position
