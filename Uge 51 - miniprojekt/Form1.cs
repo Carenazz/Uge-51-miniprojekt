@@ -241,7 +241,7 @@ namespace Uge_51___miniprojekt
             KurvListe.Items.Add(listViewItem);
             sum += 15;
             totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
-
+            antalSoda++;
             DynamiskFortrydKnap(sender, e);
         }
 
@@ -252,7 +252,7 @@ namespace Uge_51___miniprojekt
             KurvListe.Items.Add(listViewItem);
             sum += 20;
             totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
-
+            antalSoda++;
             DynamiskFortrydKnap(sender, e);
 
         }
@@ -264,7 +264,7 @@ namespace Uge_51___miniprojekt
             KurvListe.Items.Add(listViewItem);
             sum += 25;
             totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
-
+            antalSoda++;
             DynamiskFortrydKnap(sender, e);
         }
 
