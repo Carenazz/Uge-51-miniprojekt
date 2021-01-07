@@ -110,7 +110,8 @@ namespace Uge_51___miniprojekt
         // Pepperoni alm.
         private void button2_Click(object sender, EventArgs e)
         {
-            // Første label = pizza. Combobox = dej valg. midt label = størrelsen. Sidste label = pris. (Gælder for alle nedenstående voids).
+            // Kommentaren under passer til hvad de forskellige steder er og gælder for alle andre "void clicks"
+            //               Pizzaens navn     -     Combobox = dejens valg     -    størrelses valget -  Prisen for pizzaen
             string[] row = { Pepperoni.Text + " - " + comboBox1.SelectedItem + " - " + AlmPepp.Text + " " + PeppAPris.Text };
             var listViewItem = new ListViewItem(row);
             KurvListe.Items.Add(listViewItem);
