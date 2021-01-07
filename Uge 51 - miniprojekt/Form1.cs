@@ -277,6 +277,8 @@ namespace Uge_51___miniprojekt
                 yAdd = 0;
             }
             // Her kommer kode til at holde øje med hvilket indeks som bliver fjernet (Under test)
+
+            // Foreach testing, hvis .selected systemet virker, bliver dynamisk knap systemet ubrugeligt.
             foreach  (ListViewItem item in KurvListe.Items)
             {
                 if (item.Selected)
