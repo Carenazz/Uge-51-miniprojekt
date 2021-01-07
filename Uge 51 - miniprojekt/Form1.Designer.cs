@@ -67,6 +67,7 @@ namespace Uge_51___miniprojekt
             this.comboBox3 = new System.Windows.Forms.ComboBox();
             this.comboBox4 = new System.Windows.Forms.ComboBox();
             this.KurvPanel = new System.Windows.Forms.Panel();
+            this.Ryd = new System.Windows.Forms.Button();
             this.totalSum = new System.Windows.Forms.Label();
             this.KurvListe = new System.Windows.Forms.ListView();
             this.KurvTekst = new System.Windows.Forms.Label();
@@ -97,7 +98,6 @@ namespace Uge_51___miniprojekt
             this.listBox2 = new System.Windows.Forms.ListBox();
             this.Kontakt = new System.Windows.Forms.Label();
             this.Nummer = new System.Windows.Forms.Label();
-            this.Ryd = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PizzaPepp)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PizzaSkinke)).BeginInit();
@@ -482,6 +482,17 @@ namespace Uge_51___miniprojekt
             this.KurvPanel.Size = new System.Drawing.Size(212, 682);
             this.KurvPanel.TabIndex = 69;
             // 
+            // Ryd
+            // 
+            this.Ryd.Font = new System.Drawing.Font("Arial Black", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Ryd.Location = new System.Drawing.Point(3, 621);
+            this.Ryd.Name = "Ryd";
+            this.Ryd.Size = new System.Drawing.Size(60, 55);
+            this.Ryd.TabIndex = 43;
+            this.Ryd.Text = "Fjern alt";
+            this.Ryd.UseVisualStyleBackColor = true;
+            this.Ryd.Click += new System.EventHandler(this.Ryd_Click);
+            // 
             // totalSum
             // 
             this.totalSum.AutoSize = true;
@@ -502,7 +513,7 @@ namespace Uge_51___miniprojekt
             this.KurvListe.Size = new System.Drawing.Size(206, 570);
             this.KurvListe.TabIndex = 41;
             this.KurvListe.UseCompatibleStateImageBehavior = false;
-            this.KurvListe.View = System.Windows.Forms.View.List;
+            this.KurvListe.View = System.Windows.Forms.View.Tile;
             this.KurvListe.SelectedIndexChanged += new System.EventHandler(this.listView2_SelectedIndexChanged);
             // 
             // KurvTekst
@@ -791,17 +802,6 @@ namespace Uge_51___miniprojekt
             this.Nummer.Size = new System.Drawing.Size(105, 22);
             this.Nummer.TabIndex = 97;
             this.Nummer.Text = "99 99 99 99";
-            // 
-            // Ryd
-            // 
-            this.Ryd.Font = new System.Drawing.Font("Arial Black", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Ryd.Location = new System.Drawing.Point(3, 621);
-            this.Ryd.Name = "Ryd";
-            this.Ryd.Size = new System.Drawing.Size(60, 55);
-            this.Ryd.TabIndex = 43;
-            this.Ryd.Text = "Fjern alt";
-            this.Ryd.UseVisualStyleBackColor = true;
-            this.Ryd.Click += new System.EventHandler(this.Ryd_Click);
             // 
             // DashboardForm
             // 

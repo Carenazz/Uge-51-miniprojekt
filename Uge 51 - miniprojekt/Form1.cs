@@ -112,7 +112,7 @@ namespace Uge_51___miniprojekt
         {
             // Kommentaren under passer til hvad de forskellige steder er og gælder for alle andre "void clicks"
             //               Pizzaens navn     -     Combobox = dejens valg     -    størrelses valget -  Prisen for pizzaen
-            string[] row = { Pepperoni.Text + " - " + comboBox1.SelectedItem + " - " + AlmPepp.Text + " " + PeppAPris.Text };
+            string[] row = { Pepperoni.Text + " - " + comboBox1.SelectedItem + " - " + AlmPepp.Text + " " + PeppAPris.Text};
             var listViewItem = new ListViewItem(row);
             KurvListe.Items.Add(listViewItem);
             // Udregning af pris + visning af pris
@@ -322,13 +322,13 @@ namespace Uge_51___miniprojekt
             // Kode for text, lokation og størrelse.
             removeButton.Name = "Undo";
             removeButton.Text = "-";
-            removeButton.Location = new Point(180, 0 + yAdd);
+            removeButton.Location = new Point(180, 7 + yAdd);
             removeButton.Size = new Size(17, 17);
             // Hvilken kode skal den nye knap følge og tilføje knappen til kurven når koden bliver kørt.
             removeButton.Click += new EventHandler(RemoveButton_Click);
             KurvListe.Controls.Add(removeButton);
             // Sætter den næste knap på næste del af "y-aksen" som set på "location"
-            yAdd += 17;
+            yAdd += 30;
             removeIndex += 1;
             // Holder øje med hvor næste knap er
             deleteButton += 1;
