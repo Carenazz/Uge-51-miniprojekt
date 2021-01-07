@@ -107,6 +107,9 @@ namespace Uge_51___miniprojekt
         // Samlet sum int
         int sum = 0;
 
+        // Rabat for køb af min. 2 pizzaer og sodavand.
+        int antalPizza = 0, antalSoda = 0;
+
         // Pepperoni alm.
         private void button2_Click(object sender, EventArgs e)
         {
@@ -120,6 +123,8 @@ namespace Uge_51___miniprojekt
             totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
             // test til at adde en "-" knap.
             DynamiskFortrydKnap(sender, e);
+            // Holder øje med rabat
+            antalPizza++;
         }
 
         // Pepperoni fam.
@@ -131,6 +136,7 @@ namespace Uge_51___miniprojekt
             sum += 105;
             totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
             DynamiskFortrydKnap(sender, e);
+            antalPizza++;
         }
         
         private void Alm_Skinke_Click(object sender, EventArgs e)
@@ -141,6 +147,7 @@ namespace Uge_51___miniprojekt
             sum += 55;
             totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
             DynamiskFortrydKnap(sender, e);
+            antalPizza++;
         }
 
         private void Fam_Skinke_Click(object sender, EventArgs e)
@@ -151,6 +158,7 @@ namespace Uge_51___miniprojekt
             sum += 105;
             totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
             DynamiskFortrydKnap(sender, e);
+            antalPizza++;
         }
 
         private void Alm_Hawaii_Click(object sender, EventArgs e)
@@ -161,6 +169,7 @@ namespace Uge_51___miniprojekt
             sum += 65;
             totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
             DynamiskFortrydKnap(sender, e);
+            antalPizza++;
         }
 
         private void Fam_Hawaii_Click(object sender, EventArgs e)
@@ -171,6 +180,7 @@ namespace Uge_51___miniprojekt
             sum += 115;
             totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
             DynamiskFortrydKnap(sender, e);
+            antalPizza++;
         }
 
         private void Alm_DinEgen_Click(object sender, EventArgs e)
@@ -181,6 +191,7 @@ namespace Uge_51___miniprojekt
             sum += 50;
             totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
             DynamiskFortrydKnap(sender, e);
+            antalPizza++;
         }
 
         private void Fam_DinEgen_Click(object sender, EventArgs e)
@@ -191,6 +202,7 @@ namespace Uge_51___miniprojekt
             sum += 100;
             totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
             DynamiskFortrydKnap(sender, e);
+            antalPizza++;
         }
 
 
