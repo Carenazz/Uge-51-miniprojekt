@@ -98,6 +98,7 @@ namespace Uge_51___miniprojekt
             this.listBox2 = new System.Windows.Forms.ListBox();
             this.Kontakt = new System.Windows.Forms.Label();
             this.Nummer = new System.Windows.Forms.Label();
+            this.rabatTxt = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PizzaPepp)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PizzaSkinke)).BeginInit();
@@ -472,6 +473,7 @@ namespace Uge_51___miniprojekt
             // 
             // KurvPanel
             // 
+            this.KurvPanel.Controls.Add(this.rabatTxt);
             this.KurvPanel.Controls.Add(this.Ryd);
             this.KurvPanel.Controls.Add(this.totalSum);
             this.KurvPanel.Controls.Add(this.KurvListe);
@@ -498,7 +500,7 @@ namespace Uge_51___miniprojekt
             this.totalSum.AutoSize = true;
             this.totalSum.BackColor = System.Drawing.SystemColors.ControlLight;
             this.totalSum.Font = new System.Drawing.Font("Arial", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.totalSum.Location = new System.Drawing.Point(26, 593);
+            this.totalSum.Location = new System.Drawing.Point(25, 571);
             this.totalSum.Name = "totalSum";
             this.totalSum.Size = new System.Drawing.Size(52, 18);
             this.totalSum.TabIndex = 42;
@@ -803,6 +805,17 @@ namespace Uge_51___miniprojekt
             this.Nummer.TabIndex = 97;
             this.Nummer.Text = "99 99 99 99";
             // 
+            // rabatTxt
+            // 
+            this.rabatTxt.AutoSize = true;
+            this.rabatTxt.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.rabatTxt.Font = new System.Drawing.Font("Arial", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rabatTxt.Location = new System.Drawing.Point(25, 597);
+            this.rabatTxt.Name = "rabatTxt";
+            this.rabatTxt.Size = new System.Drawing.Size(62, 18);
+            this.rabatTxt.TabIndex = 44;
+            this.rabatTxt.Text = "Rabat: ";
+            // 
             // DashboardForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -951,6 +964,7 @@ namespace Uge_51___miniprojekt
         private System.Windows.Forms.Label Nummer;
         private System.Windows.Forms.Label totalSum;
         private System.Windows.Forms.Button Ryd;
+        private System.Windows.Forms.Label rabatTxt;
     }
 }
 
