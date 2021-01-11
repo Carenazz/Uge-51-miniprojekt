@@ -90,7 +90,18 @@ namespace Uge_51___miniprojekt
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Bestillingen er modtaget");
+            if (KurvListe.Items == null)
+            {
+                MessageBox.Show("Du har intet i kurven");
+            }
+            else if (rabat == true && KurvListe.Items != null)
+            {
+                MessageBox.Show("Din bestilling på: " + sum + ".- er modtaget og du får: " + iRabat + ".- i rabat");
+            }
+            else
+            {
+                MessageBox.Show("Din bestilling på: " + sum + " er modtaget");
+            }
         }
 
         #endregion
@@ -109,7 +120,6 @@ namespace Uge_51___miniprojekt
 
         // Rabat for køb af min. 2 pizzaer og sodavand.
         int antalPizza = 0, antalSoda = 0;
-        bool rabat = false;
 
         // Pepperoni alm.
         private void button2_Click(object sender, EventArgs e)
@@ -125,16 +135,9 @@ namespace Uge_51___miniprojekt
             // test til at adde en "-" knap.
             DynamiskFortrydKnap(sender, e);
 
-            #region Rabat check
+            // Rabatcheck
             antalPizza++;
-            if (antalPizza >= 2 && antalSoda >= 2 && rabat == false)
-            {
-                sum -= 20;
-                rabat = true;
-                totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
-                rabatTxt.Text = "Rabat: 20.-";
-            }
-            #endregion
+            RabatCheck();
         }
 
         // Pepperoni fam.
@@ -146,16 +149,9 @@ namespace Uge_51___miniprojekt
             sum += 105;
             totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
             DynamiskFortrydKnap(sender, e);
-            #region Rabat check
+
             antalPizza++;
-            if (antalPizza >= 2 && antalSoda >= 2 && rabat == false)
-            {
-                sum -= 20;
-                rabat = true;
-                totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
-                rabatTxt.Text = "Rabat: 20.-";
-            }
-            #endregion
+            RabatCheck();
         }
 
         private void Alm_Skinke_Click(object sender, EventArgs e)
@@ -166,16 +162,9 @@ namespace Uge_51___miniprojekt
             sum += 55;
             totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
             DynamiskFortrydKnap(sender, e);
-            #region Rabat check
+
             antalPizza++;
-            if (antalPizza >= 2 && antalSoda >= 2 && rabat == false)
-            {
-                sum -= 20;
-                rabat = true;
-                totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
-                rabatTxt.Text = "Rabat: 20.-";
-            }
-            #endregion
+            RabatCheck();
         }
 
         private void Fam_Skinke_Click(object sender, EventArgs e)
@@ -186,16 +175,9 @@ namespace Uge_51___miniprojekt
             sum += 105;
             totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
             DynamiskFortrydKnap(sender, e);
-            #region Rabat check
+
             antalPizza++;
-            if (antalPizza >= 2 && antalSoda >= 2 && rabat == false)
-            {
-                sum -= 20;
-                rabat = true;
-                totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
-                rabatTxt.Text = "Rabat: 20.-";
-            }
-            #endregion
+            RabatCheck();
         }
 
         private void Alm_Hawaii_Click(object sender, EventArgs e)
@@ -206,16 +188,9 @@ namespace Uge_51___miniprojekt
             sum += 65;
             totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
             DynamiskFortrydKnap(sender, e);
-            #region Rabat check
+
             antalPizza++;
-            if (antalPizza >= 2 && antalSoda >= 2 && rabat == false)
-            {
-                sum -= 20;
-                rabat = true;
-                totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
-                rabatTxt.Text = "Rabat: 20.-";
-            }
-            #endregion
+            RabatCheck();
         }
 
         private void Fam_Hawaii_Click(object sender, EventArgs e)
@@ -226,16 +201,9 @@ namespace Uge_51___miniprojekt
             sum += 115;
             totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
             DynamiskFortrydKnap(sender, e);
-            #region Rabat check
+
             antalPizza++;
-            if (antalPizza >= 2 && antalSoda >= 2 && rabat == false)
-            {
-                sum -= 20;
-                rabat = true;
-                totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
-                rabatTxt.Text = "Rabat: 20.-";
-            }
-            #endregion
+            RabatCheck();
         }
 
         private void Alm_DinEgen_Click(object sender, EventArgs e)
@@ -246,16 +214,9 @@ namespace Uge_51___miniprojekt
             sum += 50;
             totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
             DynamiskFortrydKnap(sender, e);
-            #region Rabat check
+
             antalPizza++;
-            if (antalPizza >= 2 && antalSoda >= 2 && rabat == false)
-            {
-                sum -= 20;
-                rabat = true;
-                totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
-                rabatTxt.Text = "Rabat: 20.-";
-            }
-            #endregion
+            RabatCheck();
         }
 
         private void Fam_DinEgen_Click(object sender, EventArgs e)
@@ -266,16 +227,9 @@ namespace Uge_51___miniprojekt
             sum += 100;
             totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
             DynamiskFortrydKnap(sender, e);
-            #region Rabat check
+
             antalPizza++;
-            if (antalPizza >= 2 && antalSoda >= 2 && rabat == false)
-            {
-                sum -= 20;
-                rabat = true;
-                totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
-                rabatTxt.Text = "Rabat: 20.-";
-            }
-            #endregion
+            RabatCheck();
         }
 
 
@@ -304,8 +258,6 @@ namespace Uge_51___miniprojekt
             totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
 
             DynamiskFortrydKnap(sender, e);
-
-
         }
 
         // Størrelsen på sodavand.
@@ -318,16 +270,9 @@ namespace Uge_51___miniprojekt
             totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
             DynamiskFortrydKnap(sender, e);
 
-            #region Rabat check soda
+            //Rabatcheck for soda
             antalSoda++;
-            if (antalPizza >= 2 && antalSoda >= 2 && rabat == false)
-            {
-                sum -= 20;
-                rabat = true;
-                totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
-                rabatTxt.Text = "Rabat: 20.-";
-            }
-            #endregion
+            RabatCheck();
         }
 
         private void button3_Click_1(object sender, EventArgs e)
@@ -339,17 +284,8 @@ namespace Uge_51___miniprojekt
             totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
             DynamiskFortrydKnap(sender, e);
 
-            #region Rabat check soda
             antalSoda++;
-            if (antalPizza >= 2 && antalSoda >= 2 && rabat == false)
-            {
-                sum -= 20;
-                rabat = true;
-                totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
-                rabatTxt.Text = "Rabat: 20.-";
-            }
-            #endregion
-
+            RabatCheck();
         }
 
         private void button5_Click(object sender, EventArgs e)
@@ -361,16 +297,8 @@ namespace Uge_51___miniprojekt
             totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
             DynamiskFortrydKnap(sender, e);
 
-            #region Rabat check soda
             antalSoda++;
-            if (antalPizza >= 2 && antalSoda >= 2 && rabat == false)
-            {
-                sum -= 20;
-                rabat = true;
-                totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
-                rabatTxt.Text = "Rabat: 20.-";
-            }
-            #endregion
+            RabatCheck();
         }
 
         #endregion
@@ -453,6 +381,21 @@ namespace Uge_51___miniprojekt
             removeIndex += 1;
             // Holder øje med hvor næste knap er
             deleteButton += 1;
+        }
+
+        private bool rabat = false;
+        private int iRabat = 0;
+
+        private void RabatCheck()
+        {
+            if (antalPizza >= 2 && antalSoda >= 2 && rabat == false)
+            {
+                sum -= 20;
+                totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
+                rabatTxt.Text = "Rabat: 20.-";
+                rabat = true;
+                iRabat += 20;
+            }
         }
 
         #endregion
