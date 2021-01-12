@@ -16,7 +16,7 @@ namespace Uge_51___miniprojekt
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new DashboardForm());
+            Application.Run(new BestillingsMenu());
         }
     }
 }

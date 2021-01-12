@@ -10,10 +10,10 @@ using System.Windows.Forms;
 
 namespace Uge_51___miniprojekt
 {
-    public partial class DashboardForm : Form
+    public partial class BestillingsMenu : Form
     {
         #region Dashboard
-        public DashboardForm()
+        public BestillingsMenu()
         {
             InitializeComponent();
         }

@@ -1,7 +1,7 @@
 ﻿
 namespace Uge_51___miniprojekt
 {
-    partial class DashboardForm
+    partial class BestillingsMenu
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@ namespace Uge_51___miniprojekt
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DashboardForm));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(BestillingsMenu));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.pizzaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menukortPizzaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -67,6 +67,7 @@ namespace Uge_51___miniprojekt
             this.comboBox3 = new System.Windows.Forms.ComboBox();
             this.comboBox4 = new System.Windows.Forms.ComboBox();
             this.KurvPanel = new System.Windows.Forms.Panel();
+            this.rabatTxt = new System.Windows.Forms.Label();
             this.Ryd = new System.Windows.Forms.Button();
             this.totalSum = new System.Windows.Forms.Label();
             this.KurvListe = new System.Windows.Forms.ListView();
@@ -98,7 +99,6 @@ namespace Uge_51___miniprojekt
             this.listBox2 = new System.Windows.Forms.ListBox();
             this.Kontakt = new System.Windows.Forms.Label();
             this.Nummer = new System.Windows.Forms.Label();
-            this.rabatTxt = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PizzaPepp)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PizzaSkinke)).BeginInit();
@@ -484,6 +484,17 @@ namespace Uge_51___miniprojekt
             this.KurvPanel.Size = new System.Drawing.Size(212, 682);
             this.KurvPanel.TabIndex = 69;
             // 
+            // rabatTxt
+            // 
+            this.rabatTxt.AutoSize = true;
+            this.rabatTxt.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.rabatTxt.Font = new System.Drawing.Font("Arial", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rabatTxt.Location = new System.Drawing.Point(25, 597);
+            this.rabatTxt.Name = "rabatTxt";
+            this.rabatTxt.Size = new System.Drawing.Size(62, 18);
+            this.rabatTxt.TabIndex = 44;
+            this.rabatTxt.Text = "Rabat: ";
+            // 
             // Ryd
             // 
             this.Ryd.Font = new System.Drawing.Font("Arial Black", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -805,18 +816,7 @@ namespace Uge_51___miniprojekt
             this.Nummer.TabIndex = 97;
             this.Nummer.Text = "99 99 99 99";
             // 
-            // rabatTxt
-            // 
-            this.rabatTxt.AutoSize = true;
-            this.rabatTxt.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.rabatTxt.Font = new System.Drawing.Font("Arial", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rabatTxt.Location = new System.Drawing.Point(25, 597);
-            this.rabatTxt.Name = "rabatTxt";
-            this.rabatTxt.Size = new System.Drawing.Size(62, 18);
-            this.rabatTxt.TabIndex = 44;
-            this.rabatTxt.Text = "Rabat: ";
-            // 
-            // DashboardForm
+            // BestillingsMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -878,7 +878,7 @@ namespace Uge_51___miniprojekt
             this.Controls.Add(this.menuStrip1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MainMenuStrip = this.menuStrip1;
-            this.Name = "DashboardForm";
+            this.Name = "BestillingsMenu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Menu";
             this.Load += new System.EventHandler(this.Form1_Load);
