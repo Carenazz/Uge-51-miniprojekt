@@ -390,15 +390,14 @@ namespace Uge_51___miniprojekt
             if (antalPizza >= 2 && antalSoda >= 2 && rabat == false)
             {
                 totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
-                rabatTxt.Text = "Rabat: 20.-";
+                rabatTxt.Text = "Rabat: " + iRabat + " Kr.";
                 rabat = true;
                 iRabat += 20;
             }
             else if (antalPizza % 2 == 0 && antalSoda % 2 == 0)
             {
                 totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
-                rabatTxt.Text = "Rabat: 20.-";
-                rabat = true;
+                rabatTxt.Text = "Rabat: " + iRabat + " Kr.";
                 iRabat += 20;
             }
         }
