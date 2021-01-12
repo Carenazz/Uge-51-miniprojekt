@@ -90,13 +90,13 @@ namespace Uge_51___miniprojekt
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (KurvListe.Items == null)
+            if (KurvListe == null)
             {
                 MessageBox.Show("Du har intet i kurven");
             }
-            else if (rabat == true && KurvListe.Items != null)
+            else if (rabat == true)
             {
-                MessageBox.Show("Din bestilling er modtaget og prisen er: " + (sum - 20) + ".- og du har fået: " + iRabat + ".- i rabat");
+                MessageBox.Show("Din bestilling er modtaget og prisen er: " + (sum - 20) + ".- Du har fået: " + iRabat + ".- i rabat");
             }
             else
             {
