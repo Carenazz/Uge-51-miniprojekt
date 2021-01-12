@@ -394,6 +394,13 @@ namespace Uge_51___miniprojekt
                 rabat = true;
                 iRabat += 20;
             }
+            else if (antalPizza % 2 == 0 && antalSoda % 2 == 0)
+            {
+                totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
+                rabatTxt.Text = "Rabat: 20.-";
+                rabat = true;
+                iRabat += 20;
+            }
         }
         #endregion
     }
