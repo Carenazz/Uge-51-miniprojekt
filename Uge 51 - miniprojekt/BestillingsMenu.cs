@@ -133,7 +133,7 @@ namespace Uge_51___miniprojekt
             sum += 55;
             totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
             // test til at adde en "-" knap.
-            DynamiskFortrydKnap(sender, e);
+            // DynamiskFortrydKnap(sender, e);
 
             // Rabatcheck
             antalPizza++;
@@ -148,7 +148,7 @@ namespace Uge_51___miniprojekt
             KurvListe.Items.Add(listViewItem);
             sum += 105;
             totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
-            DynamiskFortrydKnap(sender, e);
+            // DynamiskFortrydKnap(sender, e); (Ude af drift da den ikke virker)
 
             antalPizza++;
             RabatCheck();
@@ -161,7 +161,7 @@ namespace Uge_51___miniprojekt
             KurvListe.Items.Add(listViewItem);
             sum += 55;
             totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
-            DynamiskFortrydKnap(sender, e);
+            // DynamiskFortrydKnap(sender, e);
 
             antalPizza++;
             RabatCheck();
@@ -174,7 +174,7 @@ namespace Uge_51___miniprojekt
             KurvListe.Items.Add(listViewItem);
             sum += 105;
             totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
-            DynamiskFortrydKnap(sender, e);
+            // DynamiskFortrydKnap(sender, e);
 
             antalPizza++;
             RabatCheck();
@@ -187,7 +187,7 @@ namespace Uge_51___miniprojekt
             KurvListe.Items.Add(listViewItem);
             sum += 65;
             totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
-            DynamiskFortrydKnap(sender, e);
+            // DynamiskFortrydKnap(sender, e);
 
             antalPizza++;
             RabatCheck();
@@ -200,7 +200,7 @@ namespace Uge_51___miniprojekt
             KurvListe.Items.Add(listViewItem);
             sum += 115;
             totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
-            DynamiskFortrydKnap(sender, e);
+            // DynamiskFortrydKnap(sender, e);
 
             antalPizza++;
             RabatCheck();
@@ -213,7 +213,7 @@ namespace Uge_51___miniprojekt
             KurvListe.Items.Add(listViewItem);
             sum += 50;
             totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
-            DynamiskFortrydKnap(sender, e);
+            // DynamiskFortrydKnap(sender, e);
 
             antalPizza++;
             RabatCheck();
@@ -226,7 +226,7 @@ namespace Uge_51___miniprojekt
             KurvListe.Items.Add(listViewItem);
             sum += 100;
             totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
-            DynamiskFortrydKnap(sender, e);
+            // DynamiskFortrydKnap(sender, e);
 
             antalPizza++;
             RabatCheck();
@@ -242,7 +242,7 @@ namespace Uge_51___miniprojekt
             sum += 5;
             totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
 
-            DynamiskFortrydKnap(sender, e);
+            // DynamiskFortrydKnap(sender, e);
         }
         #endregion
 
@@ -257,7 +257,7 @@ namespace Uge_51___miniprojekt
             KurvListe.Items.Add(listViewItem);
             totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
 
-            DynamiskFortrydKnap(sender, e);
+            // DynamiskFortrydKnap(sender, e);
         }
 
         // Størrelsen på sodavand.
@@ -268,7 +268,7 @@ namespace Uge_51___miniprojekt
             KurvListe.Items.Add(listViewItem);
             sum += 15;
             totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
-            DynamiskFortrydKnap(sender, e);
+            // DynamiskFortrydKnap(sender, e);
 
             //Rabatcheck for soda
             antalSoda++;
@@ -282,7 +282,7 @@ namespace Uge_51___miniprojekt
             KurvListe.Items.Add(listViewItem);
             sum += 20;
             totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
-            DynamiskFortrydKnap(sender, e);
+            // DynamiskFortrydKnap(sender, e);
 
             antalSoda++;
             RabatCheck();
@@ -295,7 +295,7 @@ namespace Uge_51___miniprojekt
             KurvListe.Items.Add(listViewItem);
             sum += 25;
             totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
-            DynamiskFortrydKnap(sender, e);
+            // DynamiskFortrydKnap(sender, e);
 
             antalSoda++;
             RabatCheck();
@@ -306,8 +306,9 @@ namespace Uge_51___miniprojekt
         #region Fortryd knap.
 
         // Kode test for dynamisk knap (Void Tester).
-        int removeIndex = -1, deleteButton = -1;
 
+        /* Midlertidligt ude af drift.
+        int removeIndex = -1, deleteButton = -1;
         void RemoveButton_Click(object sender, EventArgs e)
         {
             // Kode til at fjerne sidste index (Test)
@@ -338,6 +339,7 @@ namespace Uge_51___miniprojekt
                 }
             }
         }
+        */
 
         // Knap position
         int yAdd = 0;
@@ -353,8 +355,6 @@ namespace Uge_51___miniprojekt
             sum = 0;
             totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
             rabatTxt.Text = "Rabat: ";
-            removeIndex = -1;
-            deleteButton = -1;
             yAdd = 0;
             antalPizza = 0;
             antalSoda = 0;
@@ -362,6 +362,7 @@ namespace Uge_51___miniprojekt
         }
 
         // Dynamisk knap til fortrydelse.
+        /* Midlertidligt ude af drift.
         private void DynamiskFortrydKnap(object sender, EventArgs e)
         {
             // Kode for at lave en knap.
@@ -382,7 +383,10 @@ namespace Uge_51___miniprojekt
             // Holder øje med hvor næste knap er
             deleteButton += 1;
         }
+        */
+        #endregion
 
+        #region Rabat
         private bool rabat = false;
         private int iRabat = 0;
 
@@ -397,7 +401,6 @@ namespace Uge_51___miniprojekt
                 iRabat += 20;
             }
         }
-
         #endregion
     }
 }

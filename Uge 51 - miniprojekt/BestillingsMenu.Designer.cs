@@ -526,14 +526,14 @@ namespace Uge_51___miniprojekt
             this.KurvListe.Size = new System.Drawing.Size(351, 570);
             this.KurvListe.TabIndex = 41;
             this.KurvListe.UseCompatibleStateImageBehavior = false;
-            this.KurvListe.View = System.Windows.Forms.View.Tile;
+            this.KurvListe.View = System.Windows.Forms.View.List;
             this.KurvListe.SelectedIndexChanged += new System.EventHandler(this.listView2_SelectedIndexChanged);
             // 
             // KurvTekst
             // 
             this.KurvTekst.AutoSize = true;
             this.KurvTekst.Font = new System.Drawing.Font("Arial", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.KurvTekst.Location = new System.Drawing.Point(102, 16);
+            this.KurvTekst.Location = new System.Drawing.Point(144, 16);
             this.KurvTekst.Name = "KurvTekst";
             this.KurvTekst.Size = new System.Drawing.Size(92, 23);
             this.KurvTekst.TabIndex = 0;
