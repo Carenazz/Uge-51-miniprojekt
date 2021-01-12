@@ -292,7 +292,7 @@ namespace Uge_51___miniprojekt
             // BestilKnap
             // 
             this.BestilKnap.Font = new System.Drawing.Font("Arial", 20.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BestilKnap.Location = new System.Drawing.Point(69, 621);
+            this.BestilKnap.Location = new System.Drawing.Point(148, 621);
             this.BestilKnap.Name = "BestilKnap";
             this.BestilKnap.Size = new System.Drawing.Size(140, 55);
             this.BestilKnap.TabIndex = 40;
@@ -404,7 +404,7 @@ namespace Uge_51___miniprojekt
             "Ananas - 5.-",
             "Bacon - 5.-",
             "Kebab - 5.-"});
-            this.IngredienserList.Location = new System.Drawing.Point(241, 61);
+            this.IngredienserList.Location = new System.Drawing.Point(702, 593);
             this.IngredienserList.Name = "IngredienserList";
             this.IngredienserList.Size = new System.Drawing.Size(120, 121);
             this.IngredienserList.TabIndex = 63;
@@ -413,7 +413,7 @@ namespace Uge_51___miniprojekt
             // label16
             // 
             this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(241, 38);
+            this.label16.Location = new System.Drawing.Point(699, 577);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(78, 13);
             this.label16.TabIndex = 64;
@@ -481,15 +481,15 @@ namespace Uge_51___miniprojekt
             this.KurvPanel.Controls.Add(this.BestilKnap);
             this.KurvPanel.Location = new System.Drawing.Point(13, 38);
             this.KurvPanel.Name = "KurvPanel";
-            this.KurvPanel.Size = new System.Drawing.Size(212, 682);
+            this.KurvPanel.Size = new System.Drawing.Size(357, 682);
             this.KurvPanel.TabIndex = 69;
             // 
             // rabatTxt
             // 
             this.rabatTxt.AutoSize = true;
-            this.rabatTxt.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.rabatTxt.BackColor = System.Drawing.SystemColors.Control;
             this.rabatTxt.Font = new System.Drawing.Font("Arial", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rabatTxt.Location = new System.Drawing.Point(25, 597);
+            this.rabatTxt.Location = new System.Drawing.Point(15, 658);
             this.rabatTxt.Name = "rabatTxt";
             this.rabatTxt.Size = new System.Drawing.Size(62, 18);
             this.rabatTxt.TabIndex = 44;
@@ -498,7 +498,7 @@ namespace Uge_51___miniprojekt
             // Ryd
             // 
             this.Ryd.Font = new System.Drawing.Font("Arial Black", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Ryd.Location = new System.Drawing.Point(3, 621);
+            this.Ryd.Location = new System.Drawing.Point(294, 621);
             this.Ryd.Name = "Ryd";
             this.Ryd.Size = new System.Drawing.Size(60, 55);
             this.Ryd.TabIndex = 43;
@@ -509,9 +509,9 @@ namespace Uge_51___miniprojekt
             // totalSum
             // 
             this.totalSum.AutoSize = true;
-            this.totalSum.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.totalSum.BackColor = System.Drawing.SystemColors.Control;
             this.totalSum.Font = new System.Drawing.Font("Arial", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.totalSum.Location = new System.Drawing.Point(25, 571);
+            this.totalSum.Location = new System.Drawing.Point(15, 623);
             this.totalSum.Name = "totalSum";
             this.totalSum.Size = new System.Drawing.Size(52, 18);
             this.totalSum.TabIndex = 42;
@@ -523,7 +523,7 @@ namespace Uge_51___miniprojekt
             this.KurvListe.HideSelection = false;
             this.KurvListe.Location = new System.Drawing.Point(3, 48);
             this.KurvListe.Name = "KurvListe";
-            this.KurvListe.Size = new System.Drawing.Size(206, 570);
+            this.KurvListe.Size = new System.Drawing.Size(351, 570);
             this.KurvListe.TabIndex = 41;
             this.KurvListe.UseCompatibleStateImageBehavior = false;
             this.KurvListe.View = System.Windows.Forms.View.Tile;
@@ -533,7 +533,7 @@ namespace Uge_51___miniprojekt
             // 
             this.KurvTekst.AutoSize = true;
             this.KurvTekst.Font = new System.Drawing.Font("Arial", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.KurvTekst.Location = new System.Drawing.Point(65, 16);
+            this.KurvTekst.Location = new System.Drawing.Point(102, 16);
             this.KurvTekst.Name = "KurvTekst";
             this.KurvTekst.Size = new System.Drawing.Size(92, 23);
             this.KurvTekst.TabIndex = 0;
