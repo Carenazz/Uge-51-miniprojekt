@@ -341,10 +341,6 @@ namespace Uge_51___miniprojekt
         }
         */
 
-        // Knap position
-        int yAdd = 0;
-
-
         // Fjerner alt på listen og resetter alle værdier.
         private void Ryd_Click(object sender, EventArgs e)
         {
@@ -355,7 +351,6 @@ namespace Uge_51___miniprojekt
             sum = 0;
             totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
             rabatTxt.Text = "Rabat: ";
-            yAdd = 0;
             antalPizza = 0;
             antalSoda = 0;
             rabat = false;
