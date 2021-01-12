@@ -747,9 +747,9 @@ namespace Uge_51___miniprojekt
             this.LilleCola.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LilleCola.Location = new System.Drawing.Point(412, 607);
             this.LilleCola.Name = "LilleCola";
-            this.LilleCola.Size = new System.Drawing.Size(87, 16);
+            this.LilleCola.Size = new System.Drawing.Size(92, 16);
             this.LilleCola.TabIndex = 91;
-            this.LilleCola.Text = "Lille Cola 15.-";
+            this.LilleCola.Text = "Lille Soda 15.-";
             // 
             // MellemCola
             // 
@@ -757,9 +757,9 @@ namespace Uge_51___miniprojekt
             this.MellemCola.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MellemCola.Location = new System.Drawing.Point(412, 633);
             this.MellemCola.Name = "MellemCola";
-            this.MellemCola.Size = new System.Drawing.Size(107, 16);
+            this.MellemCola.Size = new System.Drawing.Size(112, 16);
             this.MellemCola.TabIndex = 92;
-            this.MellemCola.Text = "Mellem Cola 20.-";
+            this.MellemCola.Text = "Mellem Soda 20.-";
             // 
             // StorColaKnap
             // 
@@ -777,9 +777,9 @@ namespace Uge_51___miniprojekt
             this.StorCola.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.StorCola.Location = new System.Drawing.Point(412, 659);
             this.StorCola.Name = "StorCola";
-            this.StorCola.Size = new System.Drawing.Size(87, 16);
+            this.StorCola.Size = new System.Drawing.Size(92, 16);
             this.StorCola.TabIndex = 94;
-            this.StorCola.Text = "Stor Cola 25.-";
+            this.StorCola.Text = "Stor Soda 25.-";
             // 
             // listBox2
             // 

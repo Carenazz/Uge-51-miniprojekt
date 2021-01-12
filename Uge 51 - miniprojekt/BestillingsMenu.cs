@@ -96,11 +96,11 @@ namespace Uge_51___miniprojekt
             }
             else if (rabat == true && KurvListe.Items != null)
             {
-                MessageBox.Show("Din bestilling på: " + sum + ".- er modtaget og du får: " + iRabat + ".- i rabat");
+                MessageBox.Show("Din bestilling er modtaget og prisen er: " + (sum - 20) + ".- og du har fået: " + iRabat + ".- i rabat");
             }
             else
             {
-                MessageBox.Show("Din bestilling på: " + sum + " er modtaget");
+                MessageBox.Show("Din bestilling på: " + sum + ".- er modtaget");
             }
         }
 
@@ -126,7 +126,7 @@ namespace Uge_51___miniprojekt
         {
             // Kommentaren under passer til hvad de forskellige steder er og gælder for alle andre "void clicks"
             //               Pizzaens navn     -     Combobox = dejens valg     -    størrelses valget -  Prisen for pizzaen
-            string[] row = { Pepperoni.Text + " - " + comboBox1.SelectedItem + " - " + AlmPepp.Text + " " + PeppAPris.Text};
+            string[] row = { Pepperoni.Text + " pizza  - " + comboBox1.SelectedItem + " - " + AlmPepp.Text + " " + PeppAPris.Text};
             var listViewItem = new ListViewItem(row);
             KurvListe.Items.Add(listViewItem);
             // Udregning af pris + visning af pris
@@ -143,7 +143,7 @@ namespace Uge_51___miniprojekt
         // Pepperoni fam.
         private void button3_Click(object sender, EventArgs e)
         {
-            string[] row = { Pepperoni.Text + " - " + comboBox1.SelectedItem + " - " + FamPepp.Text + " " + PeppFPris.Text };
+            string[] row = { Pepperoni.Text + " pizza  - " + comboBox1.SelectedItem + " - " + FamPepp.Text + " " + PeppFPris.Text };
             var listViewItem = new ListViewItem(row);
             KurvListe.Items.Add(listViewItem);
             sum += 105;
@@ -156,7 +156,7 @@ namespace Uge_51___miniprojekt
 
         private void Alm_Skinke_Click(object sender, EventArgs e)
         {
-            string[] row = { Skinke.Text + " - " + comboBox2.SelectedItem + " - " + AlmSkinke.Text + " " + SkinkeAPris.Text };
+            string[] row = { Skinke.Text + " pizza  - " + comboBox2.SelectedItem + " - " + AlmSkinke.Text + " " + SkinkeAPris.Text };
             var listViewItem = new ListViewItem(row);
             KurvListe.Items.Add(listViewItem);
             sum += 55;
@@ -169,7 +169,7 @@ namespace Uge_51___miniprojekt
 
         private void Fam_Skinke_Click(object sender, EventArgs e)
         {
-            string[] row = { Skinke.Text + " - " + comboBox2.SelectedItem + " - " + SkinkeFam.Text + " " + SkinkeFPris.Text };
+            string[] row = { Skinke.Text + " pizza  - " + comboBox2.SelectedItem + " - " + SkinkeFam.Text + " " + SkinkeFPris.Text };
             var listViewItem = new ListViewItem(row);
             KurvListe.Items.Add(listViewItem);
             sum += 105;
@@ -182,7 +182,7 @@ namespace Uge_51___miniprojekt
 
         private void Alm_Hawaii_Click(object sender, EventArgs e)
         {
-            string[] row = { Hawaii.Text + " - " + comboBox3.SelectedItem + " - " + AlmHawaii.Text + " " + HawaiiAPris.Text };
+            string[] row = { Hawaii.Text + " pizza  - " + comboBox3.SelectedItem + " - " + AlmHawaii.Text + " " + HawaiiAPris.Text };
             var listViewItem = new ListViewItem(row);
             KurvListe.Items.Add(listViewItem);
             sum += 65;
@@ -195,7 +195,7 @@ namespace Uge_51___miniprojekt
 
         private void Fam_Hawaii_Click(object sender, EventArgs e)
         {
-            string[] row = { Hawaii.Text + " - " + comboBox3.SelectedItem + " - " + HawaiiFam.Text + " " + HawaiiFPris.Text };
+            string[] row = { Hawaii.Text + " pizza  - " + comboBox3.SelectedItem + " - " + HawaiiFam.Text + " " + HawaiiFPris.Text };
             var listViewItem = new ListViewItem(row);
             KurvListe.Items.Add(listViewItem);
             sum += 115;
@@ -208,7 +208,7 @@ namespace Uge_51___miniprojekt
 
         private void Alm_DinEgen_Click(object sender, EventArgs e)
         {
-            string[] row = { LavDinEgen.Text + " - " + comboBox4.SelectedItem + " - " + LavAlm.Text + " " + LavAPris.Text };
+            string[] row = { LavDinEgen.Text + " pizza  - " + comboBox4.SelectedItem + " - " + LavAlm.Text + " " + LavAPris.Text };
             var listViewItem = new ListViewItem(row);
             KurvListe.Items.Add(listViewItem);
             sum += 50;
@@ -221,7 +221,7 @@ namespace Uge_51___miniprojekt
 
         private void Fam_DinEgen_Click(object sender, EventArgs e)
         {
-            string[] row = { LavDinEgen.Text + " - " + comboBox4.SelectedItem + " - " + LavFam.Text + " " + LavFamPris.Text };
+            string[] row = { LavDinEgen.Text + " pizza  - " + comboBox4.SelectedItem + " - " + LavFam.Text + " " + LavFamPris.Text };
             var listViewItem = new ListViewItem(row);
             KurvListe.Items.Add(listViewItem);
             sum += 100;
@@ -394,7 +394,6 @@ namespace Uge_51___miniprojekt
         {
             if (antalPizza >= 2 && antalSoda >= 2 && rabat == false)
             {
-                sum -= 20;
                 totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
                 rabatTxt.Text = "Rabat: 20.-";
                 rabat = true;
