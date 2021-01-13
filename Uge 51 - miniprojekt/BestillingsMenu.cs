@@ -19,6 +19,20 @@ namespace Uge_51___miniprojekt
         }
         #endregion
 
+        #region Variabler
+
+        // Samlet sum.
+        int sum = 0;
+
+        // Rabat for køb af min. 2 pizzaer og sodavand.
+        int antalPizza = 0, antalSoda = 0;
+
+        // Rabat variabler
+        private bool rabat = false;
+        private int iRabat = 0;
+
+        #endregion
+
         #region Usikker på hvad er indtil videre.
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -114,12 +128,6 @@ namespace Uge_51___miniprojekt
         #endregion
 
         #region Knapper som tilføjer til kurv og tilføjer sum.
-
-        // Samlet sum .
-        int sum = 0;
-
-        // Rabat for køb af min. 2 pizzaer og sodavand.
-        int antalPizza = 0, antalSoda = 0;
 
         // Pepperoni alm.
         private void button2_Click(object sender, EventArgs e)
@@ -379,11 +387,10 @@ namespace Uge_51___miniprojekt
             deleteButton += 1;
         }
         */
+
         #endregion
 
         #region Rabat
-        private bool rabat = false;
-        private int iRabat = 0;
 
         private void RabatCheck()
         {
