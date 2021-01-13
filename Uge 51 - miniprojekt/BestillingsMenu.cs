@@ -24,11 +24,11 @@ namespace Uge_51___miniprojekt
         // Samlet sum.
         int sum = 0;
 
-        // Rabat for køb af min. 2 pizzaer og sodavand.
+        // Rabat checker, min 2 pizzaer og sodavand for rabat.
         int antalPizza = 0, antalSoda = 0;
+        private bool rabat = false;
 
         // Rabat variabler
-        private bool rabat = false;
         private int iRabat = 0;
 
         #endregion
