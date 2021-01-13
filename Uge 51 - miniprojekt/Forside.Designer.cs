@@ -1,7 +1,7 @@
 ﻿
 namespace Uge_51___miniprojekt
 {
-    partial class Form2
+    partial class Forside
     {
         /// <summary>
         /// Required designer variable.
@@ -29,10 +29,18 @@ namespace Uge_51___miniprojekt
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // Forside
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(703, 601);
+            this.Name = "Forside";
             this.Text = "Form2";
+            this.Load += new System.EventHandler(this.Form2_Load);
+            this.ResumeLayout(false);
+
         }
 
         #endregion

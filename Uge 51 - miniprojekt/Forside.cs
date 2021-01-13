@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace Uge_51___miniprojekt
 {
-    public partial class Form2 : Form
+    public partial class Forside : Form
     {
-        public Form2()
+        public Forside()
         {
             InitializeComponent();
+        }
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
