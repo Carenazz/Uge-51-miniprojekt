@@ -260,7 +260,7 @@ namespace Uge_51___miniprojekt
         // Ingredienser
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            string[] rowExtra = { IngredienserList.SelectedItem.ToString() };
+            string[] rowExtra = { "Med: " + IngredienserList.SelectedItem.ToString() };
             var listViewItem = new ListViewItem(rowExtra);
             KurvListe.Items.Add(listViewItem);
             sum += 5;
@@ -418,10 +418,10 @@ namespace Uge_51___miniprojekt
         {
             if (antalPizza >= 2 && antalSoda >= 2 && rabat == false)
             {
+                iRabat += 20;
                 totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
                 rabatTxt.Text = "Rabat: " + iRabat + " Kr.";
                 rabat = true;
-                iRabat += 20;
             }
         }
         #endregion
