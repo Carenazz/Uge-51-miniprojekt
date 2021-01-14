@@ -99,6 +99,7 @@ namespace Uge_51___miniprojekt
             this.listBox2 = new System.Windows.Forms.ListBox();
             this.Kontakt = new System.Windows.Forms.Label();
             this.Nummer = new System.Windows.Forms.Label();
+            this.Forside = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PizzaPepp)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PizzaSkinke)).BeginInit();
@@ -122,6 +123,7 @@ namespace Uge_51___miniprojekt
             // pizzaToolStripMenuItem
             // 
             this.pizzaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.Forside,
             this.menukortPizzaToolStripMenuItem});
             this.pizzaToolStripMenuItem.Name = "pizzaToolStripMenuItem";
             this.pizzaToolStripMenuItem.Size = new System.Drawing.Size(50, 20);
@@ -131,7 +133,7 @@ namespace Uge_51___miniprojekt
             // menukortPizzaToolStripMenuItem
             // 
             this.menukortPizzaToolStripMenuItem.Name = "menukortPizzaToolStripMenuItem";
-            this.menukortPizzaToolStripMenuItem.Size = new System.Drawing.Size(163, 22);
+            this.menukortPizzaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.menukortPizzaToolStripMenuItem.Text = "Menukort - Pizza";
             // 
             // pizzaToolStripMenuItem1
@@ -147,19 +149,19 @@ namespace Uge_51___miniprojekt
             // pepperoniToolStripMenuItem
             // 
             this.pepperoniToolStripMenuItem.Name = "pepperoniToolStripMenuItem";
-            this.pepperoniToolStripMenuItem.Size = new System.Drawing.Size(128, 22);
+            this.pepperoniToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.pepperoniToolStripMenuItem.Text = "Pepperoni";
             // 
             // hawaiiToolStripMenuItem
             // 
             this.hawaiiToolStripMenuItem.Name = "hawaiiToolStripMenuItem";
-            this.hawaiiToolStripMenuItem.Size = new System.Drawing.Size(128, 22);
+            this.hawaiiToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.hawaiiToolStripMenuItem.Text = "Skinke";
             // 
             // meatLoverToolStripMenuItem
             // 
             this.meatLoverToolStripMenuItem.Name = "meatLoverToolStripMenuItem";
-            this.meatLoverToolStripMenuItem.Size = new System.Drawing.Size(128, 22);
+            this.meatLoverToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.meatLoverToolStripMenuItem.Text = "Hawaii";
             // 
             // bestilToolStripMenuItem
@@ -174,13 +176,13 @@ namespace Uge_51___miniprojekt
             // hurtigstMuligtToolStripMenuItem
             // 
             this.hurtigstMuligtToolStripMenuItem.Name = "hurtigstMuligtToolStripMenuItem";
-            this.hurtigstMuligtToolStripMenuItem.Size = new System.Drawing.Size(155, 22);
+            this.hurtigstMuligtToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.hurtigstMuligtToolStripMenuItem.Text = "Hurtigst muligt";
             // 
             // bestemtTidToolStripMenuItem
             // 
             this.bestemtTidToolStripMenuItem.Name = "bestemtTidToolStripMenuItem";
-            this.bestemtTidToolStripMenuItem.Size = new System.Drawing.Size(155, 22);
+            this.bestemtTidToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.bestemtTidToolStripMenuItem.Text = "Bestemt tid";
             // 
             // listView1
@@ -816,6 +818,13 @@ namespace Uge_51___miniprojekt
             this.Nummer.TabIndex = 97;
             this.Nummer.Text = "99 99 99 99";
             // 
+            // Forside
+            // 
+            this.Forside.Name = "Forside";
+            this.Forside.Size = new System.Drawing.Size(180, 22);
+            this.Forside.Text = "Forside";
+            this.Forside.Click += new System.EventHandler(this.Forside_Click);
+            // 
             // BestillingsMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -965,6 +974,7 @@ namespace Uge_51___miniprojekt
         private System.Windows.Forms.Label totalSum;
         private System.Windows.Forms.Button Ryd;
         private System.Windows.Forms.Label rabatTxt;
+        private System.Windows.Forms.ToolStripMenuItem Forside;
     }
 }
 

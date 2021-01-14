@@ -364,6 +364,11 @@ namespace Uge_51___miniprojekt
             rabat = false;
         }
 
+        private void Forside_Click(object sender, EventArgs e)
+        {
+            
+        }
+
         // Dynamisk knap til fortrydelse.
         /* Midlertidligt ude af drift.
         private void DynamiskFortrydKnap(object sender, EventArgs e)

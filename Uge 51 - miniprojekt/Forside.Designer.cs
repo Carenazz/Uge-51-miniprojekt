@@ -35,7 +35,7 @@ namespace Uge_51___miniprojekt
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(703, 601);
+            this.ClientSize = new System.Drawing.Size(1031, 618);
             this.Name = "Forside";
             this.Text = "Form2";
             this.Load += new System.EventHandler(this.Form2_Load);
