@@ -16,6 +16,8 @@ namespace Uge_51___miniprojekt
         public BestillingsMenu()
         {
             InitializeComponent();
+            IngredienserList.Visible = false;
+            Ekstra.Visible = false;
         }
         #endregion
 
@@ -411,6 +413,9 @@ namespace Uge_51___miniprojekt
 
         // Ny test region
 
-        IngredienserList.Visible = false;
+        private void Hider()
+        {
+
+        }
     }
 }

@@ -32,6 +32,7 @@ namespace Uge_51___miniprojekt
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(BestillingsMenu));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.pizzaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.Forside = new System.Windows.Forms.ToolStripMenuItem();
             this.menukortPizzaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pizzaToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.pepperoniToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -61,7 +62,7 @@ namespace Uge_51___miniprojekt
             this.LavAlm = new System.Windows.Forms.Label();
             this.LavFam = new System.Windows.Forms.Label();
             this.IngredienserList = new System.Windows.Forms.ListBox();
-            this.label16 = new System.Windows.Forms.Label();
+            this.Ekstra = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.comboBox3 = new System.Windows.Forms.ComboBox();
@@ -99,12 +100,13 @@ namespace Uge_51___miniprojekt
             this.listBox2 = new System.Windows.Forms.ListBox();
             this.Kontakt = new System.Windows.Forms.Label();
             this.Nummer = new System.Windows.Forms.Label();
-            this.Forside = new System.Windows.Forms.ToolStripMenuItem();
+            this.TilbehørPanel = new System.Windows.Forms.Panel();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PizzaPepp)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PizzaSkinke)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PizzaHawaii)).BeginInit();
             this.KurvPanel.SuspendLayout();
+            this.TilbehørPanel.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -130,10 +132,17 @@ namespace Uge_51___miniprojekt
             this.pizzaToolStripMenuItem.Text = "Menu";
             this.pizzaToolStripMenuItem.Click += new System.EventHandler(this.pizzaToolStripMenuItem_Click);
             // 
+            // Forside
+            // 
+            this.Forside.Name = "Forside";
+            this.Forside.Size = new System.Drawing.Size(163, 22);
+            this.Forside.Text = "Forside";
+            this.Forside.Click += new System.EventHandler(this.Forside_Click);
+            // 
             // menukortPizzaToolStripMenuItem
             // 
             this.menukortPizzaToolStripMenuItem.Name = "menukortPizzaToolStripMenuItem";
-            this.menukortPizzaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.menukortPizzaToolStripMenuItem.Size = new System.Drawing.Size(163, 22);
             this.menukortPizzaToolStripMenuItem.Text = "Menukort - Pizza";
             // 
             // pizzaToolStripMenuItem1
@@ -149,19 +158,19 @@ namespace Uge_51___miniprojekt
             // pepperoniToolStripMenuItem
             // 
             this.pepperoniToolStripMenuItem.Name = "pepperoniToolStripMenuItem";
-            this.pepperoniToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.pepperoniToolStripMenuItem.Size = new System.Drawing.Size(128, 22);
             this.pepperoniToolStripMenuItem.Text = "Pepperoni";
             // 
             // hawaiiToolStripMenuItem
             // 
             this.hawaiiToolStripMenuItem.Name = "hawaiiToolStripMenuItem";
-            this.hawaiiToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.hawaiiToolStripMenuItem.Size = new System.Drawing.Size(128, 22);
             this.hawaiiToolStripMenuItem.Text = "Skinke";
             // 
             // meatLoverToolStripMenuItem
             // 
             this.meatLoverToolStripMenuItem.Name = "meatLoverToolStripMenuItem";
-            this.meatLoverToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.meatLoverToolStripMenuItem.Size = new System.Drawing.Size(128, 22);
             this.meatLoverToolStripMenuItem.Text = "Hawaii";
             // 
             // bestilToolStripMenuItem
@@ -176,13 +185,13 @@ namespace Uge_51___miniprojekt
             // hurtigstMuligtToolStripMenuItem
             // 
             this.hurtigstMuligtToolStripMenuItem.Name = "hurtigstMuligtToolStripMenuItem";
-            this.hurtigstMuligtToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.hurtigstMuligtToolStripMenuItem.Size = new System.Drawing.Size(155, 22);
             this.hurtigstMuligtToolStripMenuItem.Text = "Hurtigst muligt";
             // 
             // bestemtTidToolStripMenuItem
             // 
             this.bestemtTidToolStripMenuItem.Name = "bestemtTidToolStripMenuItem";
-            this.bestemtTidToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.bestemtTidToolStripMenuItem.Size = new System.Drawing.Size(155, 22);
             this.bestemtTidToolStripMenuItem.Text = "Bestemt tid";
             // 
             // listView1
@@ -395,6 +404,7 @@ namespace Uge_51___miniprojekt
             // 
             // IngredienserList
             // 
+            this.IngredienserList.BackColor = System.Drawing.SystemColors.Menu;
             this.IngredienserList.FormattingEnabled = true;
             this.IngredienserList.Items.AddRange(new object[] {
             "Pepperoni - 5.-",
@@ -406,20 +416,21 @@ namespace Uge_51___miniprojekt
             "Ananas - 5.-",
             "Bacon - 5.-",
             "Kebab - 5.-"});
-            this.IngredienserList.Location = new System.Drawing.Point(702, 599);
+            this.IngredienserList.Location = new System.Drawing.Point(31, 44);
             this.IngredienserList.Name = "IngredienserList";
             this.IngredienserList.Size = new System.Drawing.Size(120, 121);
-            this.IngredienserList.TabIndex = 63;
+            this.IngredienserList.TabIndex = 100;
             this.IngredienserList.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
-            // label16
+            // Ekstra
             // 
-            this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(699, 577);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(78, 13);
-            this.label16.TabIndex = 64;
-            this.label16.Text = "Ekstra Tilbehør";
+            this.Ekstra.AutoSize = true;
+            this.Ekstra.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Ekstra.Location = new System.Drawing.Point(27, 20);
+            this.Ekstra.Name = "Ekstra";
+            this.Ekstra.Size = new System.Drawing.Size(130, 20);
+            this.Ekstra.TabIndex = 100;
+            this.Ekstra.Text = "Ekstra Tilbehør";
             // 
             // comboBox1
             // 
@@ -818,12 +829,15 @@ namespace Uge_51___miniprojekt
             this.Nummer.TabIndex = 97;
             this.Nummer.Text = "99 99 99 99";
             // 
-            // Forside
+            // TilbehørPanel
             // 
-            this.Forside.Name = "Forside";
-            this.Forside.Size = new System.Drawing.Size(180, 22);
-            this.Forside.Text = "Forside";
-            this.Forside.Click += new System.EventHandler(this.Forside_Click);
+            this.TilbehørPanel.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.TilbehørPanel.Controls.Add(this.IngredienserList);
+            this.TilbehørPanel.Controls.Add(this.Ekstra);
+            this.TilbehørPanel.Location = new System.Drawing.Point(719, 549);
+            this.TilbehørPanel.Name = "TilbehørPanel";
+            this.TilbehørPanel.Size = new System.Drawing.Size(183, 171);
+            this.TilbehørPanel.TabIndex = 98;
             // 
             // BestillingsMenu
             // 
@@ -831,6 +845,7 @@ namespace Uge_51___miniprojekt
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(1062, 745);
+            this.Controls.Add(this.TilbehørPanel);
             this.Controls.Add(this.Nummer);
             this.Controls.Add(this.Kontakt);
             this.Controls.Add(this.listBox2);
@@ -863,8 +878,6 @@ namespace Uge_51___miniprojekt
             this.Controls.Add(this.comboBox3);
             this.Controls.Add(this.comboBox2);
             this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.label16);
-            this.Controls.Add(this.IngredienserList);
             this.Controls.Add(this.LavFam);
             this.Controls.Add(this.LavAlm);
             this.Controls.Add(this.LavDinEgen);
@@ -898,6 +911,8 @@ namespace Uge_51___miniprojekt
             ((System.ComponentModel.ISupportInitialize)(this.PizzaHawaii)).EndInit();
             this.KurvPanel.ResumeLayout(false);
             this.KurvPanel.PerformLayout();
+            this.TilbehørPanel.ResumeLayout(false);
+            this.TilbehørPanel.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -936,7 +951,7 @@ namespace Uge_51___miniprojekt
         private System.Windows.Forms.Label LavAlm;
         private System.Windows.Forms.Label LavFam;
         private System.Windows.Forms.ListBox IngredienserList;
-        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Label Ekstra;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.ComboBox comboBox2;
         private System.Windows.Forms.ComboBox comboBox3;
@@ -975,6 +990,7 @@ namespace Uge_51___miniprojekt
         private System.Windows.Forms.Button Ryd;
         private System.Windows.Forms.Label rabatTxt;
         private System.Windows.Forms.ToolStripMenuItem Forside;
+        private System.Windows.Forms.Panel TilbehørPanel;
     }
 }
 
