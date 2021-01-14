@@ -101,6 +101,7 @@ namespace Uge_51___miniprojekt
             this.Kontakt = new System.Windows.Forms.Label();
             this.Nummer = new System.Windows.Forms.Label();
             this.TilbehørPanel = new System.Windows.Forms.Panel();
+            this.EkstraOk = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PizzaPepp)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PizzaSkinke)).BeginInit();
@@ -832,12 +833,24 @@ namespace Uge_51___miniprojekt
             // TilbehørPanel
             // 
             this.TilbehørPanel.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.TilbehørPanel.Controls.Add(this.EkstraOk);
             this.TilbehørPanel.Controls.Add(this.IngredienserList);
             this.TilbehørPanel.Controls.Add(this.Ekstra);
-            this.TilbehørPanel.Location = new System.Drawing.Point(719, 549);
+            this.TilbehørPanel.Location = new System.Drawing.Point(633, 189);
             this.TilbehørPanel.Name = "TilbehørPanel";
-            this.TilbehørPanel.Size = new System.Drawing.Size(183, 171);
+            this.TilbehørPanel.Size = new System.Drawing.Size(183, 216);
             this.TilbehørPanel.TabIndex = 98;
+            // 
+            // EkstraOk
+            // 
+            this.EkstraOk.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.EkstraOk.Location = new System.Drawing.Point(31, 172);
+            this.EkstraOk.Name = "EkstraOk";
+            this.EkstraOk.Size = new System.Drawing.Size(126, 31);
+            this.EkstraOk.TabIndex = 101;
+            this.EkstraOk.Text = "Ok";
+            this.EkstraOk.UseVisualStyleBackColor = false;
+            this.EkstraOk.Click += new System.EventHandler(this.EkstraOk_Click);
             // 
             // BestillingsMenu
             // 
@@ -991,6 +1004,7 @@ namespace Uge_51___miniprojekt
         private System.Windows.Forms.Label rabatTxt;
         private System.Windows.Forms.ToolStripMenuItem Forside;
         private System.Windows.Forms.Panel TilbehørPanel;
+        private System.Windows.Forms.Button EkstraOk;
     }
 }
 

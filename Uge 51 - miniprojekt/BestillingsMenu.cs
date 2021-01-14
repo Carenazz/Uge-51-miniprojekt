@@ -16,8 +16,12 @@ namespace Uge_51___miniprojekt
         public BestillingsMenu()
         {
             InitializeComponent();
+
+            // Panel for ekstra ingredienser liste
             IngredienserList.Visible = false;
             Ekstra.Visible = false;
+            TilbehørPanel.Visible = false;
+            EkstraOk.Visible = false;
         }
         #endregion
 
@@ -148,6 +152,9 @@ namespace Uge_51___miniprojekt
             // Rabatcheck
             antalPizza++;
             RabatCheck();
+
+            // Refere til visning af ingrediens listen
+            VisEkstraListe();
         }
 
         // Pepperoni fam.
@@ -162,6 +169,8 @@ namespace Uge_51___miniprojekt
 
             antalPizza++;
             RabatCheck();
+
+            VisEkstraListe();
         }
 
         private void Alm_Skinke_Click(object sender, EventArgs e)
@@ -175,6 +184,8 @@ namespace Uge_51___miniprojekt
 
             antalPizza++;
             RabatCheck();
+
+            VisEkstraListe();
         }
 
         private void Fam_Skinke_Click(object sender, EventArgs e)
@@ -188,6 +199,8 @@ namespace Uge_51___miniprojekt
 
             antalPizza++;
             RabatCheck();
+
+            VisEkstraListe();
         }
 
         private void Alm_Hawaii_Click(object sender, EventArgs e)
@@ -201,6 +214,8 @@ namespace Uge_51___miniprojekt
 
             antalPizza++;
             RabatCheck();
+
+            VisEkstraListe();
         }
 
         private void Fam_Hawaii_Click(object sender, EventArgs e)
@@ -214,6 +229,8 @@ namespace Uge_51___miniprojekt
 
             antalPizza++;
             RabatCheck();
+
+            VisEkstraListe();
         }
 
         private void Alm_DinEgen_Click(object sender, EventArgs e)
@@ -227,6 +244,8 @@ namespace Uge_51___miniprojekt
 
             antalPizza++;
             RabatCheck();
+
+            VisEkstraListe();
         }
 
         private void Fam_DinEgen_Click(object sender, EventArgs e)
@@ -240,6 +259,8 @@ namespace Uge_51___miniprojekt
 
             antalPizza++;
             RabatCheck();
+
+            VisEkstraListe();
         }
 
 
@@ -352,6 +373,7 @@ namespace Uge_51___miniprojekt
         */
 
         // Fjerner alt på listen og resetter alle værdier.
+
         private void Ryd_Click(object sender, EventArgs e)
         {
             // Rydder listen + knapper.
@@ -411,11 +433,21 @@ namespace Uge_51___miniprojekt
         }
         #endregion
 
-        // Ny test region
-
-        private void Hider()
+        // Hvis og gemmer listen for ekstra ingredienser
+        private void VisEkstraListe()
         {
+            IngredienserList.Visible = true;
+            Ekstra.Visible = true;
+            TilbehørPanel.Visible = true;
+            EkstraOk.Visible = true;
+        }
 
+        private void EkstraOk_Click(object sender, EventArgs e)
+        {
+            IngredienserList.Visible = false;
+            Ekstra.Visible = false;
+            TilbehørPanel.Visible = false;
+            EkstraOk.Visible = false;
         }
     }
 }
