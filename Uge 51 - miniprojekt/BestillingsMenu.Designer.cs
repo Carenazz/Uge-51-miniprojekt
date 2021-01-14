@@ -406,7 +406,7 @@ namespace Uge_51___miniprojekt
             "Ananas - 5.-",
             "Bacon - 5.-",
             "Kebab - 5.-"});
-            this.IngredienserList.Location = new System.Drawing.Point(702, 593);
+            this.IngredienserList.Location = new System.Drawing.Point(702, 599);
             this.IngredienserList.Name = "IngredienserList";
             this.IngredienserList.Size = new System.Drawing.Size(120, 121);
             this.IngredienserList.TabIndex = 63;

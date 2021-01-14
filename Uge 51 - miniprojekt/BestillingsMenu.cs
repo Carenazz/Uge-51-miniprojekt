@@ -408,5 +408,9 @@ namespace Uge_51___miniprojekt
             }
         }
         #endregion
+
+        // Ny test region
+
+        IngredienserList.Visible = false;
     }
 }
