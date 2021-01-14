@@ -110,7 +110,7 @@ namespace Uge_51___miniprojekt
             {
                 MessageBox.Show("Du har intet i kurven");
             }
-            else if (rabat.rabat == true)
+            else if (rabat.rabatB == true)
             {
                 MessageBox.Show("Din bestilling er modtaget og prisen er: " + (sum - 20) + ".- Du har fået: " + rabat.iRabat + ".- i rabat");
             }
@@ -381,7 +381,7 @@ namespace Uge_51___miniprojekt
             rabatTxt.Text = "Rabat: ";
             antalPizza = 0;
             antalSoda = 0;
-            rabat.rabat = false;
+            rabat.rabatB = false;
         }
 
         private void Forside_Click(object sender, EventArgs e)
@@ -419,12 +419,12 @@ namespace Uge_51___miniprojekt
 
         private void RabatCheck()
         {
-            if (antalPizza >= 2 && antalSoda >= 2 && rabat.rabat == false)
+            if (antalPizza >= 2 && antalSoda >= 2 && rabat.rabatB == false)
             {
                 rabat.iRabat += 20;
                 totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
                 rabatTxt.Text = "Rabat: " + rabat.iRabat + " Kr.";
-                rabat.rabat = true;
+                rabat.rabatB = true;
             }
         }
         #endregion

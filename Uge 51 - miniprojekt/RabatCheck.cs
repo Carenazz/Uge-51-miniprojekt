@@ -10,11 +10,11 @@ using System.Windows.Forms;
 
 namespace Uge_51___miniprojekt
 {
-    public partial class RabatCheck
+    public class RabatCheck
     {
         // Testing - Rabat
 
-        public bool rabat = false;
+        public bool rabatB = false;
         public int iRabat = 0;
     }
 }
