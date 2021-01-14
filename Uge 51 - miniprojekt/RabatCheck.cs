@@ -15,16 +15,6 @@ namespace Uge_51___miniprojekt
         // Testing - Rabat
 
         public bool rabat = false;
-
-        public void Rabat()
-        {
-            if (antalPizza >= 2 && antalSoda >= 2 && rabat == false)
-            {
-                totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
-                rabatTxt.Text = "Rabat: " + iRabat + " Kr.";
-                rabat = true;
-                iRabat += 20;
-            }
-        }
+        public int iRabat = 0;
     }
 }

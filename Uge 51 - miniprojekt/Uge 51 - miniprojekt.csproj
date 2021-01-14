@@ -58,16 +58,16 @@
     <Compile Include="Forside.Designer.cs">
       <DependentUpon>Forside.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form3.cs">
+    <Compile Include="RabatCheck.cs">
       <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form3.Designer.cs">
-      <DependentUpon>Form3.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="BestillingsMenu.resx">
       <DependentUpon>BestillingsMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RabatCheck.resx">
+      <DependentUpon>RabatCheck.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forside.resx">
       <DependentUpon>Forside.cs</DependentUpon>
