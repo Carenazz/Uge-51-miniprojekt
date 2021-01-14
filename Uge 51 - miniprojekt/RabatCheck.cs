@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace Uge_51___miniprojekt
 {
-    public partial class RabatCheck : Form
+    public partial class RabatCheck
     {
         // Testing - Rabat
 

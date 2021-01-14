@@ -25,10 +25,13 @@ namespace Uge_51___miniprojekt
 
         // Rabat checker, min 2 pizzaer og sodavand for rabat.
         int antalPizza = 0, antalSoda = 0;
-        private bool rabat = false;
+        // private bool rabat = false;
 
         // Rabat variabler
-        private int iRabat = 0;
+        // private int iRabat = 0;
+
+        //
+        RabatCheck rabat;
 
         #endregion
 
@@ -107,9 +110,9 @@ namespace Uge_51___miniprojekt
             {
                 MessageBox.Show("Du har intet i kurven");
             }
-            else if (rabat == true)
+            else if (rabat.rabat == true)
             {
-                MessageBox.Show("Din bestilling er modtaget og prisen er: " + (sum - 20) + ".- Du har fået: " + iRabat + ".- i rabat");
+                MessageBox.Show("Din bestilling er modtaget og prisen er: " + (sum - 20) + ".- Du har fået: " + rabat.iRabat + ".- i rabat");
             }
             else
             {
@@ -378,7 +381,7 @@ namespace Uge_51___miniprojekt
             rabatTxt.Text = "Rabat: ";
             antalPizza = 0;
             antalSoda = 0;
-            rabat = false;
+            rabat.rabat = false;
         }
 
         private void Forside_Click(object sender, EventArgs e)
@@ -416,12 +419,12 @@ namespace Uge_51___miniprojekt
 
         private void RabatCheck()
         {
-            if (antalPizza >= 2 && antalSoda >= 2 && rabat == false)
+            if (antalPizza >= 2 && antalSoda >= 2 && rabat.rabat == false)
             {
-                iRabat += 20;
+                rabat.iRabat += 20;
                 totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
-                rabatTxt.Text = "Rabat: " + iRabat + " Kr.";
-                rabat = true;
+                rabatTxt.Text = "Rabat: " + rabat.iRabat + " Kr.";
+                rabat.rabat = true;
             }
         }
         #endregion
