@@ -103,7 +103,7 @@ namespace Uge_51___miniprojekt
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (KurvListe == null)
+            if (KurvListe.Items.Count == 0)
             {
                 MessageBox.Show("Du har intet i kurven");
             }
