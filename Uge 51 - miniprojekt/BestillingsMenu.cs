@@ -345,10 +345,6 @@ namespace Uge_51___miniprojekt
             rabat = false;
         }
 
-        private void Forside_Click(object sender, EventArgs e)
-        {
-            
-        }
 
         #endregion
 
@@ -381,6 +377,12 @@ namespace Uge_51___miniprojekt
             Ekstra.Visible = false;
             TilbehørPanel.Visible = false;
             EkstraOk.Visible = false;
+        }
+
+        // Var under test
+        private void Forside_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }
