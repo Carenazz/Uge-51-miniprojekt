@@ -25,13 +25,10 @@ namespace Uge_51___miniprojekt
 
         // Rabat checker, min 2 pizzaer og sodavand for rabat.
         int antalPizza = 0, antalSoda = 0;
-        // private bool rabat = false;
+        private bool rabat = false;
 
         // Rabat variabler
-        // private int iRabat = 0;
-
-        //
-        RabatCheck rabat;
+        private int iRabat = 0;
 
         #endregion
 
@@ -110,9 +107,9 @@ namespace Uge_51___miniprojekt
             {
                 MessageBox.Show("Du har intet i kurven");
             }
-            else if (rabat.rabatB == true)
+            else if (rabat == true)
             {
-                MessageBox.Show("Din bestilling er modtaget og prisen er: " + (sum - 20) + ".- Du har fået: " + rabat.iRabat + ".- i rabat");
+                MessageBox.Show("Din bestilling er modtaget og prisen er: " + (sum - 20) + ".- Du har fået: " + iRabat + ".- i rabat");
             }
             else
             {
@@ -332,42 +329,6 @@ namespace Uge_51___miniprojekt
 
         #region Fortryd knap.
 
-        // Kode test for dynamisk knap (Void Tester).
-
-        /* Midlertidligt ude af drift.
-        int removeIndex = -1, deleteButton = -1;
-        void RemoveButton_Click(object sender, EventArgs e)
-        {
-            // Kode til at fjerne sidste index (Test)
-            KurvListe.Items.RemoveAt(0 + removeIndex);
-            removeIndex -= 1;
-            // Kode for at fjerne knappen når den er trykket på.
-            KurvListe.Controls.RemoveAt(0 + deleteButton);
-            deleteButton -= 1;
-            // Hvis knappen rammer standard (-1) resetter den yAdd (For at undgå fejl indtil videre)
-            if (deleteButton == -1)
-            {
-                yAdd = 0;
-            }
-            // Her kommer kode til at holde øje med hvilket indeks som bliver fjernet (Under test)
-
-            // Foreach testing, hvis .selected systemet virker, bliver dynamisk knap systemet ubrugeligt.
-            foreach  (ListViewItem item in KurvListe.Items)
-            {
-                if (item.Selected)
-                {
-                    if (item.Name == "Pepperoni")
-                    {
-                        KurvListe.Items.Remove(item);
-                        sum -= 55;
-                    }
-                    else
-                    KurvListe.Items.Remove(item);
-                }
-            }
-        }
-        */
-
         // Fjerner alt på listen og resetter alle værdier.
 
         private void Ryd_Click(object sender, EventArgs e)
@@ -381,7 +342,7 @@ namespace Uge_51___miniprojekt
             rabatTxt.Text = "Rabat: ";
             antalPizza = 0;
             antalSoda = 0;
-            rabat.rabatB = false;
+            rabat = false;
         }
 
         private void Forside_Click(object sender, EventArgs e)
@@ -389,42 +350,18 @@ namespace Uge_51___miniprojekt
             
         }
 
-        // Dynamisk knap til fortrydelse.
-        /* Midlertidligt ude af drift.
-        private void DynamiskFortrydKnap(object sender, EventArgs e)
-        {
-            // Kode for at lave en knap.
-            List<Button> buttons = new List<Button>();
-            Button removeButton = new Button();
-            buttons.Add(removeButton);
-            // Kode for text, lokation og størrelse.
-            removeButton.Name = "Undo";
-            removeButton.Text = "-";
-            removeButton.Location = new Point(180, 7 + yAdd);
-            removeButton.Size = new Size(17, 17);
-            // Hvilken kode skal den nye knap følge og tilføje knappen til kurven når koden bliver kørt.
-            removeButton.Click += new EventHandler(RemoveButton_Click);
-            KurvListe.Controls.Add(removeButton);
-            // Sætter den næste knap på næste del af "y-aksen" som set på "location"
-            yAdd += 30;
-            removeIndex += 1;
-            // Holder øje med hvor næste knap er
-            deleteButton += 1;
-        }
-        */
-
         #endregion
 
         #region Rabat
 
         private void RabatCheck()
         {
-            if (antalPizza >= 2 && antalSoda >= 2 && rabat.rabatB == false)
+            if (antalPizza >= 2 && antalSoda >= 2 && rabat == false)
             {
-                rabat.iRabat += 20;
+                iRabat += 20;
                 totalSum.Text = "Sum: " + sum.ToString() + "Kr.";
-                rabatTxt.Text = "Rabat: " + rabat.iRabat + " Kr.";
-                rabat.rabatB = true;
+                rabatTxt.Text = "Rabat: " + iRabat + " Kr.";
+                rabat = true;
             }
         }
         #endregion
